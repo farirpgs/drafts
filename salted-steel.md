@@ -1,4 +1,4 @@
-**Steel and Salt**
+**Salted Steel**
 
 A penitent walks into the Derweald to keep their vows. The forest takes them back, piece by piece.
 
