@@ -2,7 +2,7 @@
 
 Writing Guidelines
 
-- Mechanical terms should always use Pascal Case (e.g., Check, Skill, Item, Position, Grit, Harm, Loot Die, Journey Die)
+- Mechanical terms should always use Pascal Case (e.g., Check, Skill, Item, Position, Grit, Harm, Journey Die)
 - Never use second person (you, your, yourself). Always use third person: "the character", "the player", "themselves", etc.
 
 -->
@@ -51,7 +51,7 @@ Players narrate what their characters do. They make Checks when things are risky
 
 ### Skills
 
-During play, players rely on six core Skills of their characters to face challenges.
+During play, players rely on seven core Skills of their characters to face challenges.
 
 - **Bash** is all about strength and force, whether breaking down a door, pushing through an obstacle, or using raw power to wreck something in the way.
 - **Dash** comes into play whenever speed and agility are needed, like sprinting across rooftops, leaping over gaps, or climbing a sheer wall.
@@ -59,16 +59,15 @@ During play, players rely on six core Skills of their characters to face challen
 - **Shoot** represents accuracy and aim, from hurling a stone or throwing a dagger to shooting a gun or firing a bow.
 - **Think** is used when careful observation or problem-solving is required, such as noticing small details, analyzing a situation, or repairing something broken.
 - **Sway** is for influencing others, whether through charm, persuasion, manipulation, or intimidation.
+- **Loot** covers scavenging, searching, and scrounging for supplies, whether picking through rubble for useful gear, ransacking an old pharmacy, or spotting that half-hidden cache others missed.
 
 When creating a character, each of these Skills is assigned a die rating, which determines how effective the character is when relying on that Skill.
 
-### Consequences
-
-Consequences are negative outcomes the GM introduces when things go wrong: injuries, lost Items, enemies appearing, Positions worsening, or the fiction shifting against the characters.
-
 ### Checks
 
-When a character attempts something challenging or tries to avoid a Consequence, they make a Check to see how it unfolds. The GM describes the danger, establishes the character's Position, and clarifies whether the action is possible, needs extra steps or is outright impossible.
+When a character attempts something challenging or tries to avoid a Consequence, they make a Check to see how it unfolds.
+
+The GM describes the danger, establishes the character's Position, and clarifies whether the action is possible, needs extra steps or is outright impossible.
 
 If the action is possible, the player chooses a Skill and rolls the die that matches its rating. If another player character lends a hand, they also make a Check, but share the same risks. Take the die that shows the highest number and interpret the result:
 
@@ -78,13 +77,15 @@ If the action is possible, the player chooses a Skill and rolls the die that mat
 
 After a Check, every participant reduces the current rating of the Skill they used by one step: d12 → d10 → d8 → d6 → d4. A Skill cannot step down below a d4.
 
-_\> When needed, the GM may also test how lucky a character is. To do this, they assign a die (e.g. d6) based on the odds of the event occurring, roll it, and interpret the result as they would any other Check._
+When needed, the GM may also test how lucky a character is. To do this, they assign a die (e.g. d6) based on the odds of the event occurring, roll it, and interpret the result as they would any other Check.
+
+_\> Consequences are negative outcomes the GM introduces when things go wrong: injuries or Harm, lost or stressed Items, enemies appearing, Positions worsening, or the fiction shifting against the characters._
 
 ### Position
 
 When the fiction places a character at an advantage or disadvantage during a Check, the GM establishes the character's Position and adjusts how the roll is made.
 
-- **Great Position**: The fiction strongly favors the character. The player rolls their Skill die stepped up.
+- **Good Position**: The fiction strongly favors the character. The player rolls their Skill die stepped up.
 - **Standard Position**: The character is neither advantaged nor disadvantaged. The player makes a normal Check.
 - **Bad Position**: The fiction works against the character. The player rolls their Skill die stepped down.
 - **Dire Position**: The challenge is overwhelming. The character cannot proceed with the action as planned. They must try a different approach or shift the fiction before attempting again.
@@ -95,7 +96,7 @@ _\> A Skill at d12 cannot step up further. A Skill at d4 cannot step down furthe
 
 Items represent the weapons, gear, and other equipment a character carries. Each Item uses a die rating (d4-d12) which represents the Item's quality, durability, or quantity. A character can carry as many Items as makes sense in the fiction.
 
-Every time a character uses an Item, they must roll a die that matches the Item's rating and interpret the result:
+Every time a character uses an Item or when an Item is stressed, they must roll a die that matches the Item's rating and interpret the result:
 
 - **On a 1**: The Item's die rating steps down twice.
 - **On a 2-3**: The Item's die rating steps down once.
@@ -107,13 +108,13 @@ Using an Item may increase a Check's Position, lessen the severity of a Conseque
 
 ### Loot Checks
 
-When a character wants to scavenge a place for tools, weapons, medkits, or supplies, they make a Loot Check. A Loot Check can only happen in locations where it makes sense and if the fiction allows for it. Each character has a Loot Die, which starts at d12. When making a Loot Check, the player rolls their current Loot Die and interprets the result.
+When a character wants to scavenge a place for tools, weapons, medkits, or supplies, they make a Loot Check using their Loot Skill. A Loot Check can only happen in locations where it makes sense and if the fiction allows for it. The player rolls the die that matches their current Loot Skill rating and interprets the result.
 
 - **On a 1**: The character finds nothing and a Consequence occurs.
 - **On a 2-3**: The character finds nothing and a Consequence looms.
 - **On a 4+**: The character finds an Item. The higher the result, the higher the Item's die rating, representing its quality or quantity.
 
-After a Loot Check, the Loot Die steps down. A character may continue to use their Loot Die when it is a d4, but at their own risk.
+After a Loot Check, the Loot Skill steps down like any other Skill. A character may continue to use their Loot Skill when it is at d4, but at their own risk.
 
 _\> When a Consequence looms, the GM begins foreshadowing danger, dropping hints that something threatening is on the horizon. When a Consequence occurs, the story shifts sharply, forcing everyone to abandon their original plan and scramble for a plan B._
 
@@ -127,11 +128,11 @@ When a character faces a Consequence as a result of one of their actions, the GM
 
 ### Catch Their Breath
 
-To reset a character's Skills and Loot Die back to their original ratings as well as restore the character's Grit, a player can choose to Catch Their Breath. This represents a brief break in tension, a moment to regain focus, and can happen at any time during play (even in the middle of combat). After a character catches their breath, the GM looks at the situation and introduces a new Consequence for the group.
+To reset a character's Skills back to their original ratings as well as restore the character's Grit, a player can choose to Catch Their Breath. This represents a brief break in tension, a moment to regain focus, and can happen at any time during play (even in the middle of combat). After a character catches their breath, the GM looks at the situation and introduces a new Consequence for the group.
 
 ### Safe Rest
 
-When a character locates a secure shelter and can rest for at least a week, they gain the same benefits as Catching Their Breath, without any of the Consequences. They also clear an amount of Harm determined by the GM (the GM declares the exact amount based on the fiction).
+When a character locates a secure shelter and can rest for at least a day, they gain the same benefits as Catching Their Breath, without any of the Consequences. They also clear an amount of Harm determined by the GM. For example, a bandage or basic first aid may clear 1 Harm, a medkit or proper treatment clears 2 Harm, extended rest in a safe location with medical supplies clears 3 or more.
 
 ## Character Creation
 
@@ -223,7 +224,7 @@ The GM may use a major Consequence at any moment to turn the fiction hard agains
 - **On a 2-3:** Two prepped or stashed Items.
 - **On a 4+:** Three prepped or stashed Items.
 
-**Morale Die**: Measures the will to endure of the group and their community. It sets the number of times the group can Catch Their Breath risk-free during a run. These uses let the survivors reset their Skills, Loot Die and Grit without triggering the usual Consequences.
+**Morale Die**: Measures the will to endure of the group and their community. It sets the number of times the group can Catch Their Breath risk-free during a run. These uses let the survivors reset their Skills and Grit without triggering the usual Consequences.
 
 - **On a 1:** One risk-free Catch Their Breath.
 - **On a 2-3:** Two risk-free Catch Their Breath.
@@ -266,7 +267,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 1. Police Officer
 
-- **Skills**: Shoot d10, Think d8, Bash d6, others d4 .
+- **Skills**: Shoot d10, Think d8, Bash d6, Loot d12, others d4.
 - **Items**: Service pistol d10, Hand radio d8.
 - **Memories**:
   - ACADEMY: Who drilled the rules into you?
@@ -277,7 +278,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 2. Nurse
 
-- **Skills**: Think d10, Dash d8, Sway d6, others d4.
+- **Skills**: Think d10, Dash d8, Sway d6, Loot d12, others d4.
 - **Items**: Med kit d10, Energy bars d8.
 - **Memories**:
   - WARD: Who did you lose on your first week in this unit?
@@ -288,7 +289,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 3. Influencer
 
-- **Skills**: Sway d10, Sneak d8, Think d6, others d4.
+- **Skills**: Sway d10, Sneak d8, Think d6, Loot d12, others d4.
 - **Items**: Phone (maps, camera) d10, Solar charger sheet d8.
 - **Memories**:
   - BRAND: What did your persona claim to stand for?
@@ -299,7 +300,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 4. Mechanic
 
-- **Skills**: Think d10, Bash d8, Dash d6, others d4.
+- **Skills**: Think d10, Bash d8, Dash d6, Loot d12, others d4.
 - **Items**: Crowbar d10, Tool kit d8.
 - **Memories**:
   - GARAGE: Who taught you to listen to an engine?
@@ -310,7 +311,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 5. Priest
 
-- **Skills**: Sway d10, Think d8, Dash d6, others d4.
+- **Skills**: Sway d10, Think d8, Dash d6, Loot d12, others d4.
 - **Items**: Walking staff d10, Candles and matches d8.
 - **Memories**:
   - CALLING: What moment made you believe you were chosen?
@@ -321,7 +322,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 6. Farmer
 
-- **Skills**: Think d10, Bash d8, Sneak d6, others d4.
+- **Skills**: Think d10, Bash d8, Sneak d6, Loot d12, others d4.
 - **Items**: Machete d10, Alcohol d8.
 - **Memories**:
   - LAND: Whose hands worked this soil before yours?
@@ -332,7 +333,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 7. Scientist
 
-- **Skills**: Think d10, Sneak d8, Sway d6, others d4.
+- **Skills**: Think d10, Sneak d8, Sway d6, Loot d12, others d4.
 - **Items**: Meds d10, Gas mask d8.
 - **Memories**:
   - LAB: What discovery made you feel like it was all worth it?
@@ -343,7 +344,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 8. Park Ranger
 
-- **Skills**: Dash d10, Shoot d8, Think d6, others d4.
+- **Skills**: Dash d10, Shoot d8, Think d6, Loot d12, others d4.
 - **Items**: Hunting rifle d10, Compass and maps d8.
 - **Memories**:
   - TRAIL: Who disappeared on your watch?
@@ -354,7 +355,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 9. Veteran
 
-- **Skills**: Shoot d10, Bash d8, Dash d6, others d4.
+- **Skills**: Shoot d10, Bash d8, Dash d6, Loot d12, others d4.
 - **Items**: Service rifle d10, Binoculars d8.
 - **Memories**:
   - DEPLOYMENT: What country did you leave a piece of yourself in?
@@ -365,7 +366,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 10. Convict
 
-- **Skills**: Bash d10, Sneak d8, Sway d6, others d4.
+- **Skills**: Bash d10, Sneak d8, Sway d6, Loot d12, others d4.
 - **Items**: Blunt weapon d10, Lock picks d8.
 - **Memories**:
   - CRIME: What did they say you did?
@@ -376,7 +377,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 11. Teacher
 
-- **Skills**: Sway d10, Think d8, Sneak d6, others d4.
+- **Skills**: Sway d10, Think d8, Sneak d6, Loot d12, others d4.
 - **Items**: Supply backpack d10, Flashlight d8.
 - **Memories**:
   - CLASSROOM: Which student did you fail when it mattered most?
@@ -387,7 +388,7 @@ To create a character, first pick an Occupation from the following list. Each Oc
 
 ### 12. DJ
 
-- **Skills**: Sway d10, Dash d8, Sneak d6, others d4.
+- **Skills**: Sway d10, Dash d8, Sneak d6, Loot d12, others d4.
 - **Items**: Drugs d10, Glow sticks/flares d8.
 - **Memories**:
   - SET: Who did you watch destroy themselves on the scene?
