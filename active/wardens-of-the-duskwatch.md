@@ -219,10 +219,10 @@ When a character tries to avoid a consequence from a hazard, hostile opposition,
 Then, resolve the Action as follows:
 
 - **On a Success**: The character succeeds, avoiding the consequence entirely.
-- **On a Partial Success**: The character succeeds, suffering a lesser consequence. When suffering Harm, lose 1 Vitae. When fighting corruption, lose 1 Radiance. When depleting resources, lose 1 Supply. If nothing else applies, the consequence is rooted in the fiction.
-- **On a Failure**: The character fails, suffering the full consequence. When suffering Harm, lose 2 Vitae. When fighting corruption, lose 2 Radiance. When depleting resources, lose 2 Supply. If nothing else applies, the consequence is rooted in the fiction.
+- **On a Partial Success**: The character succeeds, suffering a lesser consequence. When suffering Harm, lose 1 Vitae. When fighting corruption, lose 1 Radiance. If nothing else applies, the consequence is rooted in the fiction.
+- **On a Failure**: The character fails, suffering the full consequence. When suffering Harm, lose 2 Vitae. When fighting corruption, lose 2 Radiance. If nothing else applies, the consequence is rooted in the fiction.
 
-#### Secure an Advantage
+#### Secure an Opportunity
 
 When a character sets up an advantage for themselves or others, Draw+appropriate Score. If the character acts...
 
@@ -319,7 +319,7 @@ Then, resolve the Action as follows:
 - **On a Partial Success**: The character succeeds, finding enough to get by. Restore 1 Supply.
 - **On a Failure**: The character fails, finding nothing or attracting unwanted attention.
 
-#### Spend Supply
+<!-- #### Spend Supply
 
 When a character spends resources to acquire goods or services, Draw+Supply.
 
@@ -329,9 +329,9 @@ This can be used to obtain weapons, armor, gear, skills training, services, hire
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, getting what they want and more. Add it as a Record..
+- **On a Success**: The character succeeds, getting what they want and more. Add it as a Record.
 - **On a Partial Success**: The character succeeds, getting what they want. Add it as a Record.
-- **On a Failure**: The character fails, finding goods unavailable, inferior, or with strings attached.
+- **On a Failure**: The character fails, finding goods unavailable, inferior, or with strings attached. -->
 
 #### Treat Wounds
 
@@ -401,29 +401,27 @@ Then, resolve the Action as follows:
 
 #### Rest
 
-When a character rests in a safe place or shelter, Draw+Constitution.
+When a character spends significant time resting, Draw+appropriate Score. If the character rests...
 
-> If the character takes a Long Rest (hours of shelter and bandages), take 1 Advantage. If the character takes a Full Rest (days in true sanctuary), take 2 Advantage.
+- In a safe place or shelter: Draw+Constitution.
+- In the wilds or while on the move: Draw+Supply.
+
+> If the area is sheltered or defensible, take 1 Advantage. If the character takes a Full Rest (days in true sanctuary), take 2 Advantage. If the area is exposed or deep in corrupted territory, take 1 Disadvantage.
 
 Then, resolve the Action as follows:
 
 - **On a Success**: The character succeeds, resting fully. Restore 3 Vitae.
-- **On a Partial Success**: The character succeeds, resting adequately. Restore 2 Vitae.
+- **On a Partial Success**: The character succeeds, resting adequately. Restore 2 Vitae, but face a Cost.
 - **On a Failure**: The character fails, resting poorly. Restore 1 Vitae.
 
+On a Partial Success, reveal a card to determine the nature of the Cost:
+
+- **♣ Clubs**: Delay. The rest takes longer than expected or an opportunity passes.
+- **♠ Spades**: Disturbance. Something stirs in the night, danger approaches.
+- **♦ Diamonds**: Consumption. Supplies are depleted or gear is damaged. Lose 1 Supply.
+- **♥ Hearts**: Unease. Nightmares or troubled thoughts strain the mind. Lose 1 Radiance.
+
 After a character has rested, shuffle the discard pile back into the deck.
-
-#### Make Camp
-
-When a character makes camp in the wilds, Draw+Supply.
-
-> If the area is sheltered or defensible, take 1 Advantage. If the area is exposed or deep in corrupted territory, take 1 Disadvantage.
-
-Then, resolve the Action as follows:
-
-- **On a Success**: The character succeeds, securing the camp. Restore 3 Vitae and the night passes without incident.
-- **On a Partial Success**: The character succeeds, but something stirs. Restore 2 Vitae, but face a Cost or lose 1 Supply.
-- **On a Failure**: The character fails, compromising the camp. Restore 1 Vitae, and danger approaches.
 
 #### Purify
 
@@ -457,7 +455,7 @@ Each player introduces their character: their name, what they look like, and one
 
 ### Group Vow
 
-A Vow is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Vow, each character fully restores their Radiance and the group takes on a new Vow.
+A Vow is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Vow, each character restores their Radiance to 5 and the group takes on a new Vow.
 
 To generate a Vow, draw one card from each table and combine the results. Or choose elements that speak to you.
 
