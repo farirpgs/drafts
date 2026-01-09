@@ -281,7 +281,7 @@ When a character seeks to restock provisions, ammunition, or gear, Draw+appropri
 - By foraging for food, water, or materials in the wild: Draw+Fortune.
 
 > When foraging in an area that is fertile or lush, take 1 Advantage. If the area is barren or corrupted, take 1 Disadvantage.
-
+>
 > When selling minor valuables found during a Hunt, each item grants 1 Advantage. Exceptional artifacts or treasures cannot be sold through this Action. Their payment becomes a Record instead.
 
 Then, resolve the Action as follows:
