@@ -128,7 +128,9 @@ When a character faces a Consequence as a result of one of their actions, the GM
 
 ### Catch Their Breath
 
-To reset a character's Skills back to their original ratings as well as restore the character's Grit, a player can choose to Catch Their Breath. This represents a brief break in tension, a moment to regain focus, and can happen at any time during play (even in the middle of combat). After a character catches their breath, the GM looks at the situation and introduces a new Consequence for the group.
+When a player chooses to Catch Their Breath, the character's Skills reset to their original ratings and their Grit is restored. This represents a brief break in tension, a moment to regain focus, and can happen at any time during play (even in the middle of combat).
+
+If multiple characters Catch Their Breath at the same time, resolve it as a single group event. Afterward, the GM looks at the situation and introduces one Consequence for the group.
 
 ### Safe Rest
 
