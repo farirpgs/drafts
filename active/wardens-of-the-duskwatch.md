@@ -1,5 +1,4 @@
 <!--
-TODO: think abouw how to track progression
 
 Writing Guidelines
 
@@ -432,6 +431,22 @@ The outcome of invoking a Gift is rooted in the fiction. The character describes
 
 If a character's Radiance ever reaches 0, they must immediately use the `Resist the Forest` Action.
 
+#### Slay the Darkness
+
+When a character completes a Hunt and slays corruption that plages the land, they Advance. Draw+1 for each of the following that is true:
+
+- The corruption was ancient or powerful.
+- The Hunt brought the character to the brink of death or claimed their Radiance.
+- The source of corruption was hidden and required investigation to uncover.
+- The truth discovered was darker than expected.
+- The character made a difficult choice or sacrifice to see the Hunt through.
+
+Then, resolve the Action as follows:
+
+- **On a Great Success**: The character grows stronger through struggle. Increase one Core Score by 1 (max 5).
+- **On a Bare Success**: The character learns from the Hunt. Gain a new skill or ability as a Record.
+- **On a Failure**: The forest claims a piece of the character's soul. Decrease maximum Radiance by 1 permanently.
+
 ## Principles
 
 ### Principles for Game Masters
@@ -556,7 +571,7 @@ Each player introduces their character: their name, what they look like, and one
 
 ### The Hunt
 
-A Hunt is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Hunt, each character restores their Radiance to 5 and the group takes on a new Hunt.
+A Hunt is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Hunt, the group takes on a new Hunt.
 
 To generate a Hunt, draw one card from each table and combine the results. Or choose elements that speak to you.
 
