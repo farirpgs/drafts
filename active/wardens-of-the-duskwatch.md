@@ -526,13 +526,13 @@ If a character's Radiance ever reaches 0, they must immediately use the `Resist 
 
 ### The Opening Scene
 
-Each player introduces their character: their name, what they look like, and one memory from before the claiming. Then frame the opening: the group is already mid-mission, deep in the thorns, with their Vow half-complete and trouble closing in.
+Each player introduces their character: their name, what they look like, and one memory from before they died to the roots only to be brought back as a cursed soul. Then frame the opening: the group is already mid-mission, deep in the thorns, with their Hunt half-complete and trouble closing in.
 
-### Group Vow
+### The Hunt
 
-A Vow is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Vow, each character restores their Radiance to 5 and the group takes on a new Vow.
+A Hunt is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Hunt, each character restores their Radiance to 5 and the group takes on a new Hunt.
 
-To generate a Vow, draw one card from each table and combine the results. Or choose elements that speak to you.
+To generate a Hunt, draw one card from each table and combine the results. Or choose elements that speak to you.
 
 **The Task** (draw one card)
 
