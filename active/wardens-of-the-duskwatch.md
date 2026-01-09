@@ -5,13 +5,14 @@ TODOS:
 
 Writing Guidelines
 
-- Use Pascal Case for all mechanical terms: Success, Partial Success, Draw, Vitae, Radiance, Cost, Harm, and so on.
+- Use Pascal Case for all mechanical terms: Great Success, Bare Success, Draw, Vitae, Radiance, Cost, and so on.
+- When referencing an Action in text, use backticks like `Action Name`.
 - Reserve the term Draw for the core resolution mechanic only. Use reveal when showing cards for tables, oracles, or random procedures.
 - Write in third person only. Use the character, the player, or themselves. Never use you, your, or yourself.
 - Use the Oxford comma in all lists.
 - Avoid contractions. Write is not, do not, and cannot instead of isn't, don't, and can't.
 - List card suits in this order: Clubs, Spades, Diamonds, Hearts.
-- Phrase Action outcomes as: The character succeeds/fails, [present participle]. For example: The character succeeds, gaining 1 Advantage.
+- Phrase Action outcomes using present participles (-ing verbs) directly after the result. Put mechanical effects first, then narrative flavor.
 
 Action Format:
 
@@ -20,24 +21,136 @@ Action Format:
 3. Score Options (if appropriate Score): Use a bullet list starting with "If the character acts..." followed by "- With [method]: Draw+[Score]." End with "- If nothing else applies: Draw+Fortune."
 4. Situational Modifiers: Use a blockquote (>) with "If [favorable condition], take 1 Advantage. If [unfavorable condition], take 1 Disadvantage."
 5. Resolution Intro: Add "Then, resolve the Action as follows:" before the outcomes.
-6. Outcomes: Use a bullet list with "- **On a Success/Partial Success/Failure**: The character succeeds/fails, [present participle]..."
-7. Cost Table (optional): Add "On a Partial Success, reveal a card to determine the nature of the Cost:" followed by a suit-based bullet list in Clubs, Spades, Diamonds, Hearts order.
+6. Outcomes: Use a bullet list with the following format:
+   - Great Success: "On a Great Success, the character [narrative flavor], [mechanical effect]."
+   - Bare Success: "On a Bare Success, the character [narrative flavor], [mechanical effect]."
+   - Failure: "On a Failure, the character [narrative flavor], and there is a Cost."
+7. Cost Table (optional): Add "On a Failure, the player may reveal a card to help determine the nature of the Cost:" followed by a suit-based bullet list in Clubs, Spades, Diamonds, Hearts order.
 
 -->
 
+```mermaid
+flowchart TB
+    subgraph Exploration["🔍 EXPLORATION"]
+        OO[Overcome an Obstacle]
+        FO[Forage]
+    end
+
+    subgraph Preparation["⚡ PREPARATION"]
+        direction TB
+        SO[Secure an Opportunity]
+        SO_SUB["positioning | investigation | trust"]
+    end
+
+    subgraph Social["💬 SOCIAL"]
+        CO[Compel]
+    end
+
+    subgraph Combat["⚔️ COMBAT"]
+        EC[Enter Combat]
+        IH[Inflict Harm]
+        AC[Avoid a Consequence]
+    end
+
+    subgraph Recovery["💚 RECOVERY"]
+        RE[Rest]
+        TW[Treat Wounds]
+        PU[Purify]
+    end
+
+    subgraph Power["🌿 POWER"]
+        IG[Invoke Gift]
+    end
+
+    subgraph Thresholds["💀 THRESHOLDS"]
+        RD[Resist Death]
+        RF[Resist the Forest]
+    end
+
+    subgraph Resources["📊 RESOURCES"]
+        VIT((Vitae))
+        RAD((Radiance))
+        SUP((Supply))
+        FOR((Fortune))
+        ADV((Advantage))
+    end
+
+    %% Advantage Generation
+    OO -->|"Success: +1"| ADV
+    SO -->|"Success: +2"| ADV
+    EC -->|"Success: +1"| ADV
+
+    %% Advantage Consumption
+    ADV -.->|"spent on"| OO
+    ADV -.->|"spent on"| IH
+    ADV -.->|"spent on"| AC
+    ADV -.->|"spent on"| CO
+
+    %% Secure an Opportunity feeds into actions
+    SO -.->|"intel/bonds"| CO
+    SO -.->|"positioning"| IH
+    SO -.->|"preparation"| OO
+
+    %% Combat Flow
+    EC -->|"initiates"| IH
+    IH <-->|"triggers"| AC
+
+    %% Vitae Damage
+    IH -->|"Partial/Fail: Harm"| VIT
+    AC -->|"Partial/Fail: Harm"| VIT
+
+    %% Vitae Recovery
+    RE -->|"restores 1-3"| VIT
+    TW -->|"restores 1-2"| VIT
+
+    %% Vitae Threshold
+    VIT -->|"reaches 0"| RD
+    RD -->|"Success: stabilize"| VIT
+
+    %% Radiance Damage
+    IG -->|"Partial/Fail"| RAD
+    AC -->|"corruption"| RAD
+    RE -->|"Cost: Unease"| RAD
+
+    %% Radiance Recovery
+    PU -->|"restores 1-3"| RAD
+
+    %% Radiance Threshold
+    RAD -->|"reaches 0"| RF
+
+    %% Supply Flow
+    FO -->|"restores 1-2"| SUP
+    RE -->|"Cost: Consumption"| SUP
+    TW -->|"Fail: -1"| SUP
+    OO -->|"Cost: Loss"| SUP
+
+    %% Fortune Flow - Tempting Fate
+    FOR -->|"Push Through"| PUSH[Failure → Partial]
+    ACCEPT[Success → Partial] -->|"Accept Hardship"| FOR
+
+    %% Power amplifies actions
+    IG -.->|"amplifies"| OO
+    IG -.->|"amplifies"| IH
+    IG -.->|"amplifies"| AC
+
+    %% End states
+    RD -->|"Failure"| DEATH[☠️ Death]
+    RF -->|"Failure"| CLAIMED[🌳 Claimed]
+```
+
 **Wardens of the Duskwatch**
 
-A penitent walks into the Derweald to keep their vows. The forest takes them back, piece by piece.
+A penitent walks into the Derweald to cleanse their soul before they are lost and judged in the final reckoning.
 
 ## The Derweald
 
-The Derweald is a living rot: ancient, patient, and eternally hungry. Its roots burrow through soil and soul alike, drinking names, memories, and blood. What dies beneath its boughs does not rest. The dead rise again as Pallids: bark-bound, hollow-eyed, and mindless, thralls to spirits the Church of the One Light swore it had vanquished centuries ago.
+The Derweald of Lightwall is a living rot: ancient, patient, and eternally hungry. Its roots burrow through soil and soul alike, drinking names, memories, and blood. What dies beneath its boughs does not rest. The dead rise again as Pallids: bark-bound, hollow-eyed, and mindless, thralls to spirits the Church of the One Light swore it had vanquished centuries ago.
 
 But when the claiming comes swift as the wind, a rare few rise again with their minds intact, cursed with gifts they never asked for and the forest's hooks buried deep in their thoughts. These creatures are power, hunger, and forever. They are called Thornmouths.
 
-The Order of the Duskwatch hunts Thornmouths without mercy and searches for those with resolve enough to fight the pull of the roots through Radiance and faith to welcome into their ranks as Wardens. The Order's priests carve root scars into their forearms with consecrated steel and pack the wounds with blessed salt until the flesh rises into knotted patterns. Body and soul both becoming a battleground.
+The Order of the Duskwatch hunts Thornmouths without mercy and searches for those with resolve enough to fight the pull of the roots through Radiance and faith to welcome into their ranks as Wardens. The Order's priests carve root scars into their forearms with consecrated steel and pack the wounds with blessed salt until the flesh rises into knotted patterns. Body and soul both becoming a battleground to help fight the pull and resist this corrupted power from taking over.
 
-Armed with blessed blades, whispered prayers, and salted steel, the Wardens are sent back into the thorns to fulfill their Vows, or die trying.
+Armed with blessed blades, whispered prayers, and salted steel, the Wardens are sent back into the thorns to fulfill cleanse evil, or die trying.
 
 ## What Is Needed
 
@@ -163,11 +276,11 @@ All of the game's following mechanics are called Actions: things that trigger wh
 
 The player draws 1 Action card and adds the relevant Score to the card's numeral value. Then, 2 Challenge cards are drawn. The player compares their Action total against each Challenge card.
 
-If the player's Action total is higher than both Challenge cards, the Action resolves as a **Success**. The character succeeds at what they were trying to do, and do so with a greater effect.
+If the player's Action total is higher than both Challenge cards, the Action resolves as a **Great Success**. The character succeeds at what they were trying to do, and does so with greater effect.
 
-If the player's Action total is higher than one Challenge card, the Action resolves as a **Partial Success**. The character succeeds, but with a lesser effect or at a cost.
+If the player's Action total is higher than one Challenge card, the Action resolves as a **Bare Success**. The character succeeds, getting what they want.
 
-If the player's Action total is higher than neither Challenge card, the Action resolves as a **Failure**. The character fails at their action.
+If the player's Action total is higher than neither Challenge card, the Action resolves as a **Failure**. The character fails, and there is a Cost.
 
 Each Action provides prompts to help determine what that Cost might be.
 
@@ -177,9 +290,18 @@ Advantage comes from favorable conditions, preparation, relevant Records, or inv
 
 Disadvantage comes from adverse conditions, wounds, missing gear, or hostile circumstances. For each level of Disadvantage, subtract 1 from the Action total.
 
+#### Tempting Fate
+
+Fortune can be spent or earned by pushing outcomes beyond what fate intended.
+
+- **Push Through**: When a character suffers a Failure, the player may push the outcome to a Bare Success instead, losing 1 Fortune in the process.
+- **Accept Hardship**: When a character achieves a Great Success, the player may choose to accept a Bare Success instead, restoring 1 Fortune in the process.
+
+Fortune cannot go lower than 0 or higher than 5. A player cannot spend Fortune they do not have.
+
 ### Actions
 
-#### Overcome an Obstacle
+#### Overcome a Challenge
 
 When a character faces a challenge, Draw+appropriate Score. If the character acts...
 
@@ -193,14 +315,14 @@ When a character faces a challenge, Draw+appropriate Score. If the character act
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, gaining 1 Advantage they can use on a future Action.
-- **On a Partial Success**: The character succeeds, but with lesser impact or facing a Cost.
-- **On a Failure**: The character fails.
+- **On a Great Success**: The character greatly succeeds.
+- **On a Bare Success**: The character succeeds.
+- **On a Failure**: The character fails, and there is a Cost.
 
-On a Partial Success, reveal a card to determine the nature of the Cost:
+On a Failure, the player may reveal a card to help determine the nature of the Cost:
 
 - **♣ Clubs**: Time. The character loses precious time or an opportunity slips away.
-- **♠ Spades**: Danger. The character suffers Harm or attracts a threat.
+- **♠ Spades**: Danger. The character suffers harm or attracts a threat.
 - **♦ Diamonds**: Loss. The character loses Supply or valuable gear is damaged.
 - **♥ Hearts**: Trust. A relationship is strained or an ally is put at risk.
 
@@ -218,94 +340,39 @@ When a character tries to avoid a consequence from a hazard, hostile opposition,
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, avoiding the consequence entirely.
-- **On a Partial Success**: The character succeeds, suffering a lesser consequence. When suffering Harm, lose 1 Vitae. When fighting corruption, lose 1 Radiance. If nothing else applies, the consequence is rooted in the fiction.
-- **On a Failure**: The character fails, suffering the full consequence. When suffering Harm, lose 2 Vitae. When fighting corruption, lose 2 Radiance. If nothing else applies, the consequence is rooted in the fiction.
+- **On a Great Success**: The character avoids the consequence and gains an opportunity, taking 1 Advantage for their next Action when applicable.
+- **On a Bare Success**: The character avoids the consequence.
+- **On a Failure**: The character suffers the full consequence. When suffering harm, lose Vitae. When fighting corruption, lose Radiance. If nothing else applies, the consequence is rooted in the fiction.
+
+The amount of Vitae or Radiance lost depends on the severity of the threat: minor threats deal 1, serious threats deal 2, and dire threats deal 3 or more.
+
+If a character's Vitae ever reaches 0, they must immediately use the `Resist Death` Action.
 
 #### Secure an Opportunity
 
-When a character sets up an advantage for themselves or others, Draw+appropriate Score. If the character acts...
+When a character prepares for what lies ahead, whether through positioning, investigation, or building trust, Draw+appropriate Score. If the character acts...
 
-- With intimidation or a show of force: Draw+Strength.
-- With positioning, misdirection, or quick movement: Draw+Dexterity.
-- With patience or holding ground: Draw+Constitution.
-- With careful planning, insight, or deception: Draw+Willpower.
+- With intimidation, a show of force, or holding ground: Draw+Strength.
+- With positioning, searching, sneaking, or observation: Draw+Dexterity.
+- With patience, endurance, or sharing hardship: Draw+Constitution.
+- With planning, deduction, persuasion, or reading people: Draw+Willpower.
+- By paying for information or offering trade: Draw+Supply.
 - If nothing else applies: Draw+Fortune.
 
-> If the character has time to prepare or the situation is calm, take 1 Advantage. If the character is rushed or under pressure, take 1 Disadvantage.
+> If the character has time to prepare, the situation is calm, or the source is cooperative, take 1 Advantage. If the character is rushed, under pressure, or the source is guarded, take 1 Disadvantage.
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, creating 2 Advantage that can be used on a future Action that leverages that opportunity.
-- **On a Partial Success**: The character succeeds, creating 1 Advantage that can be used on a future Action that leverages that opportunity.
-- **On a Failure**: The character fails, taking 1 Disadvantage on their next Action.
+- **On a Great Success**: The character secures the opportunity, creating 2 Advantage that can be used on a future Action. If relevant, add a bond, clue, or piece of intel as a Record.
+- **On a Bare Success**: The character secures the opportunity, creating 1 Advantage that can be used on a future Action. If relevant, add a bond, clue, or piece of intel as a Record.
+- **On a Failure**: The character fails to secure the opportunity, and there is a Cost.
 
-On a Partial Success, reveal a card to determine the nature of the Cost:
+On a Failure, the player may reveal a card to help determine the nature of the Cost:
 
-- **♣ Clubs**: Time. The character loses precious time or an opportunity slips away.
-- **♠ Spades**: Danger. The character suffers Harm or attracts a threat.
-- **♦ Diamonds**: Loss. The character loses Supply or valuable gear is damaged.
-- **♥ Hearts**: Trust. A relationship is strained or an ally is put at risk.
-
-#### Compel
-
-When a character attempts to persuade, threaten, or manipulate someone into doing what they want, Draw+appropriate Score. If the character acts...
-
-- With threats, intimidation, or a show of force: Draw+Strength.
-- With persuasion, deception, or manipulation: Draw+Willpower.
-- By offering payment, bribes, or trade: Draw+Supply.
-- If nothing else applies: Draw+Fortune.
-
-> If the target is friendly or owes the character, take 1 Advantage. If the target is hostile or has reason to resist, take 1 Disadvantage.
-
-Then, resolve the Action as follows:
-
-- **On a Success**: The character succeeds, compelling the target to comply fully or reveal hidden information.
-- **On a Partial Success**: The character succeeds, but the target demands something in return or remembers this slight.
-- **On a Failure**: The character fails, souring the relationship. The target may become hostile or alert others.
-
-On a Partial Success, reveal a card to determine the nature of the Cost:
-
-- **♣ Clubs**: Debt. The target demands immediate payment or a favor.
-- **♠ Spades**: Threat. The target becomes a future enemy or alerts others.
-- **♦ Diamonds**: Strain. An ally disapproves of the character's methods.
-- **♥ Hearts**: Reputation. Word spreads about what the character did.
-
-#### Forge a Bond
-
-When a character spends meaningful time with someone, shares hardship, or offers aid without expectation, Draw+Willpower.
-
-> If the other party is receptive or shares common ground, take 1 Advantage. If the other party is wary or there is past friction, take 1 Disadvantage.
-
-Then, resolve the Action as follows:
-
-- **On a Success**: The character succeeds, forming a bond. Add them as a Record, creating 2 Advantage that can be used on a future Action that leverages this relationship.
-- **On a Partial Success**: The character succeeds, making a connection, but trust must still be earned. Add them as a Record, creating 1 Advantage that can be used on a future Action that leverages this relationship.
-- **On a Failure**: The character fails, leaving the other party distant or suspicious.
-
-On a Partial Success, reveal a card to determine the nature of the Cost:
-
-- **♣ Clubs**: Obligation. The bond comes with an expectation or duty.
-- **♠ Spades**: Vulnerability. The character reveals something personal or dangerous.
-- **♦ Diamonds**: Debt. The character owes something before the bond is sealed.
-- **♥ Hearts**: Jealousy. Another relationship is strained by this new connection.
-
-#### Gather Intel
-
-When a character investigates, searches for clues, or gathers information, Draw+appropriate Score. If the character acts...
-
-- With careful searching, sneaking, or observation: Draw+Dexterity.
-- With deduction, interrogation, or reading people: Draw+Willpower.
-- By paying for information or bribing sources: Draw+Supply.
-- If nothing else applies: Draw+Fortune.
-
-> If the area is undisturbed or the source is cooperative, take 1 Advantage. If the trail is cold or the source is guarded, take 1 Disadvantage.
-
-Then, resolve the Action as follows:
-
-- **On a Success**: The character succeeds, learning something valuable. Add it as a Record, creating 2 Advantage that can be used on a future Action that leverages this information.
-- **On a Partial Success**: The character succeeds, learning something useful but incomplete. Add it as a Record, creating 1 Advantage that can be used on a future Action that leverages this information.
-- **On a Failure**: The character fails, finding nothing or stumbling into danger.
+- **♣ Clubs**: Time. The opportunity slips away, or an obligation is now owed.
+- **♠ Spades**: Danger. The character attracts a threat or reveals something personal.
+- **♦ Diamonds**: Loss. The character loses Supply, or a debt must be paid first.
+- **♥ Hearts**: Trust. A relationship is strained, or word spreads about the character's methods.
 
 #### Forage
 
@@ -315,35 +382,38 @@ When a character searches for food, water, or useful materials in the wild, Draw
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, finding what they need and more. Restore 2 Supply.
-- **On a Partial Success**: The character succeeds, finding enough to get by. Restore 1 Supply.
-- **On a Failure**: The character fails, finding nothing or attracting unwanted attention.
+- **On a Great Success**: The character finds what they need and more, restoring 2 Supply.
+- **On a Bare Success**: The character finds enough to get by, restoring 1 Supply.
+- **On a Failure**: The character finds nothing, and there is a Cost.
 
-<!-- #### Spend Supply
+On a Failure, the player may reveal a card to help determine the nature of the Cost:
 
-When a character spends resources to acquire goods or services, Draw+Supply.
-
-This can be used to obtain weapons, armor, gear, skills training, services, hirelings, or other valuable assets.
-
-> If the goods are common or the merchant is friendly, take 1 Advantage. If the goods are rare or the merchant is suspicious, take 1 Disadvantage.
-
-Then, resolve the Action as follows:
-
-- **On a Success**: The character succeeds, getting what they want and more. Add it as a Record.
-- **On a Partial Success**: The character succeeds, getting what they want. Add it as a Record.
-- **On a Failure**: The character fails, finding goods unavailable, inferior, or with strings attached. -->
+- **♣ Clubs**: Time. The search takes far longer than expected.
+- **♠ Spades**: Danger. The character attracts predators or stumbles into a threat.
+- **♦ Diamonds**: Loss. Gear is damaged or lost during the search.
+- **♥ Hearts**: Exposure. The character suffers exhaustion or minor harm. Lose 1 Vitae.
 
 #### Treat Wounds
 
-When a character tends to the injuries of others, Draw+Dexterity. When a character tends to their own injuries, Draw+Constitution.
+When a character tends to injuries or wounds, Draw+appropriate Score. If the character acts...
+
+- To treat injuries on others: Draw+Dexterity.
+- To treat wounds on themselves: Draw+Constitution.
 
 > If the character has proper supplies or shelter, take 1 Advantage. If the character lacks supplies or is exposed, take 1 Disadvantage.
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, restoring 2 Vitae to the wounded.
-- **On a Partial Success**: The character succeeds, restoring 1 Vitae to the wounded.
-- **On a Failure**: The character fails, wasting supplies. Lose 1 Supply or 1 Fortune.
+- **On a Great Success**: The character treats the wounds effectively, restoring 2 Vitae.
+- **On a Bare Success**: The character treats the wounds adequately, restoring 1 Vitae.
+- **On a Failure**: The character fails to treat the wounds, and there is a Cost.
+
+On a Failure, the player may reveal a card to help determine the nature of the Cost:
+
+- **♣ Clubs**: Time. The treatment takes far longer than expected.
+- **♠ Spades**: Complication. The wound worsens or becomes infected.
+- **♦ Diamonds**: Waste. Supplies are consumed without effect. Lose 1 Supply.
+- **♥ Hearts**: Strain. The effort takes a toll on the healer. Lose 1 Vitae.
 
 #### Enter Combat
 
@@ -353,11 +423,11 @@ When a character initiates combat or reacts to an ambush, Draw+Dexterity.
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, seizing initiative and taking 1 Advantage for their next Action.
-- **On a Partial Success**: The character succeeds, engaging on equal footing.
-- **On a Failure**: The character fails, losing initiative and taking 1 Disadvantage on their next Action.
+- **On a Great Success**: The character seizes initiative, taking 1 Advantage for their next Action.
+- **On a Bare Success**: The character engages on equal footing.
+- **On a Failure**: The character loses initiative, taking 1 Disadvantage on their next Action.
 
-There is no turn order or rounds. This Action establishes who acts first, then the fiction flows back and forth between the characters and their enemies.
+There is no turn order or rounds. This Action establishes who acts first, then the fiction flows back and forth between the characters and their enemies. Players usually act using `Inflict Harm`, `Overcome a Challenge`, or `Secure an Opportunity`. When enemies strike back, the GM prompts players to react using `Avoid a Consequence`.
 
 #### Inflict Harm
 
@@ -367,17 +437,22 @@ When a character strikes at an enemy or engages a threat in combat, Draw+appropr
 - With a ranged weapon or thrown object: Draw+Dexterity.
 - With arcane power or a Gift: Draw+Willpower.
 
-The fiction dictates what is possible during combat. A blade cannot harm what it cannot reach. An armored creature will not fall to desperate slashing.
-
 > If the character has the upper hand or the enemy is exposed, take 1 Advantage. If the enemy is armored, fortified, or has the upper hand, take 1 Disadvantage.
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, striking true and avoiding retaliation.
-- **On a Partial Success**: The character succeeds, landing the strike but suffering Harm in return.
-- **On a Failure**: The character fails, missing and suffering Harm in return.
+- **On a Great Success**: The character strikes true and gains an opportunity, taking 1 Advantage for their next Action.
+- **On a Bare Success**: The character lands the strike.
+- **On a Failure**: The character misses, and there is a Cost.
 
-Minor threats fall in one or two decisive blows. Dangerous foes require multiple successes: each one is ground gained, a wound opened, an advantage seized.
+On a Failure, the player may reveal a card to help determine the nature of the Cost:
+
+- **♣ Clubs**: Position. The enemy gains the upper hand or forces the character back.
+- **♠ Spades**: Harm. The character suffers harm in retaliation. Lose 1 Vitae.
+- **♦ Diamonds**: Loss. A weapon is damaged, dropped, or stuck.
+- **♥ Hearts**: Exposure. An ally is put in danger or the character is left vulnerable.
+
+Minor foes fall in one or two strikes. Dangerous foes require multiple successful attacks. The fiction dictates what is possible during combat. A blade or arrow cannot harm what it cannot reach or pierce. An armored creature will not fall to desperate slashing, etc.
 
 #### Resist Death
 
@@ -385,9 +460,9 @@ When a character's Vitae reaches 0, the character is on the brink of death. Draw
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, clinging to life. Stabilize at 1 Vitae and remain conscious.
-- **On a Partial Success**: The character succeeds, barely surviving. Stabilize at 1 Vitae but fall unconscious or suffer a permanent wound as a Record.
-- **On a Failure**: The character fails. Death claims them.
+- **On a Great Success**: The character clings to life, regaining 1 Vitae but remaining conscious.
+- **On a Bare Success**: The character barely survives, stabilizing at 1 Vitae but falling unconscious. Add a permanent wound as a Record.
+- **On a Failure**: The character succumbs to their wounds.
 
 #### Resist the Forest
 
@@ -395,26 +470,26 @@ When a character's Radiance reaches 0, the pull of the forest threatens to consu
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, resisting the call. Stabilize at 1 Radiance and maintain their will.
-- **On a Partial Success**: The character succeeds, holding on as the roots take hold. Stabilize at 1 Radiance but gain a permanent mark of corruption as a Record.
-- **On a Failure**: The character fails. The forest claims them, removing them from play as they become a threat to former allies.
+- **On a Great Success**: The character resists the call, regaining 1 Radiance.
+- **On a Bare Success**: The character holds on, stabilizing at 1 Radiance but feeling the roots take hold. Add a permanent mark of corruption as a Record.
+- **On a Failure**: The character succumbs to the forest.
 
 #### Rest
 
-When a character spends significant time resting, Draw+appropriate Score. If the character rests...
+When a character spends 6+ hours resting, Draw+appropriate Score. If the character rests...
 
 - In a safe place or shelter: Draw+Constitution.
 - In the wilds or while on the move: Draw+Supply.
 
-> If the area is sheltered or defensible, take 1 Advantage. If the character takes a Full Rest (days in true sanctuary), take 2 Advantage. If the area is exposed or deep in corrupted territory, take 1 Disadvantage.
+> If the area is sheltered or defensible, take 1 Advantage. If finds a true sanctuary, take 2 Advantage. If the area is exposed or deep in corrupted territory, take 1 Disadvantage.
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, resting fully. Restore 3 Vitae.
-- **On a Partial Success**: The character succeeds, resting adequately. Restore 2 Vitae, but face a Cost.
-- **On a Failure**: The character fails, resting poorly. Restore 1 Vitae.
+- **On a Great Success**: The character rests fully, restoring 3 Vitae.
+- **On a Bare Success**: The character rests adequately, restoring 2 Vitae.
+- **On a Failure**: The character rests poorly, restoring only 1 Vitae, and there is a Cost.
 
-On a Partial Success, reveal a card to determine the nature of the Cost:
+On a Failure, the player may reveal a card to help determine the nature of the Cost:
 
 - **♣ Clubs**: Delay. The rest takes longer than expected or an opportunity passes.
 - **♠ Spades**: Disturbance. Something stirs in the night, danger approaches.
@@ -431,9 +506,9 @@ When a character seeks to cleanse their soul and resist the forest's claim, Draw
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, cleansing deeply. Restore 3 Radiance.
-- **On a Partial Success**: The character succeeds, cleansing partially. Restore 2 Radiance.
-- **On a Failure**: The character fails, barely touching the corruption. Restore 1 Radiance.
+- **On a Great Success**: The character is imbued with the One Light, restoring 3 Radiance.
+- **On a Bare Success**: The character feels the touch of the One Light, restoring 2 Radiance.
+- **On a Failure**: The character is only lightly touched by the One Light, restoring 1 Radiance.
 
 #### Invoke Gift
 
@@ -441,11 +516,11 @@ When a character calls upon their Gift to overcome an obstacle or solve a proble
 
 Then, resolve the Action as follows:
 
-- **On a Success**: The character succeeds, resisting the call of the roots. Radiance stays as it is.
-- **On a Partial Success**: The character succeeds, feeling the call of the roots. Lose 1 Radiance.
-- **On a Failure**: The character fails, overwhelmed by the call of the roots. Lose 2 Radiance.
+- **On a Great Success**: The character invokes their Gift, keeping their Radiance.
+- **On a Bare Success**: The character invokes their Gift, losing 1 Radiance.
+- **On a Failure**: The character loses control of their Gift, losing 2 Radiance.
 
-If a character's Radiance ever reaches 0, the forest claims the character. They are removed from play and become a threat to those they once called allies.
+If a character's Radiance ever reaches 0, they must immediately use the `Resist the Forest` Action.
 
 ## Getting Started
 
