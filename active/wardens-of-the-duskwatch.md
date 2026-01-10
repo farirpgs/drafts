@@ -272,52 +272,6 @@ On a Failure, the player may reveal a card to help determine the nature of the C
 - **♦ Diamonds**: Loss. The character loses Supply, or a debt must be paid first.
 - **♥ Hearts**: Trust. A relationship is strained, or word spreads about the character's methods.
 
-#### Resupply
-
-When a character seeks to restock provisions, ammunition, or gear, Draw+appropriate Score. If the character acts...
-
-- By purchasing goods at a safe haven, trading post, or settlement: Draw+Willpower.
-- By foraging for food, water, or materials in the wild: Draw+Fortune.
-
-> When foraging in an area that is fertile or lush, take 1 Advantage. If the area is barren or corrupted, take 1 Disadvantage.
->
-> When selling minor valuables found during a Hunt, each item grants 1 Advantage. Exceptional artifacts or treasures cannot be sold through this Action. Their payment becomes a Record instead.
-
-Then, resolve the Action as follows:
-
-- **On a Great Success**: The character acquires what they need and more, restoring 2 Supply.
-- **On a Bare Success**: The character acquires enough to get by, restoring 1 Supply.
-- **On a Failure**: The character acquires nothing, and there is a Cost.
-
-On a Failure, the player may reveal a card to help determine the nature of the Cost:
-
-- **♣ Clubs**: Time. The search or negotiation takes far longer than expected.
-- **♠ Spades**: Danger. The character attracts predators, thieves, or unwanted attention.
-- **♦ Diamonds**: Loss. Gear is damaged, lost, or the price is far higher than expected.
-- **♥ Hearts**: Exposure. The character suffers exhaustion or minor harm. Lose 1 Vitae.
-
-#### Treat Wounds
-
-When a character tends to injuries or wounds, Draw+appropriate Score. If the character acts...
-
-- To treat injuries on others: Draw+Dexterity.
-- To treat wounds on themselves: Draw+Constitution.
-
-> If the character has proper supplies or shelter, take 1 Advantage. If the character lacks supplies or is exposed, take 1 Disadvantage.
-
-Then, resolve the Action as follows:
-
-- **On a Great Success**: The character treats the wounds effectively, restoring 2 Vitae.
-- **On a Bare Success**: The character treats the wounds adequately, restoring 1 Vitae.
-- **On a Failure**: The character fails to treat the wounds, and there is a Cost.
-
-On a Failure, the player may reveal a card to help determine the nature of the Cost:
-
-- **♣ Clubs**: Time. The treatment takes far longer than expected.
-- **♠ Spades**: Complication. The wound worsens or becomes infected.
-- **♦ Diamonds**: Waste. Supplies are consumed without effect. Lose 1 Supply.
-- **♥ Hearts**: Strain. The effort takes a toll on the healer. Lose 1 Vitae.
-
 #### Enter Combat
 
 When a character initiates combat or reacts to an ambush, Draw+Dexterity.
@@ -357,29 +311,41 @@ On a Failure, the player may reveal a card to help determine the nature of the C
 
 Minor foes fall in one or two strikes. Dangerous foes require multiple successful attacks. The fiction dictates what is possible during combat. A blade or arrow cannot harm what it cannot reach or pierce. An armored creature will not fall to desperate slashing, etc.
 
-#### Resist Death
+#### Invoke Gift
 
-When a character's Vitae reaches 0, the character is on the brink of death. Draw+Fortune.
-
-Then, resolve the Action as follows:
-
-- **On a Great Success**: The character clings to life, regaining 1 Vitae but remaining conscious.
-- **On a Bare Success**: The character barely survives, stabilizing at 1 Vitae but falling unconscious. Add a permanent wound as a Record.
-- **On a Failure**: The character succumbs to their wounds.
-
-If a character dies, the player must create a new character and introduce them into the fiction as soon as possible.
-
-#### Resist the Forest
-
-When a character's Radiance reaches 0, the pull of the forest threatens to consume them. Draw+Fortune.
+When a character calls upon their Gift to overcome an obstacle or solve a problem, Draw+Willpower.
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character resists the call, regaining 1 Radiance.
-- **On a Bare Success**: The character holds on, stabilizing at 1 Radiance but feeling the roots take hold. Add a permanent mark of corruption as a Record.
-- **On a Failure**: The character succumbs to the forest.
+- **On a Great Success**: The character invokes their Gift, keeping their Radiance.
+- **On a Bare Success**: The character invokes their Gift, losing 1 Radiance.
+- **On a Failure**: The character invokes their Gift but looses control, losing 2 Radiance.
 
-If a character succumbs to the forest, the player must create a new character and introduce them into the fiction as soon as possible.
+The outcome of invoking a Gift is rooted in the fiction. The character describes how they channel the forest's power, and the effect manifests according to the Gift's nature and the situation at hand.
+
+If a character's Radiance ever reaches 0, they must immediately use the `Resist the Forest` Action.
+
+#### Treat Wounds
+
+When a character tends to injuries or wounds, Draw+appropriate Score. If the character acts...
+
+- To treat injuries on others: Draw+Dexterity.
+- To treat wounds on themselves: Draw+Constitution.
+
+> If the character has proper supplies or shelter, take 1 Advantage. If the character lacks supplies or is exposed, take 1 Disadvantage.
+
+Then, resolve the Action as follows:
+
+- **On a Great Success**: The character treats the wounds effectively, restoring 2 Vitae.
+- **On a Bare Success**: The character treats the wounds adequately, restoring 1 Vitae.
+- **On a Failure**: The character fails to treat the wounds, and there is a Cost.
+
+On a Failure, the player may reveal a card to help determine the nature of the Cost:
+
+- **♣ Clubs**: Time. The treatment takes far longer than expected.
+- **♠ Spades**: Complication. The wound worsens or becomes infected.
+- **♦ Diamonds**: Waste. Supplies are consumed without effect. Lose 1 Supply.
+- **♥ Hearts**: Strain. The effort takes a toll on the healer. Lose 1 Vitae.
 
 #### Rest
 
@@ -405,6 +371,30 @@ On a Failure, the player may reveal a card to help determine the nature of the C
 
 After a character has rested, shuffle the discard pile back into the deck.
 
+#### Resupply
+
+When a character seeks to restock provisions, ammunition, or gear, Draw+appropriate Score. If the character acts...
+
+- By purchasing goods at a safe haven, trading post, or settlement: Draw+Willpower.
+- By foraging for food, water, or materials in the wild: Draw+Fortune.
+
+> When foraging in an area that is fertile or lush, take 1 Advantage. If the area is barren or corrupted, take 1 Disadvantage.
+>
+> When selling minor valuables found during a Hunt, each item grants 1 Advantage. Exceptional artifacts or treasures cannot be sold through this Action. Their payment becomes a Record instead.
+
+Then, resolve the Action as follows:
+
+- **On a Great Success**: The character acquires what they need and more, restoring 2 Supply.
+- **On a Bare Success**: The character acquires enough to get by, restoring 1 Supply.
+- **On a Failure**: The character acquires nothing, and there is a Cost.
+
+On a Failure, the player may reveal a card to help determine the nature of the Cost:
+
+- **♣ Clubs**: Time. The search or negotiation takes far longer than expected.
+- **♠ Spades**: Danger. The character attracts predators, thieves, or unwanted attention.
+- **♦ Diamonds**: Loss. Gear is damaged, lost, or the price is far higher than expected.
+- **♥ Hearts**: Exposure. The character suffers exhaustion or minor harm. Lose 1 Vitae.
+
 #### Purify
 
 When a character seeks to cleanse their soul and resist the forest's claim, Draw+Willpower.
@@ -417,19 +407,29 @@ Then, resolve the Action as follows:
 - **On a Bare Success**: The character feels the touch of the One Light, restoring 2 Radiance.
 - **On a Failure**: The character is only lightly touched by the One Light, restoring 1 Radiance.
 
-#### Invoke Gift
+#### Resist Death
 
-When a character calls upon their Gift to overcome an obstacle or solve a problem, Draw+Willpower.
+When a character's Vitae reaches 0, the character is on the brink of death. Draw+Fortune.
 
 Then, resolve the Action as follows:
 
-- **On a Great Success**: The character invokes their Gift, keeping their Radiance.
-- **On a Bare Success**: The character invokes their Gift, losing 1 Radiance.
-- **On a Failure**: The character invokes their Gift but looses control, losing 2 Radiance.
+- **On a Great Success**: The character clings to life, regaining 1 Vitae but remaining conscious.
+- **On a Bare Success**: The character barely survives, stabilizing at 1 Vitae but falling unconscious. Add a permanent wound as a Record.
+- **On a Failure**: The character succumbs to their wounds.
 
-The outcome of invoking a Gift is rooted in the fiction. The character describes how they channel the forest's power, and the effect manifests according to the Gift's nature and the situation at hand.
+If a character dies, the player must create a new character and introduce them into the fiction as soon as possible.
 
-If a character's Radiance ever reaches 0, they must immediately use the `Resist the Forest` Action.
+#### Resist the Forest
+
+When a character's Radiance reaches 0, the pull of the forest threatens to consume them. Draw+Fortune.
+
+Then, resolve the Action as follows:
+
+- **On a Great Success**: The character resists the call, regaining 1 Radiance.
+- **On a Bare Success**: The character holds on, stabilizing at 1 Radiance but feeling the roots take hold. Add a permanent mark of corruption as a Record.
+- **On a Failure**: The character succumbs to the forest.
+
+If a character succumbs to the forest, the player must create a new character and introduce them into the fiction as soon as possible.
 
 #### Slay the Darkness
 
