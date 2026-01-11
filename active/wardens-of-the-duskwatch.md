@@ -68,7 +68,6 @@ Armed with blessed blades, whispered prayers, and salted steel, the Wardens are 
 **The Rise of Magic**
 
 - The magical energy that spilled from the spirits seeped into every crack of the world, bleeding into soil, stone, and sky.
-
 - Common folk harvested this power to craft humble charms, while scholars shaped it into incantations capable of bending reality itself.
 - Fearing a loss of power, the Church declared the use of magic a divine right reserved for their order alone.
 - Those who defied them were branded heretics, tortured, and executed beneath the radiant banners of the One Light.
@@ -127,7 +126,7 @@ Card values follow this scale: Aces count as 1, numbered cards use their normal 
 
 Place used cards in a discard pile. When the deck runs empty, or whenever revealing a Joker, shuffle the discard pile to form a new deck.
 
-## Safety and Comfort
+## Safety
 
 This game explores themes of death, corruption, and violence. Before play begins, discuss boundaries and comfort levels with all players. Establish what topics are off-limits or should be handled with care, and respect those limits without question. Any player may pause the game at any time to discuss comfort, adjust content, or step away from a scene. The goal is for everyone to have a meaningful experience without crossing into discomfort.
 
@@ -149,10 +148,61 @@ Records are used to keep track of important facts about a character: specific it
 
 During character creation, the player reveals a card for each category to determine their starting Records:
 
-- **Weapon** (reveal 1): 1. Sword, 2. Axe, 3. Spear, 4. Bow, 5. Flail, 6. Dagger, 7. Mace, 8. Greatsword, 9. Crossbow, 10. Halberd, Jack. Warhammer, Queen. Quarterstaff, King. Whip
-- **Armor** (reveal 1): 1–3. Cloak or Clothes, 4–6. Leather, 7–9. Chain, 10–11. Plate, 12–13. Shield
-- **Gear** (reveal 3): 1. Lantern, 2. Rope, 3. Crowbar, 4. Lockpicks, 5. Chain, 6. Grapnel, 7. Torch, 8. Vials, 9. Compass, 10. Spikes, Jack. Mirror, Queen. Chalk, King. Trap Kit
-- **Skill** (reveal 1): 1. Herbalist, 2. Blademaster, 3. Marksman, 4. Ritualist, 5. Beast Tamer, 6. Duelist, 7. Scout, 8. Magehunter, 9. Pathfinder, 10. Skirmisher, Jack. Shadowblade, Queen. Deathseeker, King. Spellbreaker
+**Weapon** (reveal 1):
+
+- 1. Sword
+- 2. Axe
+- 3. Spear
+- 4. Bow
+- 5. Flail
+- 6. Dagger
+- 7. Mace
+- 8. Greatsword
+- 9. Crossbow
+- 10. Halberd
+- Jack. Warhammer
+- Queen. Quarterstaff
+- King. Whip
+
+**Armor** (reveal 1):
+
+- 1–3. Cloak
+- 4–6. Leather
+- 7–9. Chain
+- 10–11. Plate
+- 12–13. Shield
+
+**Gear** (reveal 3):
+
+- 1. Lantern
+- 2. Rope
+- 3. Crowbar
+- 4. Lockpicks
+- 5. Chain
+- 6. Grapnel
+- 7. Torch
+- 8. Vials
+- 9. Compass
+- 10. Spikes
+- Jack. Mirror
+- Queen. Chalk
+- King. Trap Kit
+
+**Skill** (reveal 1):
+
+- 1. Herbalist
+- 2. Blademaster
+- 3. Marksman
+- 4. Ritualist
+- 5. Beast Tamer
+- 6. Duelist
+- 7. Scout
+- 8. Magehunter
+- 9. Pathfinder
+- 10. Skirmisher
+- Jack. Shadowblade
+- Queen. Deathseeker
+- King. Spellbreaker
 
 > Significant amounts of coin, artifacts, valuable treasures, or debts should also be tracked as Records when acquired during play.
 
@@ -249,19 +299,21 @@ All of the game's following mechanics are called Actions: things that trigger wh
 
 The player draws 1 Action card and adds the relevant Score to the card's numeral value. Then, 2 Challenge cards are drawn. The player compares their Action total against each Challenge card.
 
-If the player's Action total is higher than both Challenge cards, the outcome is **Radiant**. When an Action is used to determine the outcome of a character's efforts, they succeed with greater effect. When an Action is for determining something about the world, the character finds themselves in a great position.
+If the player's Action total is higher than both Challenge cards, the outcome is **Radiant**. When an Action revolves around determining the outcome of a character's efforts, they succeed with greater effect. When an Action revolves around determining something about the world, the character finds themselves in a great position.
 
-If the player's Action total is higher than one Challenge card, the outcome is **Bright**. When an Action is used to determine the outcome of a character's efforts, they succeed at what they were trying to do. When an Action is for determining something about the world, the character finds themselves in a good position.
+If the player's Action total is higher than one Challenge card, the outcome is **Bright**. When an Action revolves around determining the outcome of a character's efforts, they succeed at what they were trying to do. When an Action revolves around determining something about the world, the character finds themselves in a good position.
 
-If the player's Action total is higher than neither Challenge card, the outcome is **Dire**. When an Action is used to determine the outcome of a character's efforts, they fail and there is a Complication. When an Action is for determining something about the world, the character finds themselves in a bad position.
+If the player's Action total is higher than neither Challenge card, the outcome is **Dire**. When an Action revolves around determining the outcome of a character's efforts, they fail and there is a Complication. When an Action revolves around determining something about the world, the character finds themselves in a bad position.
 
 Whenever an Action triggers a Complication, it shall always provide prompts to help determine its nature.
 
 #### Using Advantage and Disadvantage
 
-Advantage comes from favorable conditions, preparation, relevant Records, or invoking a Gift. For each level of Advantage, add +1 to the Action total.
+Advantage comes from favorable conditions, preparation, relevant Records, or invoking a Gift. For each level of Advantage, add 1 to the Action total.
 
 Disadvantage comes from adverse conditions, wounds, missing gear, or hostile circumstances. For each level of Disadvantage, subtract 1 from the Action total.
+
+Particularly impactful Advantages or Disadvantages may be worth more than 1 point to the Action total.
 
 #### Using Fortune
 
@@ -271,8 +323,6 @@ Fortune can be spent or earned by pushing outcomes beyond what fate intended.
 - **Accept Hardship**: When the outcome is Radiant, the player may choose to accept a Bright outcome instead, restoring 1 Fortune in the process.
 
 Fortune cannot go lower than 0 or higher than 5. A player cannot spend Fortune they do not have.
-
-Whenever a Joker is revealed from the deck, the player who revealed it gains 1 Fortune.
 
 ### Actions
 
@@ -315,13 +365,13 @@ When a character tries to avoid a consequence from a hazard, hostile opposition,
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character avoids the consequence and gains an opportunity, taking 1 Advantage for their next Action when applicable.
+- **When the outcome is Radiant**: The character avoids the consequence and gains an opportunity, taking 1 Advantage for a future Action if applicable.
 - **When the outcome is Bright**: The character avoids the consequence.
 - **When the outcome is Dire**: The character suffers the full consequence. When suffering harm, lose Vitae. When fighting corruption, lose Faith. If nothing else applies, the consequence is rooted in the fiction.
 
 The amount of Vitae or Faith lost depends on the severity of the threat: minor threats deal 1, serious threats deal 2, and dire threats deal 3 or more.
 
-If a character's Vitae ever reaches 0, they must immediately use the `Resist Death` Action.
+If a character's Vitae ever reaches 0, it immediately triggers the use of the `Resist Death` Action.
 
 #### Secure an Opportunity
 
@@ -338,8 +388,8 @@ When a character prepares for what lies ahead, whether through positioning, inve
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character secures the opportunity, creating 2 Advantage that can be used on a future Action. If relevant, add a bond, clue, or piece of intel as a Record.
-- **When the outcome is Bright**: The character secures the opportunity, creating 1 Advantage that can be used on a future Action. If relevant, add a bond, clue, or piece of intel as a Record.
+- **When the outcome is Radiant**: The character secures the opportunity, creating 2 Advantage that can be used on a future Action if applicable. If relevant, add a bond, clue, or piece of intel as a Record.
+- **When the outcome is Bright**: The character secureßs the opportunity, creating 1 Advantage that can be used on a future Action if applicable. If relevant, add a bond, clue, or piece of intel as a Record.
 - **When the outcome is Dire**: The character fails to secure the opportunity, and there is a Complication.
 
 When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
@@ -357,11 +407,11 @@ When a character initiates combat or reacts to an ambush, Draw+Dexterity.
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character seizes initiative, taking 1 Advantage for their next Action.
+- **When the outcome is Radiant**: The character seizes initiative, taking 1 Advantage on their next ACtion.
 - **When the outcome is Bright**: The character engages on equal footing.
 - **When the outcome is Dire**: The character loses initiative, taking 1 Disadvantage on their next Action.
 
-There is no turn order or rounds. This Action establishes who acts first, then the fiction flows back and forth between the characters and their enemies. Players usually act using `Inflict Harm`, `Overcome a Challenge`, or `Secure an Opportunity`. When enemies strike back, the GM prompts players to react using `Avoid a Consequence`.
+There is no turn order or rounds. This Action establishes who acts first, then the fiction flows back and forth between the characters and their enemies. Players usually act using `Inflict Harm`, `Overcome a Challenge`, or `Secure an Opportunity`. When enemies strike back, it prompts players to react using `Avoid a Consequence`.
 
 #### Inflict Harm
 
