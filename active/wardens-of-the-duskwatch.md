@@ -805,3 +805,7 @@ To generate a Hunt, reveal one card from each table and combine the results. Or 
 Each player introduces their character: their name, what they look like, and one memory from before they died to the roots only to be brought back as a cursed soul. Then frame the opening: the group is already mid-mission, deep in the thorns, with their Hunt half-complete and trouble closing in.
 
 # Oracles
+
+[...]
+
+<!-- TODO: fill with various oracles -->
