@@ -4,8 +4,9 @@
   "scripts": {
     "clean:pdf": "rm -f active/*.pdf archives/*.pdf",
     "build:css": "npx @tailwindcss/cli -i ./input.css -o ./output.css --minify",
-    "pdf": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js **/*.md",
-    "pdf-debug": "npm run build:css && npx md-to-pdf --as-html --config-file md-to-pdf.config.js **/*.md"
+    "dev": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js --watch **/*.md",
+    "build": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js **/*.md",
+    "debug": "npm run build:css && npx md-to-pdf --as-html --config-file md-to-pdf.config.js **/*.md"
   },
   "dependencies": {
     "md-to-pdf": "^5.2.4"

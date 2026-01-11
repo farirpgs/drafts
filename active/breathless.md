@@ -159,7 +159,7 @@ At the start of the game, each character remembers only their name and the main 
 
 To create a survivor, each player first chooses their old occupation (see the Character pamphlet). Each occupation comes with pre-assigned Skills and Items, which the player notes on their character sheet. They then write down their character’s name and preferred pronouns.
 
-Every occupation also includes a **Memory** track, representing the fog that clouds the character's past. Over the course of play, memories slowly return.
+Every occupation also includes a Memory track, representing the fog that clouds the character's past. Over the course of play, memories slowly return.
 
 At the beginning of each new session, each player unlocks the next memory on their track. They make a Check with their Think Skill to determine how clearly the memory surfaces:
 
