@@ -571,7 +571,7 @@ When a character completes a Hunt and slays corruption that plages the land, the
 Then, resolve the Action as follows:
 
 - **When the outcome is Radiant**: The character grows stronger through struggle. Increase one Core Score by 1 (max 5).
-- **When the outcome is Bright**: The character learns from the Hunt. Gain a new skill or ability as a Record.
+- **When the outcome is Bright**: The character learns from the Hunt. Gain a new skill or ability as a Record, rooted in the fiction of what happened during the Hunt and reflecting something the character learned.
 - **When the outcome is Dire**: The forest claims a piece of the character's soul. Decrease maximum Faith by 1 permanently.
 
 ## Principles
@@ -692,7 +692,7 @@ Then, resolve the Action as follows:
 
 ## Getting Started
 
-### The Opening Scene
+### The First Session
 
 Each player introduces their character: their name, what they look like, and one memory from before they died to the roots only to be brought back as a cursed soul. Then frame the opening: the group is already mid-mission, deep in the thorns, with their Hunt half-complete and trouble closing in.
 
@@ -700,9 +700,9 @@ Each player introduces their character: their name, what they look like, and one
 
 A Hunt is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Hunt, the group takes on a new Hunt.
 
-To generate a Hunt, draw one card from each table and combine the results. Or choose elements that speak to you.
+To generate a Hunt, reveal one card from each table and combine the results. Or choose elements that speak to you.
 
-**The Task** (draw one card)
+**The Task** (reveal one card)
 
 | Card | Task                       |
 | ---- | -------------------------- |
@@ -720,7 +720,7 @@ To generate a Hunt, draw one card from each table and combine the results. Or ch
 | Q    | Protect                    |
 | K    | Grant final rest to        |
 
-**The Subject** (draw one card)
+**The Subject** (reveal one card)
 
 | Card | Subject                                 |
 | ---- | --------------------------------------- |
@@ -738,7 +738,7 @@ To generate a Hunt, draw one card from each table and combine the results. Or ch
 | Q    | a witch of the deep groves              |
 | K    | something the forest remembers          |
 
-**The Complication** (draw one card, use suit)
+**The Complication** (reveal one card, use suit)
 
 | Suit       | Complication                          |
 | ---------- | ------------------------------------- |
@@ -747,7 +747,7 @@ To generate a Hunt, draw one card from each table and combine the results. Or ch
 | ♦ Diamonds | The path back has closed              |
 | ♥ Hearts   | The truth is worse than told          |
 
-**The Location** (draw one card)
+**The Location** (reveal one card)
 
 | Card | Location                              |
 | ---- | ------------------------------------- |
