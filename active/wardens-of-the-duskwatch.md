@@ -57,6 +57,68 @@ The Order of the Duskwatch hunts Thornmouths without mercy and searches for thos
 
 Armed with blessed blades, whispered prayers, and salted steel, the Wardens are sent back into the thorns to fulfill cleanse evil, or die trying.
 
+## A Brief History
+
+**Spirits and the Church**
+
+- Spirits have crossed between realms since the first breaths of the world, feeding on the emotions of the living. Some once mistook them for gods. There are no gods.
+- The Church of the One Light despised the spirits, calling them abominations. Driven by holy fury, they marched through the veiled gates to purge them from existence.
+- The spirits were eradicated, their arcane essence torn apart and scattered like leaves in a storm.
+
+**The Rise of Magic**
+
+- The magical energy that spilled from the spirits seeped into every crack of the world, bleeding into soil, stone, and sky.
+
+- Common folk harvested this power to craft humble charms, while scholars shaped it into incantations capable of bending reality itself.
+- Fearing a loss of power, the Church declared the use of magic a divine right reserved for their order alone.
+- Those who defied them were branded heretics, tortured, and executed beneath the radiant banners of the One Light.
+
+**The Return of the Spirits**
+
+- Death has no hold on spirits. When the veil tore once more, it did so in the Derweald.
+- Thorned vines and slick fungal growths erupted from the soil like a living plague.
+- The oily roots consumed kingdoms and souls alike. As the fallen exhaled their final breath, their bodies warped into wooden husks bound by ancient wills.
+- The spirits walked the land once more, driving their pallid armies against the last bastions of warmth and light.
+
+**The Church's Desperation**
+
+- So much of the realm was lost to the forest's embrace. Castles, cities, palaces, dungeons, villages all swallowed whole.
+- The Church of the One Light claims dominion over the last bastions of humanity, but their power is built on lies. Only the highest clergy know there are no gods, yet they wield faith as a weapon to control the desperate.
+- In their desperation to maintain power and fight the Derweald, the Church has become what they claimed to destroy. They weaponize corruption itself, binding cursed souls with salt and steel.
+- The Wardens, proof of this hypocrisy. Corrupted souls sent back into the thorns, wielding the forest's gifts to fight the forest's will, all while the Church's priests condemn others for the very same sins.
+
+## Play to Find Out
+
+The setting holds many unanswered questions:
+
+- Why does the Church hate spirits? What happened during the war beyond the veiled gates?
+- Where does the Church's power come from if there are no gods?
+- What do spirits gain from feeding on emotions? Why do they keep returning?
+- Can the Derweald be stopped, or will the corruption consume everything?
+- Are the Wardens meant to save humanity, or are they just disposable weapons?
+- What drives the forest? What will commands the roots?
+
+## The Last Bastions
+
+The Derweald has consumed much of the land. What remains:
+
+**Kelmora (North)**
+
+- An icy bay where the Barahl Clans once rode dragons as feared raiders. Now they fight for survival under The Iron Rule.
+- They battle Ithril the Calamity, whose power turned their wyrms against them.
+- The cold spared them from the Derweald's hold. Mostly. The frost is thinning, and the roots are coming.
+
+**The Free Cities (West)**
+
+- Velmoor struggles to feed the cities as the Derweald presses closer. Naranth starves as the sea grows empty. Refugees flee to Eslora, where the grand cathedral of the One Light stands.
+- The Shattered Isles loom on the horizon as a warning of what is to come.
+
+**The Mireroads (Heart)**
+
+- Market towns trapped between the Derweald, the wild sea, and the jagged peaks of the Ashen Teeth.
+- Old horrors have returned: trolls, goblins, ghouls. Famine and sickness is everywhere.
+- The Church's reach is weak here. New beliefs spread that offerings to the spirits is the path to salvation.
+
 ## What Is Needed
 
 One standard deck of cards shared among the table, paper, and pencil. The game can be played solo, cooperatively without a Game Master (GM), or with a GM and one to four players.
