@@ -47,11 +47,15 @@ Action Format:
 
 A penitent walks into the Derweald to cleanse their soul before they are lost and judged in the final reckoning.
 
+# Setting
+
 ## The Derweald
 
 The Derweald of Lightwall is a living rot: ancient, patient, and eternally hungry. Its roots burrow through soil and soul alike, drinking names, memories, and blood. What dies beneath its boughs does not rest. The dead rise again as Pallids: bark-bound, hollow-eyed, and mindless, thralls to spirits the Church of the One Light swore it had vanquished centuries ago.
 
 But when the claiming comes swift as the wind, a rare few rise again with their minds intact, cursed with gifts they never asked for and the forest's hooks buried deep in their thoughts. These creatures are power, hunger, and forever. They are called Thornmouths.
+
+Thornmouths wield the forest's corruption to mask their true forms, appearing as they once were to deceive and hunt. Those who fight the pull of the roots live long, but they are not immortal. Eventually, all who bear the thorn's mark face the same fate: they fall to the corruption within, dying in struggle or returning to the forest's embrace.
 
 The Order of the Duskwatch hunts Thornmouths without mercy and searches for those with resolve enough to fight the pull of the roots through Faith to welcome into their ranks as Wardens. The Order's priests carve root scars into their forearms with consecrated steel and pack the wounds with blessed salt until the flesh rises into knotted patterns. Body and soul both becoming a battleground to help fight the pull and resist this corrupted power from taking over.
 
@@ -118,6 +122,8 @@ The Derweald has consumed much of the land. What remains:
 - Old horrors have returned: trolls, goblins, ghouls. Famine and sickness is everywhere.
 - The Church's reach is weak here. New beliefs spread that offerings to the spirits is the path to salvation.
 
+# Getting Started
+
 ## What Is Needed
 
 One standard deck of cards shared among the table, paper, and pencil. The game can be played solo, cooperatively without a Game Master (GM), or with a GM and one to four players.
@@ -132,81 +138,120 @@ This game explores themes of death, corruption, and violence. Before play begins
 
 ## Making a Character
 
-Players take a piece of paper (this will act as their character sheet) and then go through the following steps:
+Players take a piece of paper (this will act as their character sheet) and write their name on it. Then, follow these steps to create a character:
 
-### 1. Name
+### 1. Choose a Background
 
-Each player writes their own name on their character sheet.
+To create a character, reveal a card and match its value to one of the 13 backgrounds below. Each background represents who the character was before they fell to the Derweald and rose again as a Warden.
 
-### 2. Character Name
+Each background includes suggested names, context about their former life, and starting Records. Records are used to keep track of important facts about a character: specific items, bonds with non-player characters, pieces of intel, clues, lasting wounds, or other important notes. There is no limit to how many Records a character can have. Relevant Records can help or hinder a character when tackling challenging tasks or when trying to avoid a direct threat.
 
-The player chooses a name for their character.
+**Ace. The Nameless**
 
-### 3. Records
+Raised in the ruins between the wars of old kingdoms, survived by scavenging what others left behind. The roots claimed you so long ago you no longer remember when you were last alive or how you died.
 
-Records are used to keep track of important facts about a character: specific items, bonds with non-player characters, pieces of intel, clues, lasting wounds, or other important notes. There is no limit to how many Records a character can have. Relevant Records can help or hinder a character when tackling challenging tasks or when trying to avoid a direct threat.
+- Suggested Names: Wren, Lark, Fenn, Rilla, Wick
+- Starting Records: Dagger, Cloak, Lockpicks, Scavenged Trinket
 
-During character creation, the player reveals a card for each category to determine their starting Records:
+**2. The Blood Heir**
 
-**Weapon** (reveal 1):
+Born into a cursed bloodline. The Derweald has claimed your family for generations. The roots claimed you after they came for you on your twenty-first year, as they came for your mother and her mother before her.
 
-- 1. Sword
-- 2. Axe
-- 3. Spear
-- 4. Bow
-- 5. Flail
-- 6. Dagger
-- 7. Mace
-- 8. Greatsword
-- 9. Crossbow
-- 10. Halberd
-- Jack. Warhammer
-- Queen. Quarterstaff
-- King. Whip
+- Suggested Names: Orenya, Thalen, Sovae, Lysh, Nahl
+- Starting Records: Heirloom Blade (Sword), Leather Armor, Family Relic, Mirror
 
-**Armor** (reveal 1):
+**3. The Gravedigger**
 
-- 1–3. Cloak
-- 4–6. Leather
-- 7–9. Chain
-- 10–11. Plate
-- 12–13. Shield
+Buried the dead for decades, noticed when they stopped staying buried. The roots claimed you after you fell into an open grave and the earth refused to let you climb back out.
 
-**Gear** (reveal 3):
+- Suggested Names: Barlo, Rook, Marden, Mudge, Pate
+- Starting Records: Spade (Mace), Leather Armor, Lantern, Rope
 
-- 1. Lantern
-- 2. Rope
-- 3. Crowbar
-- 4. Lockpicks
-- 5. Chain
-- 6. Grapnel
-- 7. Torch
-- 8. Vials
-- 9. Compass
-- 10. Spikes
-- Jack. Mirror
-- Queen. Chalk
-- King. Trap Kit
+**4. The Bastard**
 
-**Skill** (reveal 1):
+Illegitimate heir with no claim, sent to die honorably in the thorns rather than stain the family name. The roots claimed you after your family abandoned you at the forest's edge with your mother's name carved into your blade.
 
-- 1. Herbalist
-- 2. Blademaster
-- 3. Marksman
-- 4. Ritualist
-- 5. Beast Tamer
-- 6. Duelist
-- 7. Scout
-- 8. Magehunter
-- 9. Pathfinder
-- 10. Skirmisher
-- Jack. Shadowblade
-- Queen. Deathseeker
-- King. Spellbreaker
+- Suggested Names: Corvan, Darion, Lyria, Othar, Roldan
+- Starting Records: Sword, Leather Armor, Tarnished Signet Ring, Cloak
+
+**5. The Disgraced Knight**
+
+Broke your oath or failed your lord, walked into the Derweald wearing your shattered heraldry. The roots claimed you after you sought an honorable death in single combat with something darker than night itself.
+
+- Suggested Names: Severin, Thalia, Cassian, Vaeld, Sigvard
+- Starting Records: Sword, Chain Armor, Broken Shield, Rope
+
+**6. The Court Poisoner**
+
+Served powerful nobles through subtle murder. The roots claimed you after your next victim realized who you were, forced you to drink your own poison, and threw your inert body in the city's river.
+
+- Suggested Names: Sable, Nyra, Marlow, Marcell, Velian
+- Starting Records: Dagger, Fine Cloak, Vials, Lockpicks
+
+**7. The Flesh Trader**
+
+Smuggled corpses for Church experiments or sold the dead to scholars. The roots claimed you after your cargo stirred in the night and dragged you screaming into the thorns.
+
+- Suggested Names: Pike, Garrin, Wick, Toller, Corin
+- Starting Records: Cleaver (Axe), Leather Armor, Chain, Tarp
+
+**8. The Plague Doctor**
+
+Tended the sick in corrupted territories. The roots claimed you but not before they consumed the entire village you tried so desperately to protect.
+
+- Suggested Names: Tobin, Keela, Cassian, Aeris, Fenna
+- Starting Records: Quarterstaff, Plague Mask, Herbalist Kit, Vials
+
+**9. The Midwife**
+
+Delivered children in remote villages, witnessed too many stillbirths and deformities as the Derweald crept closer. You died helping a mother birth something that should not have been born. The roots claimed you after the angry villagers threw your body into the thorns as punishment for your sins.
+
+- Suggested Names: Mave, Tamsin, Hesta, Gudrun, Mira
+- Starting Records: Dagger, Cloak, Birthing Kit, Herbalist Pouch
+
+**10. The Deserter**
+
+Fled from war or Church service, ran until there was nowhere left to run. The roots claimed you after your former comrades found you, cut you down, and nailed your body to a tree.
+
+- Suggested Names: Dane, Keir, Bram, Astrid, Einar
+- Starting Records: Spear, Chain Armor, Bedroll, Compass
+
+**Jack. The Fool**
+
+Accompanied a reputable knight to chronicle their deeds in verse and song. The roots claimed you after the knight took fright and abandoned you in the night to save themselves.
+
+- Suggested Names: Lute, Tobin, Mave, Joss, Corinne
+- Starting Records: Lute, Cloak, Journal, Dagger
+
+**Queen. The Hedge Witch**
+
+Practiced old magics outside Church authority, traded charms for food. The roots claimed you after the villagers bound you to a stake and left you at the forest's edge on a pyre.
+
+- Suggested Names: Briar, Nesta, Rowan, Iskra, Wren
+- Starting Records: Dagger, Cloak, Ritual Chalk, Herb Bundles
+
+**King. The Tyrant**
+
+Ruled with cruelty until your people finally had enough. The roots claimed you after the mob dragged you to your family's crypt and sealed you inside with the bones of those who came before.
+
+- Suggested Names: Severin, Cassian, Thalia, Darion, Velian
+- Starting Records: Broken Crown, Fine Cloak, Signet Ring, Dagger
+
+> If a player prefers, they may choose their background instead of revealing a card. Players may also adjust their starting Records with GM approval, swapping weapons or gear that better fit their character concept.
 
 > Significant amounts of coin, artifacts, valuable treasures, or debts should also be tracked as Records when acquired during play.
 
-### 4. Scores
+### 2. Gift
+
+A Gift is power stolen from the Derweald and held by rite and restraint. Each Warden bears one, a curse and a weapon in equal measure. Choose one Gift and add it as a Record:
+
+- **Stonehide**: Flesh hardens like stone, making it extremely hard to be wounded.
+- **Bonegrind**: Channel brutal force, gaining unnatural strength.
+- **Vinewright**: Control the roots and thorns to entangle, snare, pierce, or drag.
+- **Wildtongue**: Command the warped creatures of the forest to do your bidding.
+- **Soulgrip**: Seize hold of another's emotions and bend them to your will.
+
+### 3. Scores
 
 Scores measure a character's capabilities and resources.
 
@@ -224,15 +269,7 @@ Scores measure a character's capabilities and resources.
 - **Supply (5)**: Provisions, ammunition, expendable gear, and purchasing power for everyday needs.
 - **Fortune (3)**: Luck and fate's favor.
 
-### 5. Gift
-
-A Gift is power stolen from the Derweald and held by rite and restraint. Each character has one, added as a Record. During character creation, players choose one gift:
-
-- **Stonehide**: Flesh hardens like stone, making it extremely hard to be wounded.
-- **Bonegrind**: Channel brutal force, gaining unnatural strength.
-- **Vinewright**: Control the roots and thorns to entangle, snare, pierce, or drag.
-- **Wildtongue**: Command the warped creatures of the forest to do your bidding.
-- **Soulgrip**: Seize hold of another's emotions and bend them to your will.
+# Playing the Game
 
 ## Rules
 
@@ -249,7 +286,7 @@ The Oracle is used to answer questions when the fiction is uncertain. It can be 
 
 - When there are more red cards (Diamonds or Hearts) than black, the answer is **Yes**.
 - When there are more black cards (Clubs or Spades) than red, the answer is **No**.
-- When there is a tie, the answer is **Yes, but...** the results are extreme or there is an unexpected twist.
+- When there is a tie, the results are extreme or there is an unexpected twist.
 
 ### Oracle Sparks
 
@@ -574,7 +611,80 @@ Then, resolve the Action as follows:
 - **When the outcome is Bright**: The character learns from the Hunt. Gain a new skill or ability as a Record, rooted in the fiction of what happened during the Hunt and reflecting something the character learned.
 - **When the outcome is Dire**: The forest claims a piece of the character's soul. Decrease maximum Faith by 1 permanently.
 
-## Principles
+## The First Session
+
+Each player introduces their character: their name, what they look like, and one memory from before they died to the roots only to be brought back as a cursed soul. Then frame the opening: the group is already mid-mission, deep in the thorns, with their Hunt half-complete and trouble closing in.
+
+## The Hunt
+
+A Hunt is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Hunt, the group takes on a new Hunt.
+
+To generate a Hunt, reveal one card from each table and combine the results. Or choose elements that speak to you.
+
+**The Task** (reveal one card)
+
+| Card | Task                       |
+| ---- | -------------------------- |
+| A    | Find                       |
+| 2    | Bring back                 |
+| 3    | Destroy                    |
+| 4    | Free                       |
+| 5    | Deliver to safety          |
+| 6    | Learn the fate of          |
+| 7    | Break the hold on          |
+| 8    | Contain                    |
+| 9    | Avenge                     |
+| 10   | Recover the secret held by |
+| J    | Consecrate                 |
+| Q    | Protect                    |
+| K    | Grant final rest to        |
+
+**The Subject** (reveal one card)
+
+| Card | Subject                                 |
+| ---- | --------------------------------------- |
+| A    | a child who wandered too deep           |
+| 2    | a Warden who went silent                |
+| 3    | a merchant who knew the old paths       |
+| 4    | a noble's forsaken heir                 |
+| 5    | a priest who sought forbidden knowledge |
+| 6    | one who wears a stolen shape            |
+| 7    | an elder who kept dangerous secrets     |
+| 8    | a hunter who became the hunted          |
+| 9    | the last keeper of a holy relic         |
+| 10   | one who betrayed the Order              |
+| J    | a voice that calls from the thorns      |
+| Q    | a witch of the deep groves              |
+| K    | something the forest remembers          |
+
+**The Complication** (reveal one card, use suit)
+
+| Suit       | Complication                          |
+| ---------- | ------------------------------------- |
+| ♣ Clubs    | Others hunt the same quarry           |
+| ♠ Spades   | Someone here shares history with them |
+| ♦ Diamonds | The path back has closed              |
+| ♥ Hearts   | The truth is worse than told          |
+
+**The Location** (reveal one card)
+
+| Card | Location                              |
+| ---- | ------------------------------------- |
+| A    | a chapel swallowed by roots           |
+| 2    | a village that went silent            |
+| 3    | a ravine where the mist never lifts   |
+| 4    | an abandoned Warden outpost           |
+| 5    | a crossroads marked by the hanged     |
+| 6    | a river that runs black after dark    |
+| 7    | a grove where the trees have faces    |
+| 8    | the ruins of a noble estate           |
+| 9    | a cave network beneath the roots      |
+| 10   | a bridge guarded by something patient |
+| J    | a shrine to a forgotten god           |
+| Q    | a clearing where nothing grows        |
+| K    | the heart of an old corruption        |
+
+# Principles
 
 ### Principles for Game Masters
 
@@ -690,77 +800,8 @@ Then, resolve the Action as follows:
 - Rest, resupply, and purify between major obstacles. Give the character breathing room.
 - When the Hunt completes, take time to reflect before starting the next one.
 
-## Getting Started
-
-### The First Session
+## The First Session
 
 Each player introduces their character: their name, what they look like, and one memory from before they died to the roots only to be brought back as a cursed soul. Then frame the opening: the group is already mid-mission, deep in the thorns, with their Hunt half-complete and trouble closing in.
 
-### The Hunt
-
-A Hunt is a mission, the purpose that keeps the Order's mercy pointed forward. When the group completes a Hunt, the group takes on a new Hunt.
-
-To generate a Hunt, reveal one card from each table and combine the results. Or choose elements that speak to you.
-
-**The Task** (reveal one card)
-
-| Card | Task                       |
-| ---- | -------------------------- |
-| A    | Find                       |
-| 2    | Bring back                 |
-| 3    | Destroy                    |
-| 4    | Free                       |
-| 5    | Deliver to safety          |
-| 6    | Learn the fate of          |
-| 7    | Break the hold on          |
-| 8    | Contain                    |
-| 9    | Avenge                     |
-| 10   | Recover the secret held by |
-| J    | Consecrate                 |
-| Q    | Protect                    |
-| K    | Grant final rest to        |
-
-**The Subject** (reveal one card)
-
-| Card | Subject                                 |
-| ---- | --------------------------------------- |
-| A    | a child who wandered too deep           |
-| 2    | a Warden who went silent                |
-| 3    | a merchant who knew the old paths       |
-| 4    | a noble's forsaken heir                 |
-| 5    | a priest who sought forbidden knowledge |
-| 6    | one who wears a stolen shape            |
-| 7    | an elder who kept dangerous secrets     |
-| 8    | a hunter who became the hunted          |
-| 9    | the last keeper of a holy relic         |
-| 10   | one who betrayed the Order              |
-| J    | a voice that calls from the thorns      |
-| Q    | a witch of the deep groves              |
-| K    | something the forest remembers          |
-
-**The Complication** (reveal one card, use suit)
-
-| Suit       | Complication                          |
-| ---------- | ------------------------------------- |
-| ♣ Clubs    | Others hunt the same quarry           |
-| ♠ Spades   | Someone here shares history with them |
-| ♦ Diamonds | The path back has closed              |
-| ♥ Hearts   | The truth is worse than told          |
-
-**The Location** (reveal one card)
-
-| Card | Location                              |
-| ---- | ------------------------------------- |
-| A    | a chapel swallowed by roots           |
-| 2    | a village that went silent            |
-| 3    | a ravine where the mist never lifts   |
-| 4    | an abandoned Warden outpost           |
-| 5    | a crossroads marked by the hanged     |
-| 6    | a river that runs black after dark    |
-| 7    | a grove where the trees have faces    |
-| 8    | the ruins of a noble estate           |
-| 9    | a cave network beneath the roots      |
-| 10   | a bridge guarded by something patient |
-| J    | a shrine to a forgotten god           |
-| Q    | a clearing where nothing grows        |
-| K    | the heart of an old corruption        |
+# Oracles
