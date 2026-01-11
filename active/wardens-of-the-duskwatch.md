@@ -365,7 +365,7 @@ When a character tries to avoid a consequence from a hazard, hostile opposition,
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character avoids the consequence and gains an opportunity, taking 1 Advantage for a future Action if applicable.
+- **When the outcome is Radiant**: The character avoids the consequence and gains an opportunity, taking 1 Advantage on their next Action.
 - **When the outcome is Bright**: The character avoids the consequence.
 - **When the outcome is Dire**: The character suffers the full consequence. When suffering harm, lose Vitae. When fighting corruption, lose Faith. If nothing else applies, the consequence is rooted in the fiction.
 
@@ -388,7 +388,7 @@ When a character prepares for what lies ahead, whether through positioning, inve
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character secures the opportunity, creating 2 Advantage that can be used on a future Action if applicable. If relevant, add a bond, clue, or piece of intel as a Record.
+- **When the outcome is Radiant**: The character secures the opportunity, creating 2 Advantage that can be used on future Actions. If relevant, add a bond, clue, or piece of intel as a Record.
 - **When the outcome is Bright**: The character secureßs the opportunity, creating 1 Advantage that can be used on a future Action if applicable. If relevant, add a bond, clue, or piece of intel as a Record.
 - **When the outcome is Dire**: The character fails to secure the opportunity, and there is a Complication.
 
@@ -407,7 +407,7 @@ When a character initiates combat or reacts to an ambush, Draw+Dexterity.
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character seizes initiative, taking 1 Advantage on their next ACtion.
+- **When the outcome is Radiant**: The character seizes initiative, taking 1 Advantage on their next Action.
 - **When the outcome is Bright**: The character engages on equal footing.
 - **When the outcome is Dire**: The character loses initiative, taking 1 Disadvantage on their next Action.
 
@@ -425,7 +425,7 @@ When a character strikes at an enemy or engages a threat in combat, Draw+appropr
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character strikes true and gains an opportunity, taking 1 Advantage for their next Action.
+- **When the outcome is Radiant**: The character strikes true and gains an opportunity, taking 1 Advantage on their next Action.
 - **When the outcome is Bright**: The character lands the strike.
 - **When the outcome is Dire**: The character misses, and there is a Complication.
 
@@ -485,7 +485,7 @@ When a character spends 6+ hours resting, Draw+appropriate Score. If the charact
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character rests fully, restoring 3 Vitae.
+- **When the outcome is Radiant**: The character rests fully, restoring all Vitae.
 - **When the outcome is Bright**: The character rests adequately, restoring 2 Vitae.
 - **When the outcome is Dire**: The character rests poorly, restoring only 1 Vitae, and there is a Complication.
 
@@ -530,7 +530,7 @@ When a character seeks to cleanse their soul and resist the forest's claim, Draw
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character is imbued with the One Light, restoring 3 Faith.
+- **When the outcome is Radiant**: The character is imbued with the One Light, restoring all Faith.
 - **When the outcome is Bright**: The character feels the touch of the One Light, restoring 2 Faith.
 - **When the outcome is Dire**: The character is only lightly touched by the One Light, restoring 1 Faith.
 
