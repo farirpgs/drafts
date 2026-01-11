@@ -1,6 +1,15 @@
 ---
 stylesheet:
   - output.css
+  - https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Lato:wght@400;700&display=swap
+css: |-
+  .prose {
+    font-family: 'Lato', sans-serif;
+  }
+  .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+  }
 ---
 
 <!--
