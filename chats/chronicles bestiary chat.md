@@ -1,3 +1,8 @@
+---
+stylesheet:
+  - output.css
+---
+
 here are the rules of my game.
 
 # SETTING

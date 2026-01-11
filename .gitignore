@@ -4,5 +4,11 @@ node_modules/
 # Generated PDFs
 *.pdf
 
+# Generated HTML
+*.html
+
+# Generated CSS
+output.css
+
 # OS
 .DS_Store

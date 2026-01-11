@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/typography";
+
+/* Custom typography overrides */
+@layer base {
+	.prose blockquote {
+		font-style: normal;
+	}
+	
+	.prose blockquote p {
+		font-style: normal;
+	}
+}

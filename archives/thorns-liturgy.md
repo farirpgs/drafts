@@ -1,3 +1,8 @@
+---
+stylesheet:
+  - output.css
+---
+
 **The Rites of Steel and Salt**
 
 _A Manual for Those Who Walk the Thorns_

@@ -3,9 +3,16 @@
   "private": true,
   "scripts": {
     "clean:pdf": "rm -f active/*.pdf archives/*.pdf",
-    "pdf": "npm run clean:pdf && md-to-pdf active/*.md archives/*.md"
+    "build:css": "npx @tailwindcss/cli -i ./input.css -o ./output.css --minify",
+    "pdf": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js **/*.md",
+    "pdf-debug": "npm run build:css && npx md-to-pdf --as-html --config-file md-to-pdf.config.js **/*.md"
   },
   "dependencies": {
     "md-to-pdf": "^5.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.19",
+    "tailwindcss": "^4.1.18"
   }
 }

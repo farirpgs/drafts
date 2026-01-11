@@ -1,3 +1,18 @@
+---
+stylesheet:
+  - output.css
+  - https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Crimson+Pro:wght@400;600&display=swap
+css: |-
+  .prose {
+    font-family: 'Crimson Pro', serif;
+  }
+  .prose h1, .prose h2, .prose h3, .prose h4 {
+    font-family: 'UnifrakturCook', cursive;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+---
+
 <!--
 
 Writing Guidelines

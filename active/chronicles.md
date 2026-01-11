@@ -1,3 +1,8 @@
+---
+stylesheet:
+  - output.css
+---
+
 # SETTING
 
 Since the first breaths of the world, spirits have been keen on crossing the bridge between their realm and ours. Some once mistook them for gods. There are no gods.

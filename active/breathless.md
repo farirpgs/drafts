@@ -1,3 +1,8 @@
+---
+stylesheet:
+  - output.css
+---
+
 <!--
 
 Writing Guidelines
