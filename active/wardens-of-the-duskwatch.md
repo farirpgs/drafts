@@ -18,6 +18,7 @@ css: |-
 Writing Guidelines
 
 - Use Pascal Case for all mechanical terms: Great Success, Bare Success, Draw, Vitae, Radiance, Complication, and so on.
+- Use Pascal Case for creature types: Pallids, Thornmouths.
 - When referencing an Action in text, use backticks like `Action Name`.
 - Reserve the term Draw for the core resolution mechanic only. Use reveal when showing cards for tables, oracles, or random procedures.
 - Write in third person only. Use the character, the player, or themselves. Never use you, your, or yourself.
@@ -47,48 +48,69 @@ Action Format:
 
 A penitent walks into the Derweald to cleanse their soul before they are lost and judged in the final reckoning.
 
+## Foreword
+
+What you are reading is the ashcan version of Wardens of the Duskwatch. The text is not 100% complete and its layout is unpolished. That said, this is still a full game and playable.
+
+I wrote this for three reasons. First, like usual, I had a night where I could not sleep after getting a couple mechanic ideas and wanted to experiment with them. Second, I am working on a game called Chronicles of the Boundless which takes place in the same setting as this game, and I thought it could be fun to release a smaller game to let people explore the world solo prior to launching the Backerkit campaign which has already over 850 signups. Third, I am a big fan of the Empire of the Vampire book series, and as I started reading the third installment my wife started reading the first. I wanted a nice little system we could play coop to explore a similar world and themes.
+
+The main difference between Chronicles of the Boundless and this game is that the setting information is more condensed, you are not playing the same types of characters, and the underlying system is very different. Chronicles of the Boundless is based on the Boundless system (boundless.farirpgs.com) while this one uses a card-based system with resource management and trigger-based actions, making it very accessible for solo and duet play.
+
+If you like what you see, tell me about it at link.farirpgs.com/bluesky or contact me for feedback at link.farirpgs.com/contact.
+
+Now, onto the game.
+
+## Acknowledgements
+
+Wardens of the Duskwatch leverages mechanics and inspiration from several excellent games and other media. Thank you to their authors.
+
+- Cairn, by Yochai Gal.
+- Ironsworn, by Shawn Tomkin.
+- Diablo, by Blizzard Entertainment.
+- Empire of the Vampire series, by Jay Kristoff.
+
 # Setting
 
-## The Derweald
+## Lightfall
 
-The Derweald of Lightwall is a living rot: ancient, patient, and eternally hungry. Its roots burrow through soil and soul alike, drinking names, memories, and blood. What dies beneath its boughs does not rest. The dead rise again as Pallids: bark-bound, hollow-eyed, and mindless, thralls to spirits the Church of the One Light swore it had vanquished centuries ago.
+The Derweald is a living rot: ancient, patient, and eternally hungry. Once a thriving forest, now its roots burrow through soil and soul alike, drinking memories and blood. What dies beneath its boughs does not rest. The dead rise again as Pallids: bark-bound, hollow-eyed, and mindless, thralls to spirits the Church of the One Light swore it vanquished centuries ago.
 
-But when the claiming comes swift as the wind, a rare few rise again with their minds intact, cursed with gifts they never asked for and the forest's hooks buried deep in their thoughts. These creatures are power, hunger, and forever. They are called Thornmouths.
+If the claiming comes swift as the wind, a rare few rise again with their minds still intact, cursed with gifts they never asked for and the forest's hooks buried deep in their thoughts. These creatures are power, hunger, and forever. Thornmouths, vile monsters wielding the forest's corruption and magic to mask their true face, appearing as they once were before their bodies started to rot and be claimed by the roots.
 
-Thornmouths wield the forest's corruption to mask their true forms, appearing as they once were to deceive and hunt. Those who fight the pull of the roots live long, but they are not immortal. Eventually, all who bear the thorn's mark face the same fate: they fall to the corruption within, dying in struggle or returning to the forest's embrace.
+Eventually, all who bear the thorn's mark face the same fate: bend to the will of the forest, or die in struggle against its powers.
 
-The Order of the Duskwatch hunts Thornmouths without mercy and searches for those with resolve enough to fight the pull of the roots through Faith to welcome into their ranks as Wardens. The Order's priests carve root scars into their forearms with consecrated steel and pack the wounds with blessed salt until the flesh rises into knotted patterns. Body and soul both becoming a battleground to help fight the pull and resist this corrupted power from taking over.
+The Duskwatch hunts Thornmouths without mercy. Few are the Thornmouths compared to the Pallid husk thralls, and fewer still are those with the will to fight the Pull of the corruption within. The Order searches for these rare souls with resolve enough to resist, welcoming them into their ranks as Wardens. Once part of the order, its priests carve into their forearms with consecrated steel and pack the wounds with blessed salt until the flesh rises into knotted patterns. Body and soul become a battleground against the Pull.
 
-Armed with blessed blades, whispered prayers, and salted steel, the Wardens are sent back into the thorns to fulfill cleanse evil, or die trying.
+Armed with blessed blades, the Wardens are sent back into the thorns to seek their absolution and cleanse the corruption.
 
 ## A Brief History
 
-**Spirits and the Church**
+**There are no Gods**
 
 - Spirits have crossed between realms since the first breaths of the world, feeding on the emotions of the living. Some once mistook them for gods. There are no gods.
 - The Church of the One Light despised the spirits, calling them abominations. Driven by holy fury, they marched through the veiled gates to purge them from existence.
-- The spirits were eradicated, their arcane essence torn apart and scattered like leaves in a storm.
+- When the spirits were slained, their arcane essence torn apart and scattered like leaves in a storm.
 
-**The Rise of Magic**
+**Magic**
 
 - The magical energy that spilled from the spirits seeped into every crack of the world, bleeding into soil, stone, and sky.
 - Common folk harvested this power to craft humble charms, while scholars shaped it into incantations capable of bending reality itself.
 - Fearing a loss of power, the Church declared the use of magic a divine right reserved for their order alone.
 - Those who defied them were branded heretics, tortured, and executed beneath the radiant banners of the One Light.
 
-**The Return of the Spirits**
+**Spirits Cannot Die**
 
 - Death has no hold on spirits. When the veil tore once more, it did so in the Derweald.
 - Thorned vines and slick fungal growths erupted from the soil like a living plague.
-- The oily roots consumed kingdoms and souls alike. As the fallen exhaled their final breath, their bodies warped into wooden husks bound by ancient wills.
-- The spirits walked the land once more, driving their pallid armies against the last bastions of warmth and light.
+- The oily roots consumed kingdoms and souls alike. As the fallen exhaled their final breath, their bodies warped into wooden husks bound by ancient wills. The Pallids
+- The spirits walked the land once more, driving their Pallid armies against the last bastions of warmth and light.
 
 **The Church's Desperation**
 
 - So much of the realm was lost to the forest's embrace. Castles, cities, palaces, dungeons, villages all swallowed whole.
-- The Church of the One Light claims dominion over the last bastions of humanity, but their power is built on lies. Only the highest clergy know there are no gods, yet they wield faith as a weapon to control the desperate.
-- In their desperation to maintain power and fight the Derweald, the Church has become what they claimed to destroy. They weaponize corruption itself, binding cursed souls with salt and steel.
-- The Wardens, proof of this hypocrisy. Corrupted souls sent back into the thorns, wielding the forest's gifts to fight the forest's will, all while the Church's priests condemn others for the very same sins.
+- The Church of the One Light claims dominion over the last bastions, but their power is built on lies. The highest clergy know there are no gods, yet wield faith as a weapon to control the desperate.
+- In their desperation, the Church has become what they claimed to destroy, weaponizing corruption itself by binding cursed souls with salt and steel.
+- The Wardens are proof of this hypocrisy: corrupted souls wielding the forest's gifts to fight the forest's will, while the Church condemns others for the same sins.
 
 ## Play to Find Out
 
@@ -96,10 +118,9 @@ The setting holds many unanswered questions:
 
 - Why does the Church hate spirits? What happened during the war beyond the veiled gates?
 - Where does the Church's power come from if there are no gods?
-- What do spirits gain from feeding on emotions? Why do they keep returning?
-- Can the Derweald be stopped, or will the corruption consume everything?
-- Are the Wardens meant to save humanity, or are they just disposable weapons?
-- What drives the forest? What will commands the roots?
+- What do spirits gain from feeding on emotions?
+- Can the Derweald be stopped?
+- Can Wardens truly get absolution??
 
 ## The Last Bastions
 
@@ -113,14 +134,15 @@ The Derweald has consumed much of the land. What remains:
 
 **The Free Cities (West)**
 
-- Velmoor struggles to feed the cities as the Derweald presses closer. Naranth starves as the sea grows empty. Refugees flee to Eslora, where the grand cathedral of the One Light stands.
+- Velmoor is on the shores, struggling to feed the cities as the Derweald presses closer.
+- Naranth starves as the sea grows empty and has countless refugees fleeing to Eslora, where the grand cathedral of the One Light stands.
 - The Shattered Isles loom on the horizon as a warning of what is to come.
 
 **The Mireroads (Heart)**
 
 - Market towns trapped between the Derweald, the wild sea, and the jagged peaks of the Ashen Teeth.
-- Old horrors have returned: trolls, goblins, ghouls. Famine and sickness is everywhere.
-- The Church's reach is weak here. New beliefs spread that offerings to the spirits is the path to salvation.
+- Old horrors have returned: trolls, goblins, ghouls. A land of famine, sickness, and rot.
+- The Church's reach is weak here. New beliefs spreading fast.
 
 # Getting Started
 
@@ -130,7 +152,7 @@ One standard deck of cards shared among the table, paper, and pencil. The game c
 
 Card values follow this scale: Aces count as 1, numbered cards use their normal value, and face cards are valued at 11 for Jacks, 12 for Queens, and 13 for Kings.
 
-Place used cards in a discard pile. When the deck runs empty, or whenever revealing a Joker, shuffle the discard pile to form a new deck.
+After a card has been used, place it in a discard pile. Whenever the deck runs empty, or when revealing a Joker, shuffle the discard pile to form a new deck.
 
 ## Safety
 
@@ -142,7 +164,7 @@ Players take a piece of paper (this will act as their character sheet) and write
 
 ### 1. Choose a Background
 
-To create a character, reveal a card and match its value to one of the 13 backgrounds below. Each background represents who the character was before they fell to the Derweald and rose again as a Warden.
+To create a character, reveal a card and match its value to one of the 13 backgrounds below. Each background represents who the character was before they fell to the Derweald and rose again to eventually become Warden.
 
 Each background includes suggested names, context about their former life, and starting Records. Records are used to keep track of important facts about a character: specific items, bonds with non-player characters, pieces of intel, clues, lasting wounds, or other important notes. There is no limit to how many Records a character can have. Relevant Records can help or hinder a character when tackling challenging tasks or when trying to avoid a direct threat.
 
@@ -151,91 +173,91 @@ Each background includes suggested names, context about their former life, and s
 Raised in the ruins between the wars of old kingdoms, survived by scavenging what others left behind. The roots claimed you so long ago you no longer remember when you were last alive or how you died.
 
 - Suggested Names: Wren, Lark, Fenn, Rilla, Wick
-- Starting Records: Dagger, Cloak, Lockpicks, Scavenged Trinket
+- Starting Records: Dagger, Cloak, Lockpicks, Scavenged Trinket, Pick, Chalk
 
 **2. The Blood Heir**
 
 Born into a cursed bloodline. The Derweald has claimed your family for generations. The roots claimed you after they came for you on your twenty-first year, as they came for your mother and her mother before her.
 
 - Suggested Names: Orenya, Thalen, Sovae, Lysh, Nahl
-- Starting Records: Heirloom Blade (Sword), Leather Armor, Family Relic, Mirror
+- Starting Records: Heirloom Blade, Leather Armor, Family Relic, Mirror, Hourglass, Incense
 
 **3. The Gravedigger**
 
 Buried the dead for decades, noticed when they stopped staying buried. The roots claimed you after you fell into an open grave and the earth refused to let you climb back out.
 
 - Suggested Names: Barlo, Rook, Marden, Mudge, Pate
-- Starting Records: Spade (Mace), Leather Armor, Lantern, Rope
+- Starting Records: Mace, Leather Armor, Lantern, Rope, Shovel, Chalk
 
 **4. The Bastard**
 
 Illegitimate heir with no claim, sent to die honorably in the thorns rather than stain the family name. The roots claimed you after your family abandoned you at the forest's edge with your mother's name carved into your blade.
 
 - Suggested Names: Corvan, Darion, Lyria, Othar, Roldan
-- Starting Records: Sword, Leather Armor, Tarnished Signet Ring, Cloak
+- Starting Records: Sword, Leather Armor, Tarnished Signet Ring, Cloak, Rope, Tinderbox
 
 **5. The Disgraced Knight**
 
 Broke your oath or failed your lord, walked into the Derweald wearing your shattered heraldry. The roots claimed you after you sought an honorable death in single combat with something darker than night itself.
 
 - Suggested Names: Severin, Thalia, Cassian, Vaeld, Sigvard
-- Starting Records: Sword, Chain Armor, Broken Shield, Rope
+- Starting Records: Sword, Chain Armor, Broken Shield, Rope, Metal File, Tinderbox
 
 **6. The Court Poisoner**
 
 Served powerful nobles through subtle murder. The roots claimed you after your next victim realized who you were, forced you to drink your own poison, and threw your inert body in the city's river.
 
 - Suggested Names: Sable, Nyra, Marlow, Marcell, Velian
-- Starting Records: Dagger, Fine Cloak, Vials, Lockpicks
+- Starting Records: Dagger, Fine Cloak, Vials, Lockpicks, Glass Marbles, Mirror
 
 **7. The Flesh Trader**
 
 Smuggled corpses for Church experiments or sold the dead to scholars. The roots claimed you after your cargo stirred in the night and dragged you screaming into the thorns.
 
 - Suggested Names: Pike, Garrin, Wick, Toller, Corin
-- Starting Records: Cleaver (Axe), Leather Armor, Chain, Tarp
+- Starting Records: Axe, Leather Armor, Chain, Tarp, Cart, Rope
 
 **8. The Plague Doctor**
 
 Tended the sick in corrupted territories. The roots claimed you but not before they consumed the entire village you tried so desperately to protect.
 
 - Suggested Names: Tobin, Keela, Cassian, Aeris, Fenna
-- Starting Records: Quarterstaff, Plague Mask, Herbalist Kit, Vials
+- Starting Records: Quarterstaff, Plague Mask, Herbalist Kit, Vials, Soap, Large Sponge
 
 **9. The Midwife**
 
 Delivered children in remote villages, witnessed too many stillbirths and deformities as the Derweald crept closer. You died helping a mother birth something that should not have been born. The roots claimed you after the angry villagers threw your body into the thorns as punishment for your sins.
 
 - Suggested Names: Mave, Tamsin, Hesta, Gudrun, Mira
-- Starting Records: Dagger, Cloak, Birthing Kit, Herbalist Pouch
+- Starting Records: Dagger, Cloak, Birthing Kit, Herbalist Pouch, Soap, Bucket
 
 **10. The Deserter**
 
 Fled from war or Church service, ran until there was nowhere left to run. The roots claimed you after your former comrades found you, cut you down, and nailed your body to a tree.
 
 - Suggested Names: Dane, Keir, Bram, Astrid, Einar
-- Starting Records: Spear, Chain Armor, Bedroll, Compass
+- Starting Records: Spear, Chain Armor, Bedroll, Compass, Rope, Tinderbox
 
 **Jack. The Fool**
 
 Accompanied a reputable knight to chronicle their deeds in verse and song. The roots claimed you after the knight took fright and abandoned you in the night to save themselves.
 
 - Suggested Names: Lute, Tobin, Mave, Joss, Corinne
-- Starting Records: Lute, Cloak, Journal, Dagger
+- Starting Records: Lute, Cloak, Journal, Dagger, Quill & Ink, Tinderbox
 
 **Queen. The Hedge Witch**
 
 Practiced old magics outside Church authority, traded charms for food. The roots claimed you after the villagers bound you to a stake and left you at the forest's edge on a pyre.
 
 - Suggested Names: Briar, Nesta, Rowan, Iskra, Wren
-- Starting Records: Dagger, Cloak, Ritual Chalk, Herb Bundles
+- Starting Records: Dagger, Cloak, Ritual Chalk, Herb Bundles, Holy Water, Wolfsbane
 
 **King. The Tyrant**
 
 Ruled with cruelty until your people finally had enough. The roots claimed you after the mob dragged you to your family's crypt and sealed you inside with the bones of those who came before.
 
 - Suggested Names: Severin, Cassian, Thalia, Darion, Velian
-- Starting Records: Broken Crown, Fine Cloak, Signet Ring, Dagger
+- Starting Records: Broken Crown, Fine Cloak, Signet Ring, Dagger, Manacles, Chain
 
 > If a player prefers, they may choose their background instead of revealing a card. Players may also adjust their starting Records with GM approval, swapping weapons or gear that better fit their character concept.
 
@@ -262,7 +284,7 @@ Scores measure a character's capabilities and resources.
 - **Willpower**: Mental fortitude and presence. Governs resolve, perception, persuasion, and resisting corruption.
 - **Constitution**: Endurance and toughness. Governs resilience, stamina, and resistance to physical hardship.
 
-**Reserve Scores** fluctuate during play. All start at 5 during character creation, except Fortune which starts at 3:
+**Reserve Scores** fluctuate during play. Most Reserve Scores range from 0-5. During character creation, set all Reserve Scores to 5, except Fortune. Fortune ranges from -5 to +5 and starts at 0.
 
 - **Vitae (5)**: Physical and mental health.
 - **Faith (5)**: Inner light and resistance to corruption.
