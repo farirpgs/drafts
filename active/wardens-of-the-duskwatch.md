@@ -43,6 +43,13 @@ Action Format:
    - Dire: "When the outcome is Dire, the character [narrative flavor], and there is a Complication."
 7. Complication Table (optional): Add "When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:" followed by a suit-based bullet list in Clubs, Spades, Diamonds, Hearts order.
 
+Creature Format:
+
+1. Heading: Use level 4 heading (####) with the creature name.
+2. Stats: Use bold labels for **Strength**, **Weakness**, **Armor** (if applicable), and **Wants**.
+3. Atmospheric Quote: Use a blockquote (>) with a short, evocative description that sets the tone.
+4. Description: Write a short paragraph describing the creature's nature and behavior.
+
 -->
 
 <br/>
@@ -857,6 +864,39 @@ To generate a Hunt, reveal one card from each table and combine the results. Or 
 ## The First Session
 
 Each player introduces their character: their name, what they look like, and one memory from before they died to the roots only to be brought back as a cursed soul. Then frame the opening: the group is already mid-mission, deep in the thorns, with their Hunt half-complete and trouble closing in.
+
+# Bestiary
+
+#### Pallid Hound
+
+**Strength**: 2
+**Weakness**: Hearts
+**Wants**: Please its master
+
+> The stench of rotting flesh clings to the air as guttural growls shiver through the gloom.
+
+Corrupted beasts driven by a warped need to please their unseen master. Wherever a pallid hound prowls, its master is never far behind.
+
+#### Pallid Shambler
+
+**Strength**: 3
+**Weakness**: Red suits
+**Wants**: Feed the roots
+
+> The creature moves with a jerky, puppet-like gait, its ribcage rattling against the thick roots that coil where organs used to be.
+
+Hollowed monuments of bone and root woven into shapes that once held names. The forest gorged on them until flesh became sap and memory was lost to rot.
+
+#### Thornmouth
+
+**Strength**: 5
+**Weakness**: Face cards
+**Armor**: Red suits
+**Wants**: Live forever, break chains
+
+> Skin pale as marble, eyes pooling with black ichor. It is looking at you and you feel absolutely worthless.
+
+Beautiful and eternal. Taken early by the roots, their bodies are frozen in time, still very much human in all the wrong ways. Each rises with a Gift that is theirs alone and exerts power over pallid creatures. Yet they will always bend to the forces that gave them a second chance.
 
 # Oracles
 
