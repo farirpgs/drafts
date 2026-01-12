@@ -1,4 +1,5 @@
 ---
+title: Wardens of the Duskwatch
 stylesheet:
   - output.css
   - https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Crimson+Pro:wght@400;600&display=swap
@@ -43,6 +44,10 @@ Action Format:
 7. Complication Table (optional): Add "When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:" followed by a suit-based bullet list in Clubs, Spades, Diamonds, Hearts order.
 
 -->
+
+<br/>
+<br/>
+<br/>
 
 ![Logo](./warden-of-the-duckwatch.svg)
 
