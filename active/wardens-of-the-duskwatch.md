@@ -297,18 +297,17 @@ Scores measure a character's capabilities and resources.
 
 ### The Oracle
 
-The Oracle is used to answer questions when the fiction is uncertain. It can be consulted freely during play to resolve unknowns, or triggered by specific Actions. To consult the Oracle, frame a yes-or-no question and reveal cards based on likelihood:
+The Oracle is used to answer questions when the fiction is uncertain. It can be consulted freely during play to resolve unknowns, or triggered by specific Actions. To consult the Oracle, frame a yes-or-no question. Determine how likely the answer is to be yes, then reveal cards accordingly.
 
-| Likelihood     | Cards |
-| -------------- | ----- |
-| Almost Certain | 4     |
-| Likely         | 3     |
-| 50/50          | 2     |
-| Unlikely       | 1     |
+The answer is **Yes** if any face card (Jack, Queen, or King) is revealed. Otherwise, the answer is **No**.
 
-- When there are more red cards (Diamonds or Hearts) than black, the answer is **Yes**.
-- When there are more black cards (Clubs or Spades) than red, the answer is **No**.
-- When there is a tie, the results are extreme or there is an unexpected twist.
+- **Very Likely**: Reveal 5 cards.
+- **Likely**: Reveal 4 cards.
+- **Uncertain**: Reveal 3 cards.
+- **Unlikely**: Reveal 2 cards.
+- **Very Unlikely**: Reveal 1 card.
+
+If a positive outcome would benefit the character, use their Fortune score as the basis for the number of cards to reveal (3 +/- their Fortune score). When playing as a group, use the Fortune score of the character most directly affected by the outcome, or the highest Fortune score if the outcome affects the whole group.
 
 ### Oracle Sparks
 
