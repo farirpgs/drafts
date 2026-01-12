@@ -304,6 +304,59 @@ Scores measure a character's capabilities and resources.
 
 ## Rules
 
+### The Draw
+
+Most of the game's mechanics are called Actions: things that trigger when characters do certain things in the fiction. When an Action is triggered, it will outline that the player must make a Draw, usually in the form of "When this happens, Draw+Score." Follow the steps below to resolve the Action's outcome.
+
+#### Making a Draw
+
+The player draws 1 Action card and adds the relevant Score to the card's numeral value. Then, 2 Challenge cards are drawn. The player compares their Action total against each Challenge card.
+
+If the player's Action total is higher than both Challenge cards, the outcome is **Radiant**. When an Action revolves around determining the outcome of a character's efforts, they succeed with greater effect. When an Action revolves around determining something about the world, the character finds themselves in a great position.
+
+If the player's Action total is higher than one Challenge card, the outcome is **Bright**. When an Action revolves around determining the outcome of a character's efforts, they succeed at what they were trying to do. When an Action revolves around determining something about the world, the character finds themselves in a good position.
+
+If the player's Action total is higher than neither Challenge card, the outcome is **Dire**. When an Action revolves around determining the outcome of a character's efforts, they fail and there is a Complication. When an Action revolves around determining something about the world, the character finds themselves in a bad position.
+
+Whenever an Action triggers a Complication, it shall always provide prompts to help determine its nature.
+
+#### Using Advantage and Disadvantage
+
+Advantage comes from favorable conditions, preparation, relevant Records, or invoking a Gift. For each level of Advantage, add 1 to the Action total.
+
+Disadvantage comes from adverse conditions, wounds, missing gear, or hostile circumstances. For each level of Disadvantage, subtract 1 from the Action total.
+
+Particularly impactful Advantages or Disadvantages may be worth more than 1 point to the Action total.
+
+#### Using Fortune
+
+Fortune can be spent or earned by pushing outcomes beyond what fate intended.
+
+- **Press On**: When the outcome is Dire, the player may push it to Bright instead, losing 1 Fortune in the process.
+- **Hold Back**: When the outcome is Radiant, the player may choose to accept a Bright outcome instead, restoring 1 Fortune in the process.
+
+Fortune cannot go lower than 0 or higher than 5. A player cannot spend Fortune they do not have.
+
+### Enemies and Combat
+
+As characters journey through the land they may come into conflict with other characters, creatures, monsters, and threats born from the corruption itself. When this happens, they will do things in the fiction which will trigger Actions to help resolve the outcome.
+
+When it comes to combat, enemies have a Strength rating which measures how much harm they can withstand before falling. When a character successfully strikes an enemy in combat, they deal Damage based on their weapon or method of attack:
+
+- **Unarmed strikes**: Deal 1 Damage.
+- **Basic weapons** (daggers, swords, bows): Deal 2 Damage.
+- **Heavy weapons** (axes, greatswords, war hammers): Deal 3 Damage.
+- **Environmental hazards or explosives**: Deal up to 5 Damage.
+
+When a character deals Damage to an enemy, reveal 1 card for each point of Damage dealt and place those cards in a stack next to the enemy. When the number of cards in the stack matches or exceeds the enemy's Strength, the enemy is slain.
+
+**Weaknesses and Resistances**
+
+Some enemies have weaknesses or resistances that affect how Damage is dealt to them:
+
+- **Weakness**: When a card matching the enemy's weakness is revealed (such as face cards, red suits, or specific values), that card counts as 2 cards toward the stack instead of 1.
+- **Resistance**: When a card matching the enemy's resistance is revealed, that card is ignored and does not count toward the stack.
+
 ### The Oracle
 
 The Oracle is used to answer questions when the fiction is uncertain. It can be consulted freely during play to resolve unknowns, or triggered by specific Actions. To consult the Oracle, frame a yes-or-no question. Determine how likely the answer is to be yes, then reveal cards accordingly.
@@ -358,39 +411,6 @@ If after consulting the Oracle a player is still uncertain how things should unf
 | Q    | Advance     | Avenge   | Transform  | Embrace   |
 | K    | Conquer     | Claim    | Surrender  | Bless     |
 
-### The Draw
-
-All of the game's following mechanics are called Actions: things that trigger when characters do certain things in the fiction. When an Action is triggered, it will outline that the player must make a Draw, usually in the form of "When this happens, Draw+Score." Follow the steps below to resolve the Action's outcome.
-
-#### Making a Draw
-
-The player draws 1 Action card and adds the relevant Score to the card's numeral value. Then, 2 Challenge cards are drawn. The player compares their Action total against each Challenge card.
-
-If the player's Action total is higher than both Challenge cards, the outcome is **Radiant**. When an Action revolves around determining the outcome of a character's efforts, they succeed with greater effect. When an Action revolves around determining something about the world, the character finds themselves in a great position.
-
-If the player's Action total is higher than one Challenge card, the outcome is **Bright**. When an Action revolves around determining the outcome of a character's efforts, they succeed at what they were trying to do. When an Action revolves around determining something about the world, the character finds themselves in a good position.
-
-If the player's Action total is higher than neither Challenge card, the outcome is **Dire**. When an Action revolves around determining the outcome of a character's efforts, they fail and there is a Complication. When an Action revolves around determining something about the world, the character finds themselves in a bad position.
-
-Whenever an Action triggers a Complication, it shall always provide prompts to help determine its nature.
-
-#### Using Advantage and Disadvantage
-
-Advantage comes from favorable conditions, preparation, relevant Records, or invoking a Gift. For each level of Advantage, add 1 to the Action total.
-
-Disadvantage comes from adverse conditions, wounds, missing gear, or hostile circumstances. For each level of Disadvantage, subtract 1 from the Action total.
-
-Particularly impactful Advantages or Disadvantages may be worth more than 1 point to the Action total.
-
-#### Using Fortune
-
-Fortune can be spent or earned by pushing outcomes beyond what fate intended.
-
-- **Push Through**: When the outcome is Dire, the player may push it to Bright instead, losing 1 Fortune in the process.
-- **Accept Hardship**: When the outcome is Radiant, the player may choose to accept a Bright outcome instead, restoring 1 Fortune in the process.
-
-Fortune cannot go lower than 0 or higher than 5. A player cannot spend Fortune they do not have.
-
 ### Actions
 
 #### Overcome a Challenge
@@ -411,7 +431,7 @@ Then, resolve the Action as follows:
 - **When the outcome is Bright**: The character succeeds.
 - **When the outcome is Dire**: The character fails, and there is a Complication.
 
-When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
+When the outcome is Dire, the player may reveal a card or pick the option that fits best to determine the nature of the Complication:
 
 - **♣ Clubs**: Time. The character loses precious time or an opportunity slips away.
 - **♠ Spades**: Danger. The character suffers harm or attracts a threat.
@@ -459,7 +479,7 @@ Then, resolve the Action as follows:
 - **When the outcome is Bright**: The character secureßs the opportunity, creating 1 Advantage that can be used on a future Action if applicable. If relevant, add a bond, clue, or piece of intel as a Record.
 - **When the outcome is Dire**: The character fails to secure the opportunity, and there is a Complication.
 
-When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
+When the outcome is Dire, the player may reveal a card or pick the option that fits best to determine the nature of the Complication:
 
 - **♣ Clubs**: Time. The opportunity slips away, or an obligation is now owed.
 - **♠ Spades**: Danger. The character attracts a threat or reveals something personal.
@@ -492,18 +512,20 @@ When a character strikes at an enemy or engages a threat in combat, Draw+appropr
 
 Then, resolve the Action as follows:
 
-- **When the outcome is Radiant**: The character strikes true and gains an opportunity, taking 1 Advantage on their next Action.
-- **When the outcome is Bright**: The character lands the strike.
+- **When the outcome is Radiant**: The character strikes true and gains an opportunity. Deal Damage based on the weapon or attack and take 1 Advantage on their next Action.
+- **When the outcome is Bright**: The character lands the strike. Deal Damage based on the weapon or attack.
 - **When the outcome is Dire**: The character misses, and there is a Complication.
 
-When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
+When the outcome is Dire, the player may reveal a card or pick the option that fits best to determine the nature of the Complication:
 
 - **♣ Clubs**: Position. The enemy gains the upper hand or forces the character back.
 - **♠ Spades**: Harm. The character suffers harm in retaliation. Lose 1 Vitae.
 - **♦ Diamonds**: Loss. A weapon is damaged, dropped, or stuck.
 - **♥ Hearts**: Exposure. An ally is put in danger or the character is left vulnerable.
 
-Minor foes fall in one or two strikes. Dangerous foes require multiple successful attacks. The fiction dictates what is possible during combat. A blade or arrow cannot harm what it cannot reach or pierce. An armored creature will not fall to desperate slashing, etc.
+When Damage is dealt, reveal cards equal to the Damage dealt and add them to the enemy's stack. When the number of cards in the stack matches or exceeds the enemy's Strength, the enemy is slain.
+
+> The fiction dictates what is possible during combat. A blade or arrow cannot harm what it cannot reach or pierce. An armored creature will not fall to desperate slashing, etc.
 
 #### Invoke Gift
 
@@ -534,7 +556,7 @@ Then, resolve the Action as follows:
 - **When the outcome is Bright**: The character treats the wounds adequately, restoring 1 Vitae.
 - **When the outcome is Dire**: The character fails to treat the wounds, and there is a Complication.
 
-When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
+When the outcome is Dire, the player may reveal a card or pick the option that fits best to determine the nature of the Complication:
 
 - **♣ Clubs**: Time. The treatment takes far longer than expected.
 - **♠ Spades**: Complication. The wound worsens or becomes infected.
@@ -556,12 +578,14 @@ Then, resolve the Action as follows:
 - **When the outcome is Bright**: The character rests adequately, restoring 2 Vitae.
 - **When the outcome is Dire**: The character rests poorly, restoring only 1 Vitae, and there is a Complication.
 
-When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
+When the outcome is Dire, the player may reveal a card or pick the option that fits best to determine the nature of the Complication:
 
 - **♣ Clubs**: Delay. The rest takes longer than expected or an opportunity passes.
 - **♠ Spades**: Disturbance. Something stirs in the night, danger approaches.
 - **♦ Diamonds**: Consumption. Supplies are depleted or gear is damaged. Lose 1 Supply.
 - **♥ Hearts**: Unease. Nightmares or troubled thoughts strain the mind. Lose 1 Faith.
+
+> Rest is a good opportunity to journal about the character's journey. Reflect on what happened since the last time they rested, the choices made, the people met, and how the character feels about the path ahead.
 
 After a character has rested, shuffle the discard pile back into the deck.
 
@@ -582,12 +606,12 @@ Then, resolve the Action as follows:
 - **When the outcome is Bright**: The character acquires enough to get by, restoring 1 Supply.
 - **When the outcome is Dire**: The character acquires nothing, and there is a Complication.
 
-When the outcome is Dire, the player may reveal a card to help determine the nature of the Complication:
+When the outcome is Dire, the player may reveal a card or pick the option that fits best to determine the nature of the Complication:
 
 - **♣ Clubs**: Time. The search or negotiation takes far longer than expected.
 - **♠ Spades**: Danger. The character attracts predators, thieves, or unwanted attention.
 - **♦ Diamonds**: Loss. Gear is damaged, lost, or the price is far higher than expected.
-- **♥ Hearts**: Exposure. The character suffers exhaustion or minor harm. Lose 1 Vitae.
+- **♥ Hearts**: Strain. The character suffers exhaustion or minor harm from the effort. Lose 1 Vitae.
 
 #### Purify
 
