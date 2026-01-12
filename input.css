@@ -17,4 +17,11 @@
 		font-size: 3.5rem;
 		line-height: 1.1;
 	}
+	
+	/* Page break for print */
+	.prose hr {
+		page-break-after: always;
+		break-after: page;
+		opacity: 0;
+	}
 }

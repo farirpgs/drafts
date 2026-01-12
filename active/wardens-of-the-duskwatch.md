@@ -44,6 +44,10 @@ Action Format:
 
 -->
 
+![Logo](./warden-of-the-duckwatch.svg)
+
+---
+
 # Wardens of the Duskwatch
 
 A penitent walks into the Derweald to cleanse their soul before they are lost and judged in the final reckoning.
