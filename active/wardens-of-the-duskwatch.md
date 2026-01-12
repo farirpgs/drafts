@@ -889,7 +889,7 @@ Hollowed monuments of bone and root woven into shapes that once held names. The 
 
 #### Thornmouth
 
-**Strength**: 5
+**Strength**: 13
 **Weakness**: Face cards
 **Armor**: Red suits
 **Wants**: Live forever, break chains
@@ -898,8 +898,410 @@ Hollowed monuments of bone and root woven into shapes that once held names. The 
 
 Beautiful and eternal. Taken early by the roots, their bodies are frozen in time, still very much human in all the wrong ways. Each rises with a Gift that is theirs alone and exerts power over pallid creatures. Yet they will always bend to the forces that gave them a second chance.
 
+#### Bandit
+
+**Strength**: 4
+**Armor**: Black suits
+**Wants**: Take what they need
+
+> Steel glints in the shadows. A whistle cuts the air. You are surrounded.
+
+Outlaws who raid settlements, ambush travelers, and prey on the desperate. Groups of four or more travel with a leader bearing heavier armor (Armor: All suits) and deadlier weapons. When the leader falls, the others flee.
+
+#### Raider
+
+**Strength**: 5
+**Armor**: Red suits
+**Wants**: Burn and plunder
+
+> Smoke on the horizon. Warhorns in the distance. They do not come to bargain.
+
+Organized warbands that strike hard and leave nothing standing. Better armed and more brutal than common bandits. Raiders fight to the death and take no prisoners unless they see profit in flesh. Often mounted, always merciless.
+
+#### Bear
+
+**Strength**: 5
+**Armor**: Clubs
+**Wants**: Protect its territory
+
+> The underbrush explodes. Muscle and fury rise on hind legs, blotting out the light.
+
+Massive and territorial, bears avoid conflict unless provoked or protecting cubs. Once roused, they are relentless. Most will not pursue prey that flees, but a wounded or starving bear is another matter entirely.
+
+#### Boar
+
+**Strength**: 3
+**Wants**: Be left alone
+
+> A snort. Hooves scrape dirt. It lowers its head and charges.
+
+Ill-tempered and fearless, boars attack anything that startles them. Their tusks gore deep, and they do not stop until the threat is down or they are. Often found rooting through the underbrush near streams and dense thickets.
+
+#### Wolf
+
+**Strength**: 2
+**Wants**: Feed the pack
+
+> Yellow eyes in the dark. One howl answered by many. They have your scent.
+
+Cunning hunters that stalk prey in packs of six or more. Alone, a wolf will circle and test for weakness. Together, they coordinate to exhaust and surround. When one falls, the others may scatter, or press harder if the pack is hungry.
+
+#### Veilis
+
+**Strength**: 5
+**Weakness**: Hearts
+**Wants**: Quiet the spirit's hunger
+
+> A figure stands before you, their shadow moving out of step, fingers stretching longer than they should. When they speak, a second, older voice rides beneath their words.
+
+Veiling was once a sacred rite: a willing bond where a chosen soul and a forest spirit walked as equals. In the age of the Derweald, spirits have grown desperate and cruel, forcing themselves into living minds without invite. Veilis are the fractured result, neither druid nor spirit, but something caught between.
+
+#### Bright Templar
+
+**Strength**: 5
+**Armor**: Red suits
+**Wants**: Crush heresy, die in glory
+
+> The knight's armor gleams with etched prayers, every plate a sermon hammered into metal. Their stance says they have already decided what you are: guilty.
+
+Heavy-plated soldiers of the One Light, raised to believe armor is just another kind of altar. They are the Church's wall of steel, taught to see doubt and mercy as cracks in their faith. When reduced to 0 Strength, they may rise once more with half Strength and fight until taken out again.
+
+[...more creatures incoming]
+
+<!--
+#### Bright Mage (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
+
+**Strength**: 3
+**Weakness**: Spades
+**Wants**: Prove their superiority
+
+> Sigils flicker across their robes as the air bends around them, heat shimmering off invisible lines of force. Their eyes weigh you the way a butcher weighs meat.
+
+Arcane scholars turned living weapons, trained to burn the Church's enemies and any rival claim to magic. Their power is sanctioned, their cruelty wrapped in doctrine. Fire is their favored tool.
+
+#### Truthseeker
+
+**Strength**: 4
+**Armor**: Black suits
+**Wants**: Force a confession
+
+> Their gaze crawls over you, cataloging every twitch and hesitation like evidence. You get the sense they decided the verdict before they ever asked a question.
+
+The Church's witch hunters of steel and ink. They do not chase spirits; they chase people. Interrogators, investigators, and executioners, they build cases like cages and leave no clean way out. Can summon Bright Templars to aid them.
+
+#### Barktroll
+
+**Strength**: 6
+**Weakness**: Hearts
+**Armor**: Clubs
+**Wants**: Spread its rot, feed on carrion
+
+> A hulking shape lumbers from the mire, its skin a patchwork of bark, swollen knots, and oozing mushrooms. Every step leaves a smear of sap and black water.
+
+Where Mireroad mud and Derweald spores fester together, trolls no longer grow from flesh alone. Sagging hulks of half-rotted wood and fungal meat. Fire blocks their regeneration. When slain, they explode in a cloud of spores.
+
+#### Wyrm (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
+
+**Strength**: 8
+**Weakness**: Face cards
+**Armor**: All suits
+**Wants**: Obey Ithril, be free
+
+> The sky darkens as vast tattered wings blot out the light. Frost steams from its jaws, and behind its eyes there is a dull, chained rage that is not its own.
+
+Once, the clans of Kelmora rode these dragons across frozen seas. Ithril the Calamity snapped those bonds, turning the wyrms into thralls whose frost-burned minds obey only its will. A successful challenge to their will with 3 Advantages can break the bondage; if freed, the wyrm turns on Ithril's servants first.
+
+#### Wildsoul (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
+
+**Strength**: 4
+**Armor**: Black suits
+**Wants**: Feed the hunger, stay whole
+
+> They stiffen, eyes gone wide, then topple boneless to the ground. A heartbeat later something invisible drags itself out of their shadow, stretching into a snarling shape.
+
+The curse does not invite another spirit in; it splits the same soul across two truths. One shape is human, heavy with memory. The other is a beast of raw instinct and hunger. The human body can be killed; the beast cannot. Destroy the body to end the threat.
+
+#### Veilseed (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
+
+**Strength**: 6
+**Weakness**: Face cards
+**Armor**: Black suits
+**Wants**: Feed on emotion, rupture the veil
+
+> The world judders, colors smearing as if someone dragged a thumb across wet paint. Something unseen presses against the edges of your mind, curious and starving.
+
+Spiritual anomalies born where the veil tears and never quite seals. Not a body but a knot of will and emotion that learned how to want. Cannot be harmed by mundane attacks, only by Gifts, blessed weapons, or acts of pure will. Grows stronger when characters suffer fear, rage, or grief. -->
+
 # Oracles
 
-[...]
+[... text to itnroduce to concept of oracles where you reveal a number of cards and match to the various columnjs ]
 
-<!-- TODO: fill with various oracles -->
+### Terrain
+
+| Card | State          | Place       |
+| ---- | -------------- | ----------- |
+| A    | War-scarred    | Battlefield |
+| 2    | Flooded        | Mire        |
+| 3    | Blighted       | Farmland    |
+| 4    | Overgrown      | Crossroads  |
+| 5    | Salted         | Graveyard   |
+| 6    | Haunted        | Hollow      |
+| 7    | Burning        | Pyre Field  |
+| 8    | Choked         | Riverbed    |
+| 9    | Cursed         | Circle      |
+| 10   | Blood-soaked   | Gallows     |
+| J    | Plague-touched | Quarantine  |
+| Q    | Forsaken       | Shrine      |
+| K    | Corrupted      | Heartland   |
+
+### Weather
+
+| Card | Condition   | Element   |
+| ---- | ----------- | --------- |
+| A    | Creeping    | Fog       |
+| 2    | Bitter      | Cold      |
+| 3    | Ash-heavy   | Wind      |
+| 4    | Blood-warm  | Rain      |
+| 5    | Choking     | Smoke     |
+| 6    | Unnatural   | Stillness |
+| 7    | Corpse-pale | Moonlight |
+| 8    | Stinking    | Humidity  |
+| 9    | Icy         | Drizzle   |
+| 10   | Black       | Storm     |
+| J    | Screaming   | Gale      |
+| Q    | Dying       | Sunlight  |
+| K    | Endless     | Night     |
+
+### Omen
+
+| Card | Sign       | Source    |
+| ---- | ---------- | --------- |
+| A    | Circling   | Crows     |
+| 2    | Howling    | Wolves    |
+| 3    | Bleeding   | Statue    |
+| 4    | Cracked    | Bell      |
+| 5    | Weeping    | Icon      |
+| 6    | Dying      | Livestock |
+| 7    | Flickering | Candles   |
+| 8    | Spoiled    | Well      |
+| 9    | Stillborn  | Birth     |
+| 10   | Blackened  | Crops     |
+| J    | Prophetic  | Dream     |
+| Q    | Unearthed  | Grave     |
+| K    | Walking    | Dead      |
+
+### Remains
+
+| Card | Condition   | Discovery |
+| ---- | ----------- | --------- |
+| A    | Gnawed      | Bones     |
+| 2    | Scattered   | Armor     |
+| 3    | Shattered   | Blade     |
+| 4    | Bloodied    | Journal   |
+| 5    | Abandoned   | Cart      |
+| 6    | Defiled     | Relic     |
+| 7    | Half-buried | Corpse    |
+| 8    | Rusted      | Chains    |
+| 9    | Burned      | Pyre      |
+| 10   | Preserved   | Medallion |
+| J    | Silver      | Weapon    |
+| Q    | Holy        | Symbol    |
+| K    | Cursed      | Artifact  |
+
+### Ruin
+
+| Card | State      | Structure  |
+| ---- | ---------- | ---------- |
+| A    | Burned     | Homestead  |
+| 2    | Collapsed  | Inn        |
+| 3    | Desecrated | Chapel     |
+| 4    | Flooded    | Mine       |
+| 5    | Infested   | Mill       |
+| 6    | Sealed     | Crypt      |
+| 7    | Crumbling  | Watchtower |
+| 8    | Ransacked  | Manor      |
+| 9    | Overgrown  | Fortress   |
+| 10   | Haunted    | Monastery  |
+| J    | Defiled    | Sanctuary  |
+| Q    | Forgotten  | Palace     |
+| K    | Swallowed  | Cathedral  |
+
+### Settlement
+
+| Card | Condition      | Place        |
+| ---- | -------------- | ------------ |
+| A    | Dying          | Hamlet       |
+| 2    | Quarantined    | Village      |
+| 3    | Fortified      | Outpost      |
+| 4    | Starving       | Refuge       |
+| 5    | Suspicious     | Trading Post |
+| 6    | Desperate      | Ferry        |
+| 7    | Pious          | Priory       |
+| 8    | Corrupt        | Garrison     |
+| 9    | Plague-touched | Camp         |
+| 10   | War-torn       | Town         |
+| J    | Hidden         | Sanctuary    |
+| Q    | Thriving       | Haven        |
+| K    | Last           | Bastion      |
+
+### Corruption
+
+| Card | Sign       | Form     |
+| ---- | ---------- | -------- |
+| A    | Spreading  | Blight   |
+| 2    | Creeping   | Roots    |
+| 3    | Whispering | Voices   |
+| 4    | Pulsing    | Veins    |
+| 5    | Weeping    | Sap      |
+| 6    | Crawling   | Shadows  |
+| 7    | Breathing  | Walls    |
+| 8    | Watching   | Eyes     |
+| 9    | Grasping   | Tendrils |
+| 10   | Blooming   | Fungus   |
+| J    | Hatching   | Spores   |
+| Q    | Claiming   | Flesh    |
+| K    | Awakening  | Hunger   |
+
+### NPC
+
+| Card | Demeanor   | Role      |
+| ---- | ---------- | --------- |
+| A    | Grieving   | Widow     |
+| 2    | Desperate  | Farmer    |
+| 3    | Suspicious | Innkeeper |
+| 4    | Pious      | Priest    |
+| 5    | Cunning    | Merchant  |
+| 6    | Haunted    | Soldier   |
+| 7    | Bitter     | Hunter    |
+| 8    | Fearful    | Child     |
+| 9    | Secretive  | Herbalist |
+| 10   | Zealous    | Templar   |
+| J    | Corrupted  | Noble     |
+| Q    | Condemned  | Prisoner  |
+| K    | Dying      | Warden    |
+
+### Haven
+
+| Card | Style      | Feature     |
+| ---- | ---------- | ----------- |
+| A    | Crumbling  | Palisade    |
+| 2    | Makeshift  | Gate        |
+| 3    | Ancient    | Tower       |
+| 4    | Fortified  | Wall        |
+| 5    | Improvised | Barricade   |
+| 6    | Rusted     | Portcullis  |
+| 7    | Scarred    | Watchtower  |
+| 8    | Patched    | Rampart     |
+| 9    | Imposing   | Battlements |
+| 10   | Blessed    | Spire       |
+| J    | Abandoned  | Keep        |
+| Q    | Reclaimed  | Citadel     |
+| K    | Last       | Bastion     |
+
+### Interior
+
+| Card | Centerpiece  | Detail      |
+| ---- | ------------ | ----------- |
+| A    | Cold Hearth  | Ashes       |
+| 2    | Rough Table  | Candles     |
+| 3    | Shrine       | Dried Herbs |
+| 4    | Cot          | Bloodstains |
+| 5    | Empty Chair  | Chains      |
+| 6    | Altar        | Bones       |
+| 7    | Locked Chest | Salt Lines  |
+| 8    | Map          | Weapons     |
+| 9    | Hanging Meat | Trophies    |
+| 10   | Reliquary    | Silver      |
+| J    | Throne       | Skulls      |
+| Q    | Pool         | Runes       |
+| K    | Pyre         | Shadows     |
+
+### Trouble
+
+| Card | Nature      | Cause         |
+| ---- | ----------- | ------------- |
+| A    | Creeping    | Plague        |
+| 2    | Sudden      | Murder        |
+| 3    | Hidden      | Corruption    |
+| 4    | Escalating  | Feud          |
+| 5    | Denied      | Famine        |
+| 6    | Prophesied  | Death         |
+| 7    | Violent     | Uprising      |
+| 8    | Mysterious  | Disappearance |
+| 9    | Sanctioned  | Execution     |
+| 10   | Looming     | Siege         |
+| J    | Unspeakable | Possession    |
+| Q    | Open        | Betrayal      |
+| K    | Final       | Fall          |
+
+### Appearance
+
+| Card | Build     | Dress     |
+| ---- | --------- | --------- |
+| A    | Gaunt     | Rags      |
+| 2    | Hunched   | Mended    |
+| 3    | Weathered | Practical |
+| 4    | Scarred   | Layered   |
+| 5    | Wiry      | Stained   |
+| 6    | Broad     | Worn      |
+| 7    | Frail     | Plain     |
+| 8    | Hard      | Armored   |
+| 9    | Pale      | Dark      |
+| 10   | Broken    | Penitent  |
+| J    | Beautiful | Rich      |
+| Q    | Rotting   | Noble     |
+| K    | Ancient   | Holy      |
+
+### Voice
+
+| Card | Tone       | Manner    |
+| ---- | ---------- | --------- |
+| A    | Whispering | Guarded   |
+| 2    | Rasping    | Rushed    |
+| 3    | Flat       | Weary     |
+| 4    | Trembling  | Evasive   |
+| 5    | Sharp      | Bitter    |
+| 6    | Low        | Measured  |
+| 7    | Cracked    | Desperate |
+| 8    | Cold       | Formal    |
+| 9    | Warm       | Rambling  |
+| 10   | Hollow     | Prophetic |
+| J    | Booming    | Zealous   |
+| Q    | Sweet      | Deceptive |
+| K    | Ancient    | Knowing   |
+
+### Desire
+
+| Card | Want       | Motive      |
+| ---- | ---------- | ----------- |
+| A    | Escape     | Fear        |
+| 2    | Revenge    | Loss        |
+| 3    | Answers    | Grief       |
+| 4    | Absolution | Guilt       |
+| 5    | Safety     | Desperation |
+| 6    | Wealth     | Greed       |
+| 7    | Power      | Ambition    |
+| 8    | Truth      | Doubt       |
+| 9    | Death      | Weariness   |
+| 10   | Redemption | Shame       |
+| J    | Control    | Madness     |
+| Q    | Love       | Loneliness  |
+| K    | Eternity   | Corruption  |
+
+### Heraldry
+
+| Card | Color   | Symbol  |
+| ---- | ------- | ------- |
+| A    | Black   | Crow    |
+| 2    | Grey    | Wolf    |
+| 3    | Rust    | Sword   |
+| 4    | Silver  | Moon    |
+| 5    | Crimson | Thorns  |
+| 6    | Gold    | Sun     |
+| 7    | White   | Tower   |
+| 8    | Green   | Oak     |
+| 9    | Brown   | Bear    |
+| 10   | Purple  | Crown   |
+| J    | Blue    | Serpent |
+| Q    | Bone    | Skull   |
+| K    | Red     | Flame   |
