@@ -56,7 +56,7 @@ Creature Format:
 <br/>
 <br/>
 
-![Logo](./warden-of-the-duckwatch.svg)
+![Logo](./wardens-of-the-duskwatch.svg)
 
 ---
 
@@ -966,7 +966,7 @@ Veiling was once a sacred rite: a willing bond where a chosen soul and a forest 
 
 Heavy-plated soldiers of the One Light, raised to believe armor is just another kind of altar. They are the Church's wall of steel, taught to see doubt and mercy as cracks in their faith. When reduced to 0 Strength, they may rise once more with half Strength and fight until taken out again.
 
-[...more creatures incoming]
+[...more will be added to the bestiary soon]
 
 <!--
 #### Bright Mage (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
@@ -1034,274 +1034,266 @@ Spiritual anomalies born where the veil tears and never quite seals. Not a body 
 
 # Oracles
 
-[... text to itnroduce to concept of oracles where you reveal a number of cards and match to the various columnjs ]
+The following tables can be used to generate details about the world during play. To use a table, reveal one card for each column and match each card's value to the corresponding row. Combine the results to create an evocative prompt.
+
+These tables work best when interpreted loosely. Let the words spark ideas rather than define them. If a result does not fit the current situation, reveal again or choose what feels right.
+
+## Land
 
 ### Terrain
 
-| Card | State          | Place       |
-| ---- | -------------- | ----------- |
-| A    | War-scarred    | Battlefield |
-| 2    | Flooded        | Mire        |
-| 3    | Blighted       | Farmland    |
-| 4    | Overgrown      | Crossroads  |
-| 5    | Salted         | Graveyard   |
-| 6    | Haunted        | Hollow      |
-| 7    | Burning        | Pyre Field  |
-| 8    | Choked         | Riverbed    |
-| 9    | Cursed         | Circle      |
-| 10   | Blood-soaked   | Gallows     |
-| J    | Plague-touched | Quarantine  |
-| Q    | Forsaken       | Shrine      |
-| K    | Corrupted      | Heartland   |
+| Card | State       | Place       | Feature         |
+| ---- | ----------- | ----------- | --------------- |
+| A    | War-scarred | Battlefield | Trenches        |
+| 2    | Flooded     | Mire        | Standing Water  |
+| 3    | Blighted    | Farmland    | Dead Crops      |
+| 4    | Overgrown   | Crossroads  | Old Signs       |
+| 5    | Quiet       | Graveyard   | Fresh Mounds    |
+| 6    | Haunted     | Hollow      | Cold Air        |
+| 7    | Scorched    | Clearing    | Charred Stumps  |
+| 8    | Rocky       | Riverbed    | Dry Stones      |
+| 9    | Ancient     | Circle      | Standing Stones |
+| 10   | Windswept   | Ridge       | Distant View    |
+| J    | Sheltered   | Grove       | Old Growth      |
+| Q    | Forsaken    | Shrine      | Offerings       |
+| K    | Corrupted   | Heartland   | Twisted Trees   |
 
 ### Weather
 
-| Card | Condition   | Element   |
-| ---- | ----------- | --------- |
-| A    | Creeping    | Fog       |
-| 2    | Bitter      | Cold      |
-| 3    | Ash-heavy   | Wind      |
-| 4    | Blood-warm  | Rain      |
-| 5    | Choking     | Smoke     |
-| 6    | Unnatural   | Stillness |
-| 7    | Corpse-pale | Moonlight |
-| 8    | Stinking    | Humidity  |
-| 9    | Icy         | Drizzle   |
-| 10   | Black       | Storm     |
-| J    | Screaming   | Gale      |
-| Q    | Dying       | Sunlight  |
-| K    | Endless     | Night     |
-
-### Omen
-
-| Card | Sign       | Source    |
-| ---- | ---------- | --------- |
-| A    | Circling   | Crows     |
-| 2    | Howling    | Wolves    |
-| 3    | Bleeding   | Statue    |
-| 4    | Cracked    | Bell      |
-| 5    | Weeping    | Icon      |
-| 6    | Dying      | Livestock |
-| 7    | Flickering | Candles   |
-| 8    | Spoiled    | Well      |
-| 9    | Stillborn  | Birth     |
-| 10   | Blackened  | Crops     |
-| J    | Prophetic  | Dream     |
-| Q    | Unearthed  | Grave     |
-| K    | Walking    | Dead      |
-
-### Remains
-
-| Card | Condition   | Discovery |
-| ---- | ----------- | --------- |
-| A    | Gnawed      | Bones     |
-| 2    | Scattered   | Armor     |
-| 3    | Shattered   | Blade     |
-| 4    | Bloodied    | Journal   |
-| 5    | Abandoned   | Cart      |
-| 6    | Defiled     | Relic     |
-| 7    | Half-buried | Corpse    |
-| 8    | Rusted      | Chains    |
-| 9    | Burned      | Pyre      |
-| 10   | Preserved   | Medallion |
-| J    | Silver      | Weapon    |
-| Q    | Holy        | Symbol    |
-| K    | Cursed      | Artifact  |
-
-### Ruin
-
-| Card | State      | Structure  |
-| ---- | ---------- | ---------- |
-| A    | Burned     | Homestead  |
-| 2    | Collapsed  | Inn        |
-| 3    | Desecrated | Chapel     |
-| 4    | Flooded    | Mine       |
-| 5    | Infested   | Mill       |
-| 6    | Sealed     | Crypt      |
-| 7    | Crumbling  | Watchtower |
-| 8    | Ransacked  | Manor      |
-| 9    | Overgrown  | Fortress   |
-| 10   | Haunted    | Monastery  |
-| J    | Defiled    | Sanctuary  |
-| Q    | Forgotten  | Palace     |
-| K    | Swallowed  | Cathedral  |
-
-### Settlement
-
-| Card | Condition      | Place        |
-| ---- | -------------- | ------------ |
-| A    | Dying          | Hamlet       |
-| 2    | Quarantined    | Village      |
-| 3    | Fortified      | Outpost      |
-| 4    | Starving       | Refuge       |
-| 5    | Suspicious     | Trading Post |
-| 6    | Desperate      | Ferry        |
-| 7    | Pious          | Priory       |
-| 8    | Corrupt        | Garrison     |
-| 9    | Plague-touched | Camp         |
-| 10   | War-torn       | Town         |
-| J    | Hidden         | Sanctuary    |
-| Q    | Thriving       | Haven        |
-| K    | Last           | Bastion      |
+| Card | Intensity | Element | Effect      |
+| ---- | --------- | ------- | ----------- |
+| A    | Creeping  | Fog     | Chilling    |
+| 2    | Bitter    | Frost   | Numbing     |
+| 3    | Gentle    | Breeze  | Refreshing  |
+| 4    | Steady    | Rain    | Soaking     |
+| 5    | Thin      | Mist    | Clinging    |
+| 6    | Still     | Heat    | Oppressive  |
+| 7    | Pale      | Moon    | Eerie       |
+| 8    | Warm      | Sun     | Comforting  |
+| 9    | Harsh     | Sleet   | Biting      |
+| 10   | Rolling   | Thunder | Rumbling    |
+| J    | Howling   | Wind    | Deafening   |
+| Q    | Bright    | Clouds  | Blinding    |
+| K    | Endless   | Dark    | Suffocating |
 
 ### Corruption
 
-| Card | Sign       | Form     |
-| ---- | ---------- | -------- |
-| A    | Spreading  | Blight   |
-| 2    | Creeping   | Roots    |
-| 3    | Whispering | Voices   |
-| 4    | Pulsing    | Veins    |
-| 5    | Weeping    | Sap      |
-| 6    | Crawling   | Shadows  |
-| 7    | Breathing  | Walls    |
-| 8    | Watching   | Eyes     |
-| 9    | Grasping   | Tendrils |
-| 10   | Blooming   | Fungus   |
-| J    | Hatching   | Spores   |
-| Q    | Claiming   | Flesh    |
-| K    | Awakening  | Hunger   |
+| Card | Sign       | Form     | Intensity |
+| ---- | ---------- | -------- | --------- |
+| A    | Spreading  | Blight   | Faint     |
+| 2    | Creeping   | Roots    | Subtle    |
+| 3    | Whispering | Voices   | Distant   |
+| 4    | Pulsing    | Veins    | Visible   |
+| 5    | Weeping    | Sap      | Fresh     |
+| 6    | Crawling   | Shadows  | Growing   |
+| 7    | Breathing  | Walls    | Steady    |
+| 8    | Watching   | Eyes     | Many      |
+| 9    | Grasping   | Tendrils | Reaching  |
+| 10   | Blooming   | Fungus   | Thick     |
+| J    | Hatching   | Spores   | Spreading |
+| Q    | Claiming   | Flesh    | Advanced  |
+| K    | Awakening  | Hunger   | Ancient   |
 
-### NPC
+### Omen
 
-| Card | Demeanor   | Role      |
-| ---- | ---------- | --------- |
-| A    | Grieving   | Widow     |
-| 2    | Desperate  | Farmer    |
-| 3    | Suspicious | Innkeeper |
-| 4    | Pious      | Priest    |
-| 5    | Cunning    | Merchant  |
-| 6    | Haunted    | Soldier   |
-| 7    | Bitter     | Hunter    |
-| 8    | Fearful    | Child     |
-| 9    | Secretive  | Herbalist |
-| 10   | Zealous    | Templar   |
-| J    | Corrupted  | Noble     |
-| Q    | Condemned  | Prisoner  |
-| K    | Dying      | Warden    |
+| Card | State      | Source    | Portent   |
+| ---- | ---------- | --------- | --------- |
+| A    | Circling   | Crows     | Death     |
+| 2    | Restless   | Wolves    | Pursuit   |
+| 3    | Weeping    | Statue    | Sacrifice |
+| 4    | Cracked    | Bell      | Warning   |
+| 5    | Blackened  | Icon      | Sorrow    |
+| 6    | Dying      | Livestock | Blight    |
+| 7    | Flickering | Candles   | Spirits   |
+| 8    | Spoiled    | Well      | Poison    |
+| 9    | Silent     | Birds     | Danger    |
+| 10   | Wilting    | Crops     | Famine    |
+| J    | Vivid      | Dream     | Truth     |
+| Q    | Open       | Grave     | Return    |
+| K    | Walking    | Shadow    | Reckoning |
+
+## Locations
+
+### Settlement
+
+| Card | Condition  | Place        | Notable       |
+| ---- | ---------- | ------------ | ------------- |
+| A    | Dying      | Hamlet       | Empty Homes   |
+| 2    | Wary       | Village      | Locked Gates  |
+| 3    | Fortified  | Outpost      | Armed Guards  |
+| 4    | Struggling | Refuge       | Rationed Food |
+| 5    | Busy       | Trading Post | Full Market   |
+| 6    | Desperate  | Ferry        | Long Queue    |
+| 7    | Pious      | Priory       | Ringing Bells |
+| 8    | Quiet      | Garrison     | Few Soldiers  |
+| 9    | Recovering | Camp         | New Arrivals  |
+| 10   | Rebuilding | Town         | Fresh Timber  |
+| J    | Hidden     | Sanctuary    | Secret Paths  |
+| Q    | Thriving   | Haven        | Full Stores   |
+| K    | Last       | Bastion      | High Walls    |
 
 ### Haven
 
-| Card | Style      | Feature     |
-| ---- | ---------- | ----------- |
-| A    | Crumbling  | Palisade    |
-| 2    | Makeshift  | Gate        |
-| 3    | Ancient    | Tower       |
-| 4    | Fortified  | Wall        |
-| 5    | Improvised | Barricade   |
-| 6    | Rusted     | Portcullis  |
-| 7    | Scarred    | Watchtower  |
-| 8    | Patched    | Rampart     |
-| 9    | Imposing   | Battlements |
-| 10   | Blessed    | Spire       |
-| J    | Abandoned  | Keep        |
-| Q    | Reclaimed  | Citadel     |
-| K    | Last       | Bastion     |
+| Card | Style       | Feature     | Mood       |
+| ---- | ----------- | ----------- | ---------- |
+| A    | Crumbling   | Palisade    | Tense      |
+| 2    | Makeshift   | Gate        | Hopeful    |
+| 3    | Ancient     | Tower       | Watchful   |
+| 4    | Fortified   | Wall        | Defiant    |
+| 5    | Improvised  | Barricade   | Desperate  |
+| 6    | Sturdy      | Portcullis  | Cautious   |
+| 7    | Battle-worn | Watchtower  | Proud      |
+| 8    | Patched     | Rampart     | Resilient  |
+| 9    | Imposing    | Battlements | Confident  |
+| 10   | Blessed     | Spire       | Peaceful   |
+| J    | Abandoned   | Keep        | Eerie      |
+| Q    | Reclaimed   | Citadel     | Determined |
+| K    | Standing    | Bastion     | Unbroken   |
+
+### Ruin
+
+| Card | State      | Structure  | Danger     |
+| ---- | ---------- | ---------- | ---------- |
+| A    | Burned     | Homestead  | Collapse   |
+| 2    | Collapsed  | Inn        | Unstable   |
+| 3    | Desecrated | Chapel     | Cursed     |
+| 4    | Flooded    | Mine       | Drowning   |
+| 5    | Infested   | Mill       | Creatures  |
+| 6    | Sealed     | Crypt      | Trapped    |
+| 7    | Crumbling  | Watchtower | Falling    |
+| 8    | Ransacked  | Manor      | Looters    |
+| 9    | Overgrown  | Fortress   | Lost       |
+| 10   | Haunted    | Monastery  | Spirits    |
+| J    | Defiled    | Sanctuary  | Corruption |
+| Q    | Forgotten  | Palace     | Secrets    |
+| K    | Swallowed  | Cathedral  | The Forest |
 
 ### Interior
 
-| Card | Centerpiece  | Detail      |
-| ---- | ------------ | ----------- |
-| A    | Cold Hearth  | Ashes       |
-| 2    | Rough Table  | Candles     |
-| 3    | Shrine       | Dried Herbs |
-| 4    | Cot          | Bloodstains |
-| 5    | Empty Chair  | Chains      |
-| 6    | Altar        | Bones       |
-| 7    | Locked Chest | Salt Lines  |
-| 8    | Map          | Weapons     |
-| 9    | Hanging Meat | Trophies    |
-| 10   | Reliquary    | Silver      |
-| J    | Throne       | Skulls      |
-| Q    | Pool         | Runes       |
-| K    | Pyre         | Shadows     |
-
 ### Trouble
 
-| Card | Nature      | Cause         |
-| ---- | ----------- | ------------- |
-| A    | Creeping    | Plague        |
-| 2    | Sudden      | Murder        |
-| 3    | Hidden      | Corruption    |
-| 4    | Escalating  | Feud          |
-| 5    | Denied      | Famine        |
-| 6    | Prophesied  | Death         |
-| 7    | Violent     | Uprising      |
-| 8    | Mysterious  | Disappearance |
-| 9    | Sanctioned  | Execution     |
-| 10   | Looming     | Siege         |
-| J    | Unspeakable | Possession    |
-| Q    | Open        | Betrayal      |
-| K    | Final       | Fall          |
+| Card | Nature      | Cause         | State      |
+| ---- | ----------- | ------------- | ---------- |
+| A    | Creeping    | Plague        | Contained  |
+| 2    | Sudden      | Murder        | Recent     |
+| 3    | Hidden      | Corruption    | Secret     |
+| 4    | Escalating  | Feud          | Worsening  |
+| 5    | Denied      | Shortage      | Ignored    |
+| 6    | Prophesied  | Curse         | Feared     |
+| 7    | Violent     | Uprising      | Bloody     |
+| 8    | Mysterious  | Disappearance | Unsolved   |
+| 9    | Sanctioned  | Execution     | Public     |
+| 10   | Looming     | Invasion      | Imminent   |
+| J    | Unspeakable | Possession    | Spreading  |
+| Q    | Open        | Betrayal      | Bitter     |
+| K    | Final       | Collapse      | Inevitable |
+
+### Remains
+
+| Card | Condition   | Discovery | Clue         |
+| ---- | ----------- | --------- | ------------ |
+| A    | Gnawed      | Bones     | Beast Attack |
+| 2    | Scattered   | Armor     | Battle       |
+| 3    | Shattered   | Blade     | Struggle     |
+| 4    | Bloodied    | Journal   | Last Words   |
+| 5    | Abandoned   | Cart      | Fled         |
+| 6    | Defiled     | Relic     | Corruption   |
+| 7    | Half-buried | Corpse    | Murder       |
+| 8    | Rusted      | Chains    | Imprisonment |
+| 9    | Burned      | Pyre      | Execution    |
+| 10   | Preserved   | Medallion | Identity     |
+| J    | Silver      | Weapon    | Warden       |
+| Q    | Holy        | Symbol    | Church       |
+| K    | Cursed      | Artifact  | Power        |
+
+## People
+
+### NPC
+
+| Card | Demeanor | Role       | Secret    |
+| ---- | -------- | ---------- | --------- |
+| A    | Grieving | Farmer     | Witness   |
+| 2    | Weary    | Innkeeper  | Harboring |
+| 3    | Cautious | Merchant   | Indebted  |
+| 4    | Pious    | Priest     | Faithless |
+| 5    | Shrewd   | Soldier    | Deserter  |
+| 6    | Haunted  | Hunter     | Cursed    |
+| 7    | Gruff    | Herbalist  | Gifted    |
+| 8    | Curious  | Pilgrim    | Carrier   |
+| 9    | Kind     | Blacksmith | Supplier  |
+| 10   | Devoted  | Guard      | Doubtful  |
+| J    | Charming | Noble      | Corrupt   |
+| Q    | Defiant  | Refugee    | Impostor  |
+| K    | Resolute | Warden     | Marked    |
 
 ### Appearance
 
-| Card | Build     | Dress     |
-| ---- | --------- | --------- |
-| A    | Gaunt     | Rags      |
-| 2    | Hunched   | Mended    |
-| 3    | Weathered | Practical |
-| 4    | Scarred   | Layered   |
-| 5    | Wiry      | Stained   |
-| 6    | Broad     | Worn      |
-| 7    | Frail     | Plain     |
-| 8    | Hard      | Armored   |
-| 9    | Pale      | Dark      |
-| 10   | Broken    | Penitent  |
-| J    | Beautiful | Rich      |
-| Q    | Rotting   | Noble     |
-| K    | Ancient   | Holy      |
+| Card | Build     | Dress       | Mark       |
+| ---- | --------- | ----------- | ---------- |
+| A    | Gaunt     | Ragged      | Pallor     |
+| 2    | Stooped   | Mended      | Calluses   |
+| 3    | Weathered | Practical   | Tan        |
+| 4    | Scarred   | Layered     | Limp       |
+| 5    | Wiry      | Travel-worn | Dust       |
+| 6    | Sturdy    | Simple      | Muscles    |
+| 7    | Lean      | Plain       | Cheekbones |
+| 8    | Broad     | Armored     | Tattoos    |
+| 9    | Tall      | Dark        | Gaze       |
+| 10   | Short     | Colorful    | Smile      |
+| J    | Striking  | Fine        | Posture    |
+| Q    | Aged      | Faded       | Wrinkles   |
+| K    | Imposing  | Holy        | Scars      |
 
 ### Voice
 
-| Card | Tone       | Manner    |
-| ---- | ---------- | --------- |
-| A    | Whispering | Guarded   |
-| 2    | Rasping    | Rushed    |
-| 3    | Flat       | Weary     |
-| 4    | Trembling  | Evasive   |
-| 5    | Sharp      | Bitter    |
-| 6    | Low        | Measured  |
-| 7    | Cracked    | Desperate |
-| 8    | Cold       | Formal    |
-| 9    | Warm       | Rambling  |
-| 10   | Hollow     | Prophetic |
-| J    | Booming    | Zealous   |
-| Q    | Sweet      | Deceptive |
-| K    | Ancient    | Knowing   |
+| Card | Tone      | Manner     | Quirk      |
+| ---- | --------- | ---------- | ---------- |
+| A    | Soft      | Guarded    | Pauses     |
+| 2    | Rough     | Direct     | Curses     |
+| 3    | Quiet     | Tired      | Sighs      |
+| 4    | Trembling | Nervous    | Repeats    |
+| 5    | Sharp     | Clipped    | Interrupts |
+| 6    | Deep      | Measured   | Deliberate |
+| 7    | Clear     | Earnest    | Stares     |
+| 8    | Cold      | Formal     | Titles     |
+| 9    | Warm      | Friendly   | Laughs     |
+| 10   | Lilting   | Rambling   | Gestures   |
+| J    | Booming   | Confident  | Commands   |
+| Q    | Honeyed   | Flattering | Watches    |
+| K    | Gravelly  | Cryptic    | Riddles    |
 
-### Desire
+### Wants
 
-| Card | Want       | Motive      |
-| ---- | ---------- | ----------- |
-| A    | Escape     | Fear        |
-| 2    | Revenge    | Loss        |
-| 3    | Answers    | Grief       |
-| 4    | Absolution | Guilt       |
-| 5    | Safety     | Desperation |
-| 6    | Wealth     | Greed       |
-| 7    | Power      | Ambition    |
-| 8    | Truth      | Doubt       |
-| 9    | Death      | Weariness   |
-| 10   | Redemption | Shame       |
-| J    | Control    | Madness     |
-| Q    | Love       | Loneliness  |
-| K    | Eternity   | Corruption  |
+| Card | Want       | Motive     | Method       |
+| ---- | ---------- | ---------- | ------------ |
+| A    | Escape     | Fear       | Secretly     |
+| 2    | Revenge    | Anger      | Patiently    |
+| 3    | Answers    | Grief      | Desperately  |
+| 4    | Absolution | Guilt      | Openly       |
+| 5    | Safety     | Hope       | Carefully    |
+| 6    | Wealth     | Need       | Ruthlessly   |
+| 7    | Respect    | Pride      | Boldly       |
+| 8    | Truth      | Doubt      | Quietly      |
+| 9    | Peace      | Weariness  | Gently       |
+| 10   | Redemption | Shame      | Relentlessly |
+| J    | Power      | Ambition   | Cleverly     |
+| Q    | Love       | Loneliness | Devotedly    |
+| K    | Freedom    | Duty       | Violently    |
 
 ### Heraldry
 
-| Card | Color   | Symbol  |
-| ---- | ------- | ------- |
-| A    | Black   | Crow    |
-| 2    | Grey    | Wolf    |
-| 3    | Rust    | Sword   |
-| 4    | Silver  | Moon    |
-| 5    | Crimson | Thorns  |
-| 6    | Gold    | Sun     |
-| 7    | White   | Tower   |
-| 8    | Green   | Oak     |
-| 9    | Brown   | Bear    |
-| 10   | Purple  | Crown   |
-| J    | Blue    | Serpent |
-| Q    | Bone    | Skull   |
-| K    | Red     | Flame   |
+| Card | Color   | Symbol  | Motto Theme |
+| ---- | ------- | ------- | ----------- |
+| A    | Black   | Crow    | Vigilance   |
+| 2    | Grey    | Wolf    | Loyalty     |
+| 3    | Rust    | Sword   | Strength    |
+| 4    | Silver  | Moon    | Mystery     |
+| 5    | Crimson | Thorns  | Sacrifice   |
+| 6    | Gold    | Sun     | Glory       |
+| 7    | White   | Tower   | Defense     |
+| 8    | Green   | Oak     | Endurance   |
+| 9    | Brown   | Bear    | Ferocity    |
+| 10   | Purple  | Crown   | Authority   |
+| J    | Blue    | Serpent | Wisdom      |
+| Q    | Bone    | Skull   | Death       |
+| K    | Red     | Flame   | Passion     |
