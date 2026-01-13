@@ -99,8 +99,8 @@ After a Check, every participant reduces the current rating of the Skill they us
 When needed, the GM may also test how lucky a character is. To do this, they assign a die (e.g. d4 or d6) based on how favorable the odds are for the character, roll it, and interpret the result as they would any other Check.
 
 - **On a 1-2**: Things go wrong for the character.
-- **On a 3-4**: Things work out for the character, but there is a setback.
-- **On a 5+**: Things work out very well for the character. The higher the result, the greater the effect.
+- **On a 3-4**: Things go well for the character, but with a minor catch or complication.
+- **On a 5+**: Things go very well for the character.
 
 ### Position
 

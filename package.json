@@ -2,11 +2,11 @@
   "name": "drafts",
   "private": true,
   "scripts": {
-    "clean:pdf": "rm -f active/*.pdf archives/*.pdf",
+    "clean:pdf": "rm -f docs/*.pdf",
     "build:css": "npx @tailwindcss/cli -i ./input.css -o ./output.css --minify",
-    "dev": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js --watch **/*.md",
-    "build": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js **/*.md",
-    "debug": "npm run build:css && npx md-to-pdf --as-html --config-file md-to-pdf.config.js **/*.md"
+    "dev": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js --watch docs/*.md",
+    "build": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js docs/*.md",
+    "debug": "npm run build:css && npx md-to-pdf --as-html --config-file md-to-pdf.config.js docs/*.md"
   },
   "dependencies": {
     "md-to-pdf": "^5.2.4"
