@@ -7,7 +7,7 @@ css: |-
   .prose {
     font-family: 'Crimson Pro', serif;
   }
-  .prose h1, .prose h2, .prose h3, .prose h4 {
+  .prose h1, .prose h2 {
     font-family: 'UnifrakturCook', cursive;
     font-weight: 700;
     letter-spacing: 0.01em;
@@ -29,6 +29,7 @@ Writing Guidelines
 - Avoid the "X, not Y" or "X as Y, not Z" sentence structure. State what something is directly instead of contrasting it.
 - List card suits in this order: Clubs, Spades, Diamonds, Hearts.
 - Phrase Action outcomes using present participles (-ing verbs) directly after the result. Put mechanical effects first, then narrative flavor.
+- Follow proper heading hierarchy. Never skip levels: h1 > h2 > h3 > h4. Each heading level must be nested under the previous level.
 
 Action Format:
 
@@ -45,7 +46,7 @@ Action Format:
 
 Creature Format:
 
-1. Heading: Use level 4 heading (####) with the creature name.
+1. Heading: Use level 2 heading (##) with the creature name.
 2. Stats: Use bold labels for **Strength**, **Weakness**, **Armor** (if applicable), and **Wants**.
 3. Atmospheric Quote: Use a blockquote (>) with a short, evocative description that sets the tone.
 4. Description: Write a short paragraph describing the creature's nature and behavior.
@@ -747,7 +748,7 @@ To generate a Hunt, reveal one card from each table and combine the results. Or 
 
 # Principles
 
-### Principles for Game Masters
+## Principles for Game Masters
 
 **The Forest Lives**
 
@@ -791,7 +792,7 @@ To generate a Hunt, reveal one card from each table and combine the results. Or 
 - When the fiction stalls, return to the Hunt. What stands in the way? What has changed? What is the next step?
 - Completing a Hunt is a reward. Make it mean something. Let the characters catch their breath before the next one begins.
 
-### Principles for Players
+## Principles for Players
 
 **Records Are Tools**
 
@@ -829,7 +830,7 @@ To generate a Hunt, reveal one card from each table and combine the results. Or 
 - Work together to overcome obstacles. Share Advantage, share risk, share the weight.
 - When a character falls, create someone new and bring them into the fiction quickly. The Hunt continues.
 
-### Principles for Solo Play
+## Principles for Solo Play
 
 **Trust the Oracle**
 
@@ -867,7 +868,7 @@ Each player introduces their character: their name, what they look like, and one
 
 # Bestiary
 
-#### Pallid Hound
+## Pallid Hound
 
 **Strength**: 2
 **Weakness**: Hearts
@@ -877,7 +878,7 @@ Each player introduces their character: their name, what they look like, and one
 
 Corrupted beasts driven by a warped need to please their unseen master. Wherever a pallid hound prowls, its master is never far behind.
 
-#### Pallid Shambler
+## Pallid Shambler
 
 **Strength**: 3
 **Weakness**: Red suits
@@ -887,7 +888,7 @@ Corrupted beasts driven by a warped need to please their unseen master. Wherever
 
 Hollowed monuments of bone and root woven into shapes that once held names. The forest gorged on them until flesh became sap and memory was lost to rot.
 
-#### Thornmouth
+## Thornmouth
 
 **Strength**: 13
 **Weakness**: Face cards
@@ -898,7 +899,7 @@ Hollowed monuments of bone and root woven into shapes that once held names. The 
 
 Beautiful and eternal. Taken early by the roots, their bodies are frozen in time, still very much human in all the wrong ways. Each rises with a Gift that is theirs alone and exerts power over pallid creatures. Yet they will always bend to the forces that gave them a second chance.
 
-#### Bandit
+## Bandit
 
 **Strength**: 4
 **Armor**: Black suits
@@ -908,7 +909,7 @@ Beautiful and eternal. Taken early by the roots, their bodies are frozen in time
 
 Outlaws who raid settlements, ambush travelers, and prey on the desperate. Groups of four or more travel with a leader bearing heavier armor (Armor: All suits) and deadlier weapons. When the leader falls, the others flee.
 
-#### Raider
+## Raider
 
 **Strength**: 5
 **Armor**: Red suits
@@ -918,7 +919,7 @@ Outlaws who raid settlements, ambush travelers, and prey on the desperate. Group
 
 Organized warbands that strike hard and leave nothing standing. Better armed and more brutal than common bandits. Raiders fight to the death and take no prisoners unless they see profit in flesh. Often mounted, always merciless.
 
-#### Bear
+## Bear
 
 **Strength**: 5
 **Armor**: Clubs
@@ -928,7 +929,7 @@ Organized warbands that strike hard and leave nothing standing. Better armed and
 
 Massive and territorial, bears avoid conflict unless provoked or protecting cubs. Once roused, they are relentless. Most will not pursue prey that flees, but a wounded or starving bear is another matter entirely.
 
-#### Boar
+## Boar
 
 **Strength**: 3
 **Wants**: Be left alone
@@ -937,7 +938,7 @@ Massive and territorial, bears avoid conflict unless provoked or protecting cubs
 
 Ill-tempered and fearless, boars attack anything that startles them. Their tusks gore deep, and they do not stop until the threat is down or they are. Often found rooting through the underbrush near streams and dense thickets.
 
-#### Wolf
+## Wolf
 
 **Strength**: 2
 **Wants**: Feed the pack
@@ -946,7 +947,7 @@ Ill-tempered and fearless, boars attack anything that startles them. Their tusks
 
 Cunning hunters that stalk prey in packs of six or more. Alone, a wolf will circle and test for weakness. Together, they coordinate to exhaust and surround. When one falls, the others may scatter, or press harder if the pack is hungry.
 
-#### Veilis
+## Veilis
 
 **Strength**: 5
 **Weakness**: Hearts
@@ -956,7 +957,7 @@ Cunning hunters that stalk prey in packs of six or more. Alone, a wolf will circ
 
 Veiling was once a sacred rite: a willing bond where a chosen soul and a forest spirit walked as equals. In the age of the Derweald, spirits have grown desperate and cruel, forcing themselves into living minds without invite. Veilis are the fractured result, neither druid nor spirit, but something caught between.
 
-#### Bright Templar
+## Bright Templar
 
 **Strength**: 5
 **Armor**: Red suits
@@ -969,7 +970,7 @@ Heavy-plated soldiers of the One Light, raised to believe armor is just another 
 [...more will be added to the bestiary soon]
 
 <!--
-#### Bright Mage (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
+## Bright Mage (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
 
 **Strength**: 3
 **Weakness**: Spades
@@ -979,7 +980,7 @@ Heavy-plated soldiers of the One Light, raised to believe armor is just another 
 
 Arcane scholars turned living weapons, trained to burn the Church's enemies and any rival claim to magic. Their power is sanctioned, their cruelty wrapped in doctrine. Fire is their favored tool.
 
-#### Truthseeker
+## Truthseeker
 
 **Strength**: 4
 **Armor**: Black suits
@@ -989,7 +990,7 @@ Arcane scholars turned living weapons, trained to burn the Church's enemies and 
 
 The Church's witch hunters of steel and ink. They do not chase spirits; they chase people. Interrogators, investigators, and executioners, they build cases like cages and leave no clean way out. Can summon Bright Templars to aid them.
 
-#### Barktroll
+## Barktroll
 
 **Strength**: 6
 **Weakness**: Hearts
@@ -1000,7 +1001,7 @@ The Church's witch hunters of steel and ink. They do not chase spirits; they cha
 
 Where Mireroad mud and Derweald spores fester together, trolls no longer grow from flesh alone. Sagging hulks of half-rotted wood and fungal meat. Fire blocks their regeneration. When slain, they explode in a cloud of spores.
 
-#### Wyrm (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
+## Wyrm (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
 
 **Strength**: 8
 **Weakness**: Face cards
@@ -1011,7 +1012,7 @@ Where Mireroad mud and Derweald spores fester together, trolls no longer grow fr
 
 Once, the clans of Kelmora rode these dragons across frozen seas. Ithril the Calamity snapped those bonds, turning the wyrms into thralls whose frost-burned minds obey only its will. A successful challenge to their will with 3 Advantages can break the bondage; if freed, the wyrm turns on Ithril's servants first.
 
-#### Wildsoul (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
+## Wildsoul (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
 
 **Strength**: 4
 **Armor**: Black suits
@@ -1021,7 +1022,7 @@ Once, the clans of Kelmora rode these dragons across frozen seas. Ithril the Cal
 
 The curse does not invite another spirit in; it splits the same soul across two truths. One shape is human, heavy with memory. The other is a beast of raw instinct and hunger. The human body can be killed; the beast cannot. Destroy the body to end the threat.
 
-#### Veilseed (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
+## Veilseed (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)
 
 **Strength**: 6
 **Weakness**: Face cards
