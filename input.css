@@ -4,17 +4,24 @@
 
 /* Custom typography overrides */
 @layer base {
-	.prose blockquote {
-		font-style: normal;
-	}
-	
-	.prose blockquote p {
-		font-style: normal;
-	}
-	
-	/* Make the first h1 in the document bigger */
-	.prose h1:first-of-type {
-		font-size: 3.5rem;
-		line-height: 1.1;
-	}
+  .prose blockquote {
+    font-style: normal;
+  }
+
+  .prose blockquote p {
+    font-style: normal;
+  }
+
+  /* Make the first h1 in the document bigger */
+  .prose h1:first-of-type {
+    font-size: 3.5rem;
+    line-height: 1.1;
+  }
+
+  /* Page break for print */
+  .prose hr {
+    page-break-after: always;
+    break-after: page;
+    opacity: 0;
+  }
 }
