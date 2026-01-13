@@ -18,6 +18,13 @@ module.exports = {
       </section>
     `,
     footerTemplate: `
+      <style>
+        section {
+          margin: 0 auto;
+          font-family: system-ui;
+          font-size: 11px;
+        }
+      </style>
       <section>
         <div>
           Page <span class="pageNumber"></span>

@@ -379,11 +379,11 @@ The answer is **Yes** if any face card (Jack, Queen, or King) is revealed. Other
 
 If a positive outcome would benefit the character, use their Fortune score as the basis for the number of cards to reveal (3 +/- their Fortune score). When playing as a group, use the Fortune score of the character most directly affected by the outcome, or the highest Fortune score if the outcome affects the whole group.
 
-### Oracle Sparks
+### Spark Generator
 
-If after consulting the Oracle a player is still uncertain how things should unfold or how the result should be interpreted, the player reveals 2 cards from the deck. Match the first card to the Theme Spark table and the second to the Impulse Spark table to generate a creative prompt.
+If after consulting the Oracle a player is still uncertain how things should unfold or how the result should be interpreted, the player reveals 2 cards from the deck. Match the first card to the Spark Theme table and the second to the Spark Action table to generate a creative prompt.
 
-**Theme Spark** (reveal first card)
+**Spark Theme** (reveal first card)
 
 | Card | ♣ Clubs   | ♠ Spades   | ♦ Diamonds | ♥ Hearts   |
 | ---- | --------- | ---------- | ---------- | ---------- |
@@ -401,7 +401,7 @@ If after consulting the Oracle a player is still uncertain how things should unf
 | Q    | Beast     | Doom       | Legacy     | Soul       |
 | K    | The Order | The Forest | The Roots  | The Light  |
 
-**Impulse Spark** (reveal second card)
+**Spark Action** (reveal second card)
 
 | Card | ♣ Clubs     | ♠ Spades | ♦ Diamonds | ♥ Hearts  |
 | ---- | ----------- | -------- | ---------- | --------- |
@@ -841,7 +841,7 @@ To generate a Hunt, reveal one card from each table and combine the results. Or 
 **Play to Find Out**
 
 - Do not plan the entire Hunt. Discover it through play.
-- Use Oracle Sparks to generate ideas when stuck. Reveal cards and interpret them through the lens of the fiction.
+- Use the Spark Generator to generate ideas when stuck. Reveal cards and interpret them through the lens of the fiction.
 - Let NPCs surprise the character. Decide their goals, then ask the Oracle how they react.
 
 **Structure of Play**
@@ -1033,7 +1033,7 @@ The curse does not invite another spirit in; it splits the same soul across two 
 
 Spiritual anomalies born where the veil tears and never quite seals. Not a body but a knot of will and emotion that learned how to want. Cannot be harmed by mundane attacks, only by Gifts, blessed weapons, or acts of pure will. Grows stronger when characters suffer fear, rage, or grief. -->
 
-# Oracles
+# Generators
 
 The following tables can be used to generate details about the world during play. To use a table, reveal one card for each column and match each card's value to the corresponding row. Combine the results to create an evocative prompt.
 
