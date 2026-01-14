@@ -325,7 +325,6 @@ If the player's Action total is higher than both Challenge cards, the outcome is
 If the player's Action total is higher than one Challenge card, the outcome is **Bright**. When an Action revolves around determining the outcome of a character's efforts, they succeed at what they were trying to do. When an Action revolves around determining something about the world, the character finds themselves in a good position.
 
 If the player's Action total is higher than neither Challenge card, the outcome is **Dire**. When an Action revolves around determining the outcome of a character's efforts, they fail and there is a Complication. When an Action revolves around determining something about the world, the character finds themselves in a bad position.
-
 Whenever an Action triggers a Complication, it shall always provide prompts to help determine its nature.
 
 #### Using Advantage and Disadvantage
