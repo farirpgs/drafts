@@ -14,6 +14,8 @@ css: |-
 
 <!--
 
+
+
 Writing Guidelines
 
 - Mechanical terms should always use Pascal Case (e.g., Check, Skill, Item, Position, Grit, Harm, Journey Die)
@@ -23,6 +25,15 @@ Writing Guidelines
 -->
 
 # Breathless
+
+# Changelog
+
+## 2026-01-13
+
+- Luck Checks can now use a character's Skill as a basis without stepping it down.
+- Loot Check outcomes now specify Item quality via die rating on 3-4 and 5+ results.
+- Journey Die outcomes restructured for clarity: halts/continues but hazardous/continues and clear.
+- Various writing improvements throughout the Checks and Luck Checks sections.
 
 # Survival Pamphlet
 
@@ -82,13 +93,13 @@ When creating a character, each of these Skills is assigned a die rating, which 
 
 When a character attempts something challenging or tries to avoid a Consequence, they make a Check to see how it unfolds.
 
-The GM describes the danger, establishes the character's Position, and clarifies whether the action is possible, needs extra steps or is outright impossible.
+The GM defines the risks, dangers, or obstacles, and establishes whether the character's Position is good, standard, bad, or dire.
 
-If the action is possible, the player chooses a Skill and rolls the die that matches its rating. If another player character lends a hand, they also make a Check, but share the same risks. Take the die that shows the highest number and interpret the result:
+The player then chooses a Skill that is most relevant to their approach and rolls the die that matches its rating. If another player character lends a hand, they also make a Check but share the same risks. Take the highest result and interpret the result:
 
 - **On a 1-2**: The action fails, or the character suffers the Consequence in full.
-- **On a 3-4**: The action partially succeeds, or the character suffers a lesser Consequence.
-- **On a 5+**: The action succeeds, or the Consequence is fully avoided. The higher the result, the greater the effect.
+- **On a 3-4**: The action succeeds with a reduced effect, or the character suffers a lesser Consequence.
+- **On a 5+**: The action greatly succeeds, or the Consequence is fully avoided. The higher the result, the greater the effect.
 
 After a Check, every participant reduces the current rating of the Skill they used by one step: d12 → d10 → d8 → d6 → d4. A Skill cannot step down below a d4.
 
@@ -98,8 +109,10 @@ After a Check, every participant reduces the current rating of the Skill they us
 
 When needed, the GM may also test how lucky a character is. To do this, they assign a die (e.g. d4 or d6) based on how favorable the odds are for the character, roll it, and interpret the result as they would any other Check.
 
+Alternatively, the GM may use one of the character's Skills as a basis for the roll: the Skill die is rolled but is not stepped down afterward.
+
 - **On a 1-2**: Things go wrong for the character.
-- **On a 3-4**: Things work out for the character, but there is a setback.
+- **On a 3-4**: Things work out for the character, though not as well as hoped.
 - **On a 5+**: Things work out very well for the character. The higher the result, the greater the effect.
 
 ### Position
@@ -132,8 +145,8 @@ Using an Item may improve a Check's Position, lessen the severity of a Consequen
 When a character wants to scavenge a place for tools, weapons, medkits, or supplies, they make a Loot Check using their Loot Skill. A Loot Check can only happen in locations where it makes sense and if the fiction allows for it. The player rolls the die that matches their current Loot Skill rating and interprets the result.
 
 - **On a 1-2**: The character finds nothing and a Consequence occurs.
-- **On a 3-4**: The character finds nothing and a Consequence looms.
-- **On a 5+**: The character finds an Item. The higher the result, the higher the Item's die rating, representing its quality or quantity.
+- **On a 3-4**: The character finds an Item of lower quality or quantity (lower die rating).
+- **On a 5+**: The character finds an Item. The higher the result, the better the find (higher die rating).
 
 After a Loot Check, the Loot Skill steps down like any other Skill. A character may continue to use their Loot Skill when it is at d4, but at their own risk.
 
@@ -204,9 +217,9 @@ Before taking on a Journey, the players use a map and decide where they are goin
 
 At the start of their Journey, the GM assigns a Journey Die to the group, from d4 up to d12, depending on how well equipped the characters are. Each time the players move from one point to another along a path, the GM rolls the Journey Die and interprets the result as follows:
 
-- **On a 1-2:** The path forward is blocked. The rating of the Journey Die is reduced by one step and the story zooms in on the problem or obstacle that the group is facing until it is resolved. Usually this means the game enters a Survival phase until the path is cleared or a new route is found.
-- **On a 3-4:** The path is hazardous. The rating of the Journey Die is reduced by one step and every player must also reduce the rating of one of their Skills by one step. The GM may use this pause to show how the road wears the characters thin, creating space for uneasy rest where exhaustion makes every word heavier.
-- **On a 5+:** The path ahead is clear. The group makes steady progress, moving closer to their destination without any major setback.
+- **On a 1-2:** The journey comes to a halt, for the path is blocked. The Journey Die steps down and the story zooms in on the problem until it is resolved. Usually this means entering a Survival phase until the path is cleared or a new route is found.
+- **On a 3-4:** The journey continues, but the path is hazardous. The Journey Die steps down and every player must also step down one of their Skills. The GM may use this pause to show how the road wears the characters thin.
+- **On a 5+:** The journey continues and the path is clear. The group makes steady progress without any major setback.
 
 Once a Journey has begun, characters cannot take a Safe Rest until they reach their final destination, or by pausing their travels for a full week in a shelter that is safe and secure enough.
 
