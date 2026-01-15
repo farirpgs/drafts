@@ -1,0 +1,342 @@
+<!--
+  WARDENS OF THE DUSKWATCH - Character Sheet
+  ==========================================
+  
+  DESIGN SYSTEM
+  
+  SPACING SCALE (base unit: 4px)
+  - sp-0:   0px
+  - sp-1:   4px
+  - sp-2:   8px
+  - sp-3:  12px
+  - sp-4:  16px
+  - sp-5:  20px
+  - sp-6:  24px
+  - sp-8:  32px
+  - sp-10: 40px
+  - sp-12: 48px
+  - sp-16: 64px
+  - sp-20: 80px
+  
+  PAGE LAYOUT
+  - Page width:     612px (US Letter)
+  - Page height:    792px (US Letter)
+  - Page margin:    40px (sp-10)
+  - Content width:  532px (612 - 40*2)
+  - Gutter:         20px (sp-5) between columns
+  
+  TYPOGRAPHY
+  - Font family:    Georgia, serif
+  - Title:          28px
+  - Section header: 11px, letter-spacing: 3
+  - Label:          9px, letter-spacing: 2
+  - Body:           8px
+  - Small:          6px
+  - Tiny:           5px
+  
+  COLORS
+  - Text primary:   #1a1512
+  - Text secondary: #3d3530
+  - Text muted:     #5d5248
+  - Text faint:     #7d7568
+  - Border dark:    #2a2520
+  - Border light:   #c9c4bb
+  - Background:     #faf8f5
+  - Accent red:     #8b1a1a
+  - Accent gold:    #7a5a10
+  - Accent green:   #2a5b20
+  - Accent purple:  #3b3b6b
+  
+  COMPONENTS
+  - Circle radius (core):     6px
+  - Circle radius (reserve):  6px
+  - Circle radius (fortune):  4px (5px for center)
+  - Circle spacing:          18px
+  - Box border radius:        3px
+  - Core score box:          125w x 48h (aligned with Reserve)
+  - Reserve score box:       125w x 55h
+  
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 792" width="612" height="792">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf8f5"/>
+      <stop offset="50%" style="stop-color:#f5f2ed"/>
+      <stop offset="100%" style="stop-color:#faf8f5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- ==================== BACKGROUND ==================== -->
+  <rect width="612" height="792" fill="url(#bgGradient)"/>
+  
+  <!-- ==================== BORDER ==================== -->
+  <!-- Outer border at margin-4 (16px) -->
+  <rect x="16" y="16" width="580" height="760" fill="none" stroke="#c9c4bb" stroke-width="2"/>
+  <!-- Inner border at margin-5 (20px) -->
+  <rect x="20" y="20" width="572" height="752" fill="none" stroke="#c9c4bb" stroke-width="1"/>
+  
+  <!-- ==================== HEADER ==================== -->
+  <!-- Title at y=60 (margin-15) -->
+  <text x="306" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#1a1512" letter-spacing="3">WARDENS OF THE DUSKWATCH</text>
+  <!-- Subtitle at y=60+20=80 (sp-5 below title) -->
+  <text x="306" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#5d5248" letter-spacing="5">CHARACTER SHEET</text>
+  <!-- Divider at y=96 (sp-4 below subtitle) -->
+  <line x1="40" y1="96" x2="572" y2="96" stroke="#c9c4bb" stroke-width="0.5"/>
+  
+  <!-- ==================== NAME + BACKGROUND ROW ==================== -->
+  <!-- Row starts at y=112 (sp-4 below divider) -->
+  <g transform="translate(40, 112)">
+    <!-- NAME field -->
+    <text x="0" y="0" font-family="Georgia, serif" font-size="9" fill="#5d5248" letter-spacing="2">NAME</text>
+    <line x1="0" y1="20" x2="250" y2="20" stroke="#2a2520" stroke-width="1"/>
+    
+    <!-- BACKGROUND field (offset by 280 = 250 + sp-8 gutter) -->
+    <text x="280" y="0" font-family="Georgia, serif" font-size="9" fill="#5d5248" letter-spacing="2">BACKGROUND</text>
+    <line x1="280" y1="20" x2="532" y2="20" stroke="#2a2520" stroke-width="1"/>
+  </g>
+  
+  <!-- ==================== GIFT ROW ==================== -->
+  <!-- Row starts at y=156 (sp-10 below name row, accounting for line height) -->
+  <g transform="translate(40, 156)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="9" fill="#5d5248" letter-spacing="2">GIFT</text>
+    
+    <!-- Gift checkboxes at y=16 (sp-4 below label) -->
+    <g transform="translate(0, 16)">
+      <rect x="0" y="0" width="12" height="12" fill="none" stroke="#2a2520" stroke-width="1" rx="2"/>
+      <text x="16" y="10" font-family="Georgia, serif" font-size="9" fill="#3d3530">Stonehide</text>
+      
+      <rect x="100" y="0" width="12" height="12" fill="none" stroke="#2a2520" stroke-width="1" rx="2"/>
+      <text x="116" y="10" font-family="Georgia, serif" font-size="9" fill="#3d3530">Bonegrind</text>
+      
+      <rect x="200" y="0" width="12" height="12" fill="none" stroke="#2a2520" stroke-width="1" rx="2"/>
+      <text x="216" y="10" font-family="Georgia, serif" font-size="9" fill="#3d3530">Vinewright</text>
+      
+      <rect x="308" y="0" width="12" height="12" fill="none" stroke="#2a2520" stroke-width="1" rx="2"/>
+      <text x="324" y="10" font-family="Georgia, serif" font-size="9" fill="#3d3530">Wildtongue</text>
+      
+      <rect x="420" y="0" width="12" height="12" fill="none" stroke="#2a2520" stroke-width="1" rx="2"/>
+      <text x="436" y="10" font-family="Georgia, serif" font-size="9" fill="#3d3530">Soulgrip</text>
+    </g>
+  </g>
+  
+  <!-- ==================== SECTION DIVIDER ==================== -->
+  <!-- Divider at y=200 (sp-6 below gift row) -->
+  <g transform="translate(306, 200)">
+    <line x1="-266" y1="0" x2="-15" y2="0" stroke="#c9c4bb" stroke-width="0.5"/>
+    <line x1="266" y1="0" x2="15" y2="0" stroke="#c9c4bb" stroke-width="0.5"/>
+    <path d="M-15 0 L0 -8 L15 0 L0 8 Z" fill="none" stroke="#2a2520" stroke-width="0.75"/>
+    <circle cx="0" cy="0" r="2" fill="#8b1a1a"/>
+  </g>
+  
+  <!-- ==================== CORE SCORES SECTION ==================== -->
+  <!-- Section starts at y=224 (sp-6 below divider to account for diamond) -->
+  <g transform="translate(40, 224)">
+    <!-- Section header centered over content (content width = 532, center = 266) -->
+    <text x="266" y="0" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#1a1512" letter-spacing="3">CORE SCORES</text>
+    <text x="266" y="14" text-anchor="middle" font-family="Georgia, serif" font-size="7" fill="#7d7568">(0-5, distribute 8 points, max 3 at creation)</text>
+    
+    <!-- Score boxes row at y=32 (sp-4 below subtitle) -->
+    <!-- Box dimensions: 125w x 48h, space-between layout (gap ~10.67px) -->
+    <!-- Positions: 0, 136, 271, 407 (last box ends at 532) -->
+    
+    <!-- STRENGTH box at x=0 -->
+    <g transform="translate(0, 32)">
+      <rect x="0" y="0" width="125" height="48" fill="#f5f2ed" stroke="#2a2520" stroke-width="1" rx="3"/>
+      <text x="62" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#3d3530" letter-spacing="1">STRENGTH</text>
+      <text x="62" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="6" fill="#7d7568">Brute force, heavy blows</text>
+      <g transform="translate(17, 32)">
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">0</text>
+        <circle cx="18" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="18" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">1</text>
+        <circle cx="36" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="36" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">2</text>
+        <circle cx="54" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="54" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">3</text>
+        <circle cx="72" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="72" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">4</text>
+        <circle cx="90" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="90" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">5</text>
+      </g>
+    </g>
+    
+    <!-- DEXTERITY box at x=136 -->
+    <g transform="translate(136, 32)">
+      <rect x="0" y="0" width="125" height="48" fill="#f5f2ed" stroke="#2a2520" stroke-width="1" rx="3"/>
+      <text x="62" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#3d3530" letter-spacing="1">DEXTERITY</text>
+      <text x="62" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="6" fill="#7d7568">Agility, precision, stealth</text>
+      <g transform="translate(17, 32)">
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">0</text>
+        <circle cx="18" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="18" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">1</text>
+        <circle cx="36" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="36" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">2</text>
+        <circle cx="54" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="54" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">3</text>
+        <circle cx="72" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="72" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">4</text>
+        <circle cx="90" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="90" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">5</text>
+      </g>
+    </g>
+    
+    <!-- WILLPOWER box at x=271 -->
+    <g transform="translate(271, 32)">
+      <rect x="0" y="0" width="125" height="48" fill="#f5f2ed" stroke="#2a2520" stroke-width="1" rx="3"/>
+      <text x="62" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#3d3530" letter-spacing="1">WILLPOWER</text>
+      <text x="62" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="6" fill="#7d7568">Resolve, perception, persuasion</text>
+      <g transform="translate(17, 32)">
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">0</text>
+        <circle cx="18" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="18" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">1</text>
+        <circle cx="36" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="36" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">2</text>
+        <circle cx="54" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="54" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">3</text>
+        <circle cx="72" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="72" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">4</text>
+        <circle cx="90" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="90" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">5</text>
+      </g>
+    </g>
+    
+    <!-- CONSTITUTION box at x=407 -->
+    <g transform="translate(407, 32)">
+      <rect x="0" y="0" width="125" height="48" fill="#f5f2ed" stroke="#2a2520" stroke-width="1" rx="3"/>
+      <text x="62" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#3d3530" letter-spacing="1">CONSTITUTION</text>
+      <text x="62" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="6" fill="#7d7568">Endurance, resilience</text>
+      <g transform="translate(17, 32)">
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">0</text>
+        <circle cx="18" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="18" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">1</text>
+        <circle cx="36" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="36" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">2</text>
+        <circle cx="54" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="54" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">3</text>
+        <circle cx="72" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="72" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">4</text>
+        <circle cx="90" cy="0" r="6" fill="none" stroke="#2a2520" stroke-width="0.5"/><text x="90" y="0" text-anchor="middle" dominant-baseline="central" font-size="7" fill="#5d5248">5</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- ==================== SECTION DIVIDER ==================== -->
+  <!-- Divider at y=320 (224 + 32 + 48 + sp-4) -->
+  <g transform="translate(306, 320)">
+    <line x1="-266" y1="0" x2="-15" y2="0" stroke="#c9c4bb" stroke-width="0.5"/>
+    <line x1="266" y1="0" x2="15" y2="0" stroke="#c9c4bb" stroke-width="0.5"/>
+    <path d="M-15 0 L0 -8 L15 0 L0 8 Z" fill="none" stroke="#2a2520" stroke-width="0.75"/>
+    <circle cx="0" cy="0" r="2" fill="#8b1a1a"/>
+  </g>
+  
+  <!-- ==================== RESERVE SCORES SECTION ==================== -->
+  <!-- Section starts at y=344 (sp-6 below divider to account for diamond) -->
+  <g transform="translate(40, 344)">
+    <text x="266" y="0" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#1a1512" letter-spacing="3">RESERVE SCORES</text>
+    <text x="266" y="14" text-anchor="middle" font-family="Georgia, serif" font-size="7" fill="#7d7568">(0-5, start at 5 except Fortune which starts at 0)</text>
+    
+    <!-- Reserve boxes row at y=28 (sp-4 below subtitle) -->
+    <!-- Box dimensions: 125w x 48h, space-between layout (gap ~10.67px) -->
+    <!-- Positions: 0, 136, 271, 407 (last box ends at 532) -->
+    
+    <!-- VITAE box at x=0 -->
+    <!-- Spacing: title y=12, subtitle y=20 (8px gap), circles y=30, note y=42 -->
+    <g transform="translate(0, 28)">
+      <rect x="0" y="0" width="125" height="48" fill="#fdf8f8" stroke="#8b1a1a" stroke-width="1.5" rx="3"/>
+      <text x="62" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#8b1a1a" letter-spacing="2">VITAE</text>
+      <text x="62" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="6" fill="#6d4040">Physical and mental health</text>
+      <g transform="translate(17, 32)">
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#8b1a1a" stroke-width="0.5"/><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#8b1a1a">0</text>
+        <circle cx="18" cy="0" r="6" fill="none" stroke="#8b1a1a" stroke-width="0.5"/><text x="18" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#8b1a1a">1</text>
+        <circle cx="36" cy="0" r="6" fill="none" stroke="#8b1a1a" stroke-width="0.5"/><text x="36" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#8b1a1a">2</text>
+        <circle cx="54" cy="0" r="6" fill="none" stroke="#8b1a1a" stroke-width="0.5"/><text x="54" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#8b1a1a">3</text>
+        <circle cx="72" cy="0" r="6" fill="none" stroke="#8b1a1a" stroke-width="0.5"/><text x="72" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#8b1a1a">4</text>
+        <circle cx="90" cy="0" r="6" fill="none" stroke="#8b1a1a" stroke-width="0.5"/><text x="90" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#8b1a1a">5</text>
+      </g>
+      <text x="62" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="5" fill="#8d6060">Starts at 5 - At 0: Resist Death</text>
+    </g>
+    
+    <!-- FAITH box at x=136 -->
+    <g transform="translate(136, 28)">
+      <rect x="0" y="0" width="125" height="48" fill="#fdfaf3" stroke="#9a7a20" stroke-width="1.5" rx="3"/>
+      <text x="62" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#7a5a10" letter-spacing="2">FAITH</text>
+      <text x="62" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="6" fill="#8b7320">Inner light, corruption resistance</text>
+      <g transform="translate(17, 32)">
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#9a7a20" stroke-width="0.5"/><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#7a5a10">0</text>
+        <circle cx="18" cy="0" r="6" fill="none" stroke="#9a7a20" stroke-width="0.5"/><text x="18" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#7a5a10">1</text>
+        <circle cx="36" cy="0" r="6" fill="none" stroke="#9a7a20" stroke-width="0.5"/><text x="36" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#7a5a10">2</text>
+        <circle cx="54" cy="0" r="6" fill="none" stroke="#9a7a20" stroke-width="0.5"/><text x="54" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#7a5a10">3</text>
+        <circle cx="72" cy="0" r="6" fill="none" stroke="#9a7a20" stroke-width="0.5"/><text x="72" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#7a5a10">4</text>
+        <circle cx="90" cy="0" r="6" fill="none" stroke="#9a7a20" stroke-width="0.5"/><text x="90" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#7a5a10">5</text>
+      </g>
+      <text x="62" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="5" fill="#9a8330">Starts at 5 - At 0: Resist the Forest</text>
+    </g>
+    
+    <!-- SUPPLY box at x=271 -->
+    <g transform="translate(271, 28)">
+      <rect x="0" y="0" width="125" height="48" fill="#f5faf5" stroke="#3a6b30" stroke-width="1.5" rx="3"/>
+      <text x="62" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#2a5b20" letter-spacing="2">SUPPLY</text>
+      <text x="62" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="6" fill="#4a7b40">Provisions, ammo, gear</text>
+      <g transform="translate(17, 32)">
+        <circle cx="0" cy="0" r="6" fill="none" stroke="#3a6b30" stroke-width="0.5"/><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#2a5b20">0</text>
+        <circle cx="18" cy="0" r="6" fill="none" stroke="#3a6b30" stroke-width="0.5"/><text x="18" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#2a5b20">1</text>
+        <circle cx="36" cy="0" r="6" fill="none" stroke="#3a6b30" stroke-width="0.5"/><text x="36" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#2a5b20">2</text>
+        <circle cx="54" cy="0" r="6" fill="none" stroke="#3a6b30" stroke-width="0.5"/><text x="54" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#2a5b20">3</text>
+        <circle cx="72" cy="0" r="6" fill="none" stroke="#3a6b30" stroke-width="0.5"/><text x="72" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#2a5b20">4</text>
+        <circle cx="90" cy="0" r="6" fill="none" stroke="#3a6b30" stroke-width="0.5"/><text x="90" y="0" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#2a5b20">5</text>
+      </g>
+      <text x="62" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="5" fill="#5a8b50">Starts at 5</text>
+    </g>
+    
+    <!-- FORTUNE box at x=407 -->
+    <g transform="translate(407, 28)">
+      <rect x="0" y="0" width="125" height="48" fill="#f5f5fa" stroke="#4b4b7b" stroke-width="1.5" rx="3"/>
+      <text x="62" y="12" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#3b3b6b" letter-spacing="2">FORTUNE</text>
+      <text x="62" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="6" fill="#5b5b8b">Luck and fate's favor</text>
+      <!-- Fortune circles: 11 circles for -5 to +5, r=4, spacing=10, centered in 125px -->
+      <g transform="translate(12, 32)">
+        <circle cx="0" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">-5</text>
+        <circle cx="10" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="10" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">-4</text>
+        <circle cx="20" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="20" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">-3</text>
+        <circle cx="30" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="30" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">-2</text>
+        <circle cx="40" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="40" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">-1</text>
+        <circle cx="50" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="50" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">0</text>
+        <circle cx="60" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="60" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">1</text>
+        <circle cx="70" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="70" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">2</text>
+        <circle cx="80" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="80" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">3</text>
+        <circle cx="90" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="90" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">4</text>
+        <circle cx="100" cy="0" r="4" fill="none" stroke="#4b4b7b" stroke-width="0.5"/><text x="100" y="0" text-anchor="middle" dominant-baseline="central" font-size="5" fill="#4b4b7b">5</text>
+      </g>
+      <text x="62" y="44" text-anchor="middle" font-family="Georgia, serif" font-size="5" fill="#6b6b9b">Starts at 0 - Range: -5 to +5</text>
+    </g>
+  </g>
+  
+  <!-- ==================== FORTUNE REMINDER ==================== -->
+  <!-- Reminder box at y=432 (344 + 28 + 48 + sp-3) -->
+  <g transform="translate(40, 432)">
+    <rect x="0" y="0" width="532" height="24" fill="#f5f2ed" stroke="#c9c4bb" stroke-width="0.5" rx="2"/>
+    <text x="266" y="15" text-anchor="middle" font-family="Georgia, serif" font-size="7" fill="#5d5248"><tspan font-weight="bold" fill="#3d3530">PRESS ON:</tspan> Spend 1 Fortune to push Dire to Bright<tspan dx="24" font-weight="bold" fill="#3d3530">HOLD BACK:</tspan> Accept Bright instead of Radiant to restore 1 Fortune</text>
+  </g>
+  
+  <!-- ==================== SECTION DIVIDER ==================== -->
+  <!-- Divider at y=472 (432 + 24 + sp-4) -->
+  <g transform="translate(306, 472)">
+    <line x1="-266" y1="0" x2="-15" y2="0" stroke="#c9c4bb" stroke-width="0.5"/>
+    <line x1="266" y1="0" x2="15" y2="0" stroke="#c9c4bb" stroke-width="0.5"/>
+    <path d="M-15 0 L0 -8 L15 0 L0 8 Z" fill="none" stroke="#2a2520" stroke-width="0.75"/>
+    <circle cx="0" cy="0" r="2" fill="#8b1a1a"/>
+  </g>
+  
+  <!-- ==================== RECORDS SECTION ==================== -->
+  <!-- Section starts at y=496 (sp-6 below divider to account for diamond) -->
+  <g transform="translate(40, 496)">
+    <text x="266" y="0" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#1a1512" letter-spacing="3">RECORDS</text>
+    <text x="266" y="14" text-anchor="middle" font-family="Georgia, serif" font-size="7" fill="#7d7568">Items, bonds, wounds, clues, debts, and other important notes</text>
+    
+    <!-- Records box at y=24 (sp-2 below subtitle) -->
+    <rect x="0" y="24" width="532" height="208" fill="#ffffff" stroke="#2a2520" stroke-width="1" rx="3"/>
+    
+    <!-- Writing lines: 20px (sp-5) apart -->
+    <g stroke="#d5d0c8" stroke-width="0.5">
+      <line x1="12" y1="44" x2="520" y2="44"/>
+      <line x1="12" y1="64" x2="520" y2="64"/>
+      <line x1="12" y1="84" x2="520" y2="84"/>
+      <line x1="12" y1="104" x2="520" y2="104"/>
+      <line x1="12" y1="124" x2="520" y2="124"/>
+      <line x1="12" y1="144" x2="520" y2="144"/>
+      <line x1="12" y1="164" x2="520" y2="164"/>
+      <line x1="12" y1="184" x2="520" y2="184"/>
+      <line x1="12" y1="204" x2="520" y2="204"/>
+      <line x1="12" y1="224" x2="520" y2="224"/>
+    </g>
+    
+    <!-- Center divider -->
+    <line x1="266" y1="34" x2="266" y2="224" stroke="#d5d0c8" stroke-width="0.5" stroke-dasharray="2,2"/>
+  </g>
+  
+  <!-- ==================== FOOTER ==================== -->
+  <!-- Footer at y=752 (page height - margin - sp-5) -->
+  <text x="306" y="752" text-anchor="middle" font-family="Georgia, serif" font-size="7" fill="#5d5248">Draw+Score - Radiant (beat both) - Bright (beat one) - Dire (beat neither)</text>
+  <text x="306" y="764" text-anchor="middle" font-family="Georgia, serif" font-size="6" fill="#7d7568">farirpgs.com</text>
+  
+</svg>

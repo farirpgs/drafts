@@ -4,13 +4,12 @@
   "scripts": {
     "clean:pdf": "rm -f docs/*.pdf",
     "build:css": "npx @tailwindcss/cli -i ./input.css -o ./output.css --minify",
-    "dev": "nodemon --watch docs --watch input.css --watch md-to-pdf.config.js -e md,css,js --exec 'npm run build'",
+    "dev": "npm run build:css && npx md-to-pdf --watch --config-file md-to-pdf.config.js docs/*.md",
     "build": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js docs/*.md",
     "debug": "npm run build:css && npx md-to-pdf --as-html --config-file md-to-pdf.config.js docs/*.md"
   },
   "dependencies": {
-    "md-to-pdf": "^5.2.4",
-    "nodemon": "^3.1.11"
+    "md-to-pdf": "^5.2.4"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",
