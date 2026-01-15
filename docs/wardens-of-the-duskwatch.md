@@ -867,37 +867,6 @@ Each player introduces their character: their name, what they look like, and one
 
 # Bestiary
 
-## Pallid Hound
-
-**Strength**: 2
-**Weakness**: Hearts
-**Wants**: Please its master
-
-> The stench of rotting flesh clings to the air as guttural growls shiver through the gloom.
-
-Corrupted beasts driven by a warped need to please their unseen master. Wherever a pallid hound prowls, its master is never far behind.
-
-## Pallid Shambler
-
-**Strength**: 3
-**Weakness**: Red suits
-**Wants**: Feed the roots
-
-> The creature moves with a jerky, puppet-like gait, its ribcage rattling against the thick roots that coil where organs used to be.
-
-Hollowed monuments of bone and root woven into shapes that once held names. The forest gorged on them until flesh became sap and memory was lost to rot.
-
-## Thornmouth
-
-**Strength**: 13
-**Weakness**: Face cards
-**Armor**: Red suits
-**Wants**: Live forever, break chains
-
-> Skin pale as marble, eyes pooling with black ichor. It is looking at you and you feel absolutely worthless.
-
-Beautiful and eternal. Taken early by the roots, their bodies are frozen in time, still very much human in all the wrong ways. Each rises with a Gift that is theirs alone and exerts power over pallid creatures. Yet they will always bend to the forces that gave them a second chance.
-
 ## Bandit
 
 **Strength**: 4
@@ -946,15 +915,46 @@ Ill-tempered and fearless, boars attack anything that startles them. Their tusks
 
 Cunning hunters that stalk prey in packs of six or more. Alone, a wolf will circle and test for weakness. Together, they coordinate to exhaust and surround. When one falls, the others may scatter, or press harder if the pack is hungry.
 
-## Veilis
+## Pallid Hound
+
+**Strength**: 2
+**Weakness**: Hearts
+**Wants**: Please its master and bring back prizes
+
+> The stench of rotting flesh clings to the air as guttural growls shiver through the gloom. They are here.
+
+So many lost souls fall to the woods, but it shall be known that every manner of beast can be claimed by the corruption and turned into a pallid puppet for the roots. Among these twisted creatures, pallid hounds are among the most ferocious. Their fervor comes from a warped, bestial need to please and obey their unseen master, which means that wherever a pallid hound prowls, its master is never far behind.
+
+## Pallid Shambler
+
+**Strength**: 3
+**Weakness**: Red suits
+**Wants**: Feed
+
+> The creature moves with a jerky, puppet-like gait, its ribcage rattling against the thick roots that coil where organs used to be.
+
+The Wretched of the Wood. The forest gorged on these souls for so long that flesh became sap, all while their memory and will were lost to time and rot. They are hollowed monuments, bone and root woven into a shape that once held a name. Without a Thornmouth to speak purpose into them, they sag in place or hunt anything that crosses their path out of both instinct and rage.
+
+## Thornmouth
+
+**Strength**: 13
+**Weakness**: Face cards
+**Armor**: Red suits
+**Wants**: Live, learn, and break their own chains
+
+> It is looking at you and you feel absolutely worthless. Your heartbeat becomes deafening in your head. You are nothing and they are forever.
+
+They walk and hide among the living, looking unchanged, but beneath that mask of blighted sorcery lies power and presence eternal: skin pale as marble, eyes pooling with black ichor. Beautiful, terrifying, and forever. Taken early by the roots, their bodies are frozen in time but their will belongs to something else now. Each Thornmouth rises with a gift that is theirs alone, but all exert power over pallid hounds and shamblers. A power borrowed. When the roots pull at their strings, few can resist.
+
+## Blightveil
 
 **Strength**: 5
 **Weakness**: Hearts
-**Wants**: Quiet the spirit's hunger
+**Wants**: Die, but cannot. One half refuses. The other lacks the power.
 
-> A figure stands before you, their shadow moving out of step, fingers stretching longer than they should. When they speak, a second, older voice rides beneath their words.
+> When they open their mouth, you hear a voice, then another. One human and pleading. One ancient and patient, indifferent to suffering. Their eyes hold something that remembers the world before it needed a name. Then you see its shadow. Dark arms reach while the body stands still.
 
-Veiling was once a sacred rite: a willing bond where a chosen soul and a forest spirit walked as equals. In the age of the Derweald, spirits have grown desperate and cruel, forcing themselves into living minds without invite. Veilis are the fractured result, neither druid nor spirit, but something caught between.
+Veiling was once a sacred rite among the druids, a willing communion between soul and spirit. Through careful ritual, a chosen one would bind themselves to a forest spirit, and both would share the burden of existence as equals. But the Derweald's corruption has twisted this ancient practice into something obscene. Now spirits force themselves into living bodies, tearing through flesh and breaking the mind that tries to hold them. The result is something shattered: two voices screaming in one throat.
 
 ## Bright Templar
 
