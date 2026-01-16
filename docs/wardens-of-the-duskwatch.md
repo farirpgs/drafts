@@ -966,7 +966,7 @@ Veiling was once a sacred rite among the druids, a willing communion between sou
 
 Heavy-plated soldiers of the One Light, raised to believe armor is just another kind of altar. They are the Church's wall of steel, taught to see doubt and mercy as cracks in their faith. When reduced to 0 Strength, they may rise once more with half Strength and fight until taken out again.
 
-[...more will be added to the bestiary soon]
+[...more entries will be added to the bestiary soon]
 
 <!--
 ## Bright Mage (TODO: THIS IS BAD, SYCN WITH CHRONICLES PDF)

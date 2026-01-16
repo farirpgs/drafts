@@ -28,6 +28,11 @@ Writing Guidelines
 
 # Changelog
 
+## 2026-01-16
+
+- Added Controlled Position and Desperate Position as special cases where no Check is made.
+- Revised wording for all Positions for clarity and consistency.
+
 ## 2026-01-13
 
 - Luck Checks can now use a character's Skill as a basis without stepping it down.
@@ -119,10 +124,14 @@ Alternatively, the GM may use one of the character's Skills as a basis for the r
 
 When the fiction places a character at an advantage or disadvantage during a Check, the GM establishes the character's Position and adjusts how the roll is made.
 
-- **Good Position**: The fiction strongly favors the character. The player rolls their Skill die stepped up.
-- **Standard Position**: The character is neither advantaged nor disadvantaged. The player makes a normal Check.
-- **Bad Position**: The fiction works against the character. The player rolls their Skill die stepped down.
-- **Dire Position**: The challenge is overwhelming. The character cannot proceed with the action as planned. They must try a different approach or shift the fiction before attempting again.
+- **Good Position**: The character is at an advantage. The player makes a Check with their Skill die stepped up.
+- **Standard Position**: The character is neither advantaged nor disadvantaged. The player makes a Check with their Skill die.
+- **Bad Position**: The character is at a disadvantage. The player makes a Check with their Skill die stepped down.
+
+In some special cases, a Check may be skipped or be impossible to make:
+
+- **Controlled Position**: The character has complete control. The player skips the Check and the action succeeds outright.
+- **Desperate Position**: The character faces an overwhelming or impossible challenge. The player must change how their character approaches the situation.
 
 > _A Skill at d12 cannot step up further. A Skill at d4 cannot step down further for Position purposes, but the Check can still be attempted. Furthermore, the GM does not need to set a Position for every single Check. This is a tool that prompts a conversation for when a roll feels uncertain or when the stakes of a scene need to be made clearer._
 
