@@ -131,7 +131,7 @@ When the fiction places a character at an advantage or disadvantage during a Che
 In some special cases, a Check may be skipped or be impossible to make:
 
 - **Controlled Position**: The character has complete control. The player skips the Check and the action succeeds outright.
-- **Desperate Position**: The character faces an overwhelming or impossible challenge. The player must change how their character approaches the situation.
+- **Dire Position**: The character faces an overwhelming or impossible challenge. The player must change how their character approaches the situation.
 
 > _A Skill at d12 cannot step up further. A Skill at d4 cannot step down further for Position purposes, but the Check can still be attempted. Furthermore, the GM does not need to set a Position for every single Check. This is a tool that prompts a conversation for when a roll feels uncertain or when the stakes of a scene need to be made clearer._
 
