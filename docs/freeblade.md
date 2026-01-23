@@ -7,6 +7,7 @@ Writing Guidelines
 - Write in third person only when describing rules. Use the character, the player, or themselves. Never use you, your, or yourself except in guidelines, examples, notes, etc.
 - Use "1DX" when instructing to roll (e.g., "roll 1D6"). Use just "DX" when referring to a rating or die type (e.g., "D6 damage").
 - Format Conditions as gain a "name" Condition.
+- Backgrounds must list 1 Weapon, one armor, a shield with a rating, or no armor with 1 extra item, and 3 items. Consumable items should include a Uses die, formatted as (D4 Uses). Format example: WeaponName (D10, bulky), ShieldName (D6), gearName (D4 Uses).
 
 -->
 
@@ -90,145 +91,233 @@ Unspent Focus is lost at the end of each session and does not carry over.
 
 Slots measure how much a character can carry and how many conditions they can bear. Set the character total Slots to Strength + 10.
 
-### 5. Starting Belongings
+### 5. Starting Backgrounds
 
-Characters start the game with a number of items. Standard items take 1 Slot, bulky items take 2 Slots, and petty items take no Slots.
-
-Identify the character highest Ability score. If there is a tie, choose the Ability. Then roll 1D6 on the matching table below to determine the starting character belongings.
+Characters start the game with a number of items. Standard items take 1 Slot, bulky items take 2 Slots, and petty items take no Slots. Identify the character highest Ability score. If there is a tie, choose the Ability. Then roll 1D6 on the matching table below to determine the character background. Each background comes with a starting set of belongings the character has at the start of the game.
 
 ### 6. Additional Details
 
 Lastly, roll or choose on the Details tables available on the next page to flesh out the character more. Note down the character name and preferred pronouns. The character can now start their journey!
 
-## Belongings
+## Backgrounds
 
-Characters begin with torches (D6 Uses), rations (D6 Uses, petty), and 3D6 x 10 coins (petty) on top of their belongings.
+Characters begin with torches (D6 Uses), rations (D6 Uses, petty), and 3D6 x 10 coins (petty) on top of their background items.
 
-### Strength Belongings 1D6
+### Strength Backgrounds 1D6
 
-1. Greatsword (D10, bulky), dagger (D6), chain armor (D6), rope, iron spikes, torch (D6 Uses).
-2. Battle axe (D10, bulky), handaxe (D8), shield, crowbar, chain (10ft), flask of oil (D6 Uses).
-3. Warhammer (D10, bulky), club (D6), chain armor (D6), grappling hook, chalk, bell.
-4. Spear (D8), shortsword (D8), leather armor (D4), bedroll, cooking pot, flint.
-5. Mace (D8), dagger (D6), chain armor (D6), ten foot pole, sack, lantern.
-6. Halberd (D10, bulky), handaxe (D8), leather armor (D4), rope, crowbar, pitons.
+1. Soldier: Greatsword (D10, bulky), chain armor (D6), rope (50ft), iron spikes, whetstone.
+2. Blacksmith: Battle axe (D10, bulky), leather armor (D4), tongs, hammer, lantern.
+3. Guard: Polearm (D10, bulky), shield (D6), manacles, whistle, torch (D6 Uses).
+4. Farmer: Spear (D8), cloak, shovel, flint and steel, sack.
+5. Sailor: Cutlass (D8), oilskin coat, grappling hook, tar pot, coil of rope.
+6. Outlaw: Halberd (D10, bulky), leather armor (D4), crowbar, lockpicks, caltrops.
 
-### Dexterity Belongings 1D6
+### Dexterity Backgrounds 1D6
 
-1. Dagger (D6), shortbow (D6, bulky), leather armor (D4), caltrops, lockpicks, mirror.
-2. Shortsword (D8), sling (D6), leather armor (D4), rope, grappling hook, chalk.
-3. Rapier (D8), dagger (D6), leather armor (D4), smoke bomb (D6 Uses), cloak, wire.
-4. Handaxe (D8), shortbow (D6, bulky), leather armor (D4), climbing gear, oil (D6 Uses), tinderbox.
-5. Dagger (D6), crossbow (D8, bulky), leather armor (D4), spyglass, caltrops, lantern.
-6. Shortsword (D8), dagger (D6), leather armor (D4), grappling hook, lockpicks, disguise kit.
+1. Thief: Dagger (D6), leather armor (D4), lockpicks, mirror, marbles.
+2. Hunter: Short sword (D8), cloak, snare wire, hunting trap, tinderbox.
+3. Scout: Crossbow (D8, bulky), light armor (D4), map case, chalk, climbing spikes.
+4. Messenger: Shortbow (D6, bulky), cloak, satchel, sealing wax, signal whistle.
+5. Servant: Knife (D6), robe, disguise kit, needle and thread, soap.
+6. Performer: Rapier (D8), cloak, makeup kit, fine rope, smoke powder.
 
-### Presence Belongings 1D6
+### Presence Backgrounds 1D6
 
-1. Staff (D6), dagger (D6), robes, spellbook, chalk, candles (D6 Uses).
-2. Dagger (D6), sling (D6), robes, grimoire, incense (D6 Uses), bell.
-3. Staff (D6), dagger (D6), robes, ritual kit, mirror, salt.
-4. Mace (D8), dagger (D6), light armor (D4), holy symbol, bandages (D6 Uses), holy water (D6 Uses).
-5. Staff (D6), dagger (D6), robes, scroll case, ink, quill.
-6. Mace (D8), sling (D6), light armor (D4), holy text, incense (D6 Uses), prayer beads.
+1. Priest: Mace (D8), robe, holy symbol, incense (D6 Uses), bell.
+2. Scholar: Staff (D6), robe, spellbook, ink and quill, lens.
+3. Hermit: Staff (D6), cloak, charm pouch, salt, bone dice.
+4. Noble: Short sword (D8), cloak, signet ring, perfume vial, calling cards.
+5. Scribe: Dagger (D6), robe, vellum roll, sealing stamp, wax tablet.
+6. Pilgrim: Club (D6), light armor (D4), waterskin, bandages (D6 Uses), small icon.
 
-Characters with Presence as their highest Ability score also know a number of Spells equal to their Presence score, each Spell taking 1 Slot. To determine starting Spells, pick or roll on the Spells table.
+### Constitution Backgrounds 1D6
 
-### Constitution Belongings 1D6
-
-1. Club (D6), dagger (D6), leather armor (D4), healing herbs (D6 Uses), rope, waterskin.
-2. Spear (D8), handaxe (D8), leather armor (D4), bedroll, tent, cooking pot.
-3. Mace (D8), dagger (D6), chain armor (D6), bandages (D6 Uses), rations (extra), waterskin.
-4. Handaxe (D8), club (D6), leather armor (D4), bear trap, rope, lantern.
-5. Club (D6), sling (D6), leather armor (D4), fishing gear, net, flint.
-6. Spear (D8), dagger (D6), chain armor (D6), healing kit (D6 Uses), blanket, cookpot.
+1. Healer: Club (D6), cloak, herbs (D6 Uses), bandages (D6 Uses), soap.
+2. Miner: Pick (D8), heavy armor (D6), shovel, soot goggles, lamp oil (D6 Uses).
+3. Cook: Cleaver (D8), light armor (D4), cooking pot, spice kit, smoked rations (D6 Uses).
+4. Fisher: Hook spear (D8), cloak, net, fishing kit, flask.
+5. Laborer: Hammer (D8), shield (D6), pry bar, gloves, lantern.
+6. Monk: Staff (D6), robe, prayer cord, tea tin, blanket.
 
 ## Details
 
 ### Face 1D8
 
-1. Weathered
-2. Sharp
-3. Soft
-4. Sunken
-5. Broad
-6. Freckled
-7. Scarred
-8. Angular
+1. Round
+2. Long
+3. Wide
+4. Narrow
+5. Plain
+6. Lined
+7. Freckled
+8. Scarred
 
 ### Hair 1D8
 
-1. Cropped
-2. Braided
-3. Wild
-4. Bald
-5. Gray
-6. Glossy
-7. Tangled
-8. Flowing
+1. Short
+2. Long
+3. Curly
+4. Straight
+5. Braided
+6. Bald
+7. Gray
+8. Messy
+
+### Speech 1D8
+
+1. Plain
+2. Loud
+3. Mysterious
+4. Slow
+5. Fancy
+6. Rough
+7. Fast
+8. Soft
 
 ### Physique 1D8
 
-1. Compact
-2. Wiry
-3. Broad
-4. Lean
-5. Heavy
-6. Lithe
-7. Muscular
-8. Gaunt
+1. Slim
+2. Lean
+3. Stocky
+4. Muscular
+5. Broad
+6. Heavy
+7. Tall
+8. Short
+
+### Clothing 1D8
+
+1. Old
+2. Clean
+3. Fancy
+4. Odd
+5. Trendy
+6. Dirty
+7. Torn
+8. Patched
+
+### Drive 1D8
+
+1. Freedom
+2. Justice
+3. Wealth
+4. Revenge
+5. Duty
+6. Faith
+7. Fame
+8. Survival
 
 ### Virtue 1D8
 
-1. Courage
-2. Patience
-3. Mercy
-4. Discipline
-5. Loyalty
-6. Curiosity
-7. Honesty
-8. Generosity
+1. Brave
+2. Patient
+3. Kind
+4. Steady
+5. Loyal
+6. Curious
+7. Honest
+8. Giving
 
 ### Flaw 1D8
 
-1. Pride
-2. Greed
-3. Recklessness
-4. Suspicion
-5. Stubbornness
-6. Restlessness
-7. Envy
-8. Cowardice
+1. Proud
+2. Greedy
+3. Rash
+4. Wary
+5. Stubborn
+6. Restless
+7. Jealous
+8. Fearful
 
-### Background 1D20
+## Names (2D8)
 
-1. Soldier
-2. Pilgrim
-3. Artisan
-4. Healer
-5. Performer
-6. Scholar
-7. Merchant
-8. Outlaw
-9. Farmer
-10. Hunter
-11. Sailor
-12. Noble
-13. Servant
-14. Priest
-15. Thief
-16. Hermit
-17. Beggar
-18. Blacksmith
-19. Scribe
-20. Gravedigger
+### Names A 1D8
 
-### Reputation 2D6
+1. Alder
+2. Bram
+3. Cora
+4. Dain
+5. Elin
+6. Finn
+7. Mira
+8. Tessa
 
-- 2-3: Infamous
-- 4-5: Distrusted
-- 6-8: Unknown
-- 9-10: Respected
-- 11-12: Renowned
+### Names B 1D8
+
+1. Garron
+2. Haldor
+3. Ilya
+4. Jora
+5. Kellan
+6. Lysa
+7. Orrin
+8. Petra
+
+### Names C 1D8
+
+1. Rook
+2. Sable
+3. Thane
+4. Uma
+5. Vale
+6. Wren
+7. Yara
+8. Zane
+
+### Names D 1D8
+
+1. Aric
+2. Bria
+3. Calder
+4. Della
+5. Elden
+6. Frey
+7. Joss
+8. Rowan
+
+### Names E 1D8
+
+1. Kade
+2. Lina
+3. Merek
+4. Nessa
+5. Orla
+6. Quin
+7. Risa
+8. Sten
+
+### Names F 1D8
+
+1. Arla
+2. Basil
+3. Corin
+4. Drea
+5. Eryk
+6. Juno
+7. Silas
+8. Tamsin
+
+### Names G 1D8
+
+1. Bren
+2. Calla
+3. Drake
+4. Etta
+5. Heath
+6. Iris
+7. Lark
+8. Moss
+
+### Names H 1D8
+
+1. Nara
+2. Olin
+3. Perry
+4. Rona
+5. Soren
+6. Tovin
+7. Veda
+8. Wyn
 
 ## Core Rules
 
