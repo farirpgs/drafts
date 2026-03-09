@@ -6,7 +6,8 @@
     "build:css": "npx @tailwindcss/cli -i ./input.css -o ./output.css --minify",
     "dev": "npm run build:css && npx md-to-pdf --watch --config-file md-to-pdf.config.js docs/*.md",
     "build": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js docs/*.md",
-    "debug": "npm run build:css && npx md-to-pdf --as-html --config-file md-to-pdf.config.js docs/*.md"
+    "debug": "npm run build:css && npx md-to-pdf --as-html --config-file md-to-pdf.config.js docs/*.md",
+    "opencode": "bun install -g opencode-ai@latest && opencode"
   },
   "dependencies": {
     "md-to-pdf": "^5.2.4"

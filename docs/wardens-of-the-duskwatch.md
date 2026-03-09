@@ -14,6 +14,15 @@ css: |-
   }
 ---
 
+<!-- Fonts to download
+
+
+- https://creativemarket.com/Vampstudio/280183319-The-Old-Witch-Blackletter
+- https://creativemarket.com/Freezerondigital/278318583-41-Subtle-Distressed-Textures
+- https://www.drivethrurpg.com/en/product/436961/outcast-silver-raiders-player-s-guide
+
+ -->
+
 <!--
 
 Writing Guidelines
