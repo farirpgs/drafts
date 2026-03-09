@@ -101,9 +101,9 @@ When a character attempts something challenging or tries to avoid a Consequence,
 
 The GM first defines the risks, dangers, or obstacles to overcome. The player then chooses a Skill that is most relevant to their approach and rolls the die that matches its rating. If another player character lends a hand, they also make a Check but share the same risks. Take the highest result and interpret the result:
 
-- **On a 1-2**: The action fails. When trying to avoid a Consequence, the character suffers the Consequence in full.
-- **On a 3-4**: The action succeeds, but with a reduced effect. When trying to avoid a Consequence, the character suffers a lesser Consequence.
-- **On a 5+**: The action greatly succeeds. The higher the result, the greater the effect. When trying to avoid a Consequence, the Consequence is fully avoided.
+- **On a 1-2**: The action fails. When facing a Consequences, the character suffers it in full.
+- **On a 3-4**: The action succeeds, but with a reduced effect. When facing a Consequences, it is lessened.
+- **On a 5+**: The action greatly succeeds. The higher the result, the greater the effect. When facing a Consequences, it is fully avoided.
 
 After a Check, every participant reduces the current rating of the Skill they used by one step: d12 → d10 → d8 → d6 → d4. A Skill cannot step down below a d4.
 
