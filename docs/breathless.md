@@ -13,9 +13,6 @@ css: |-
 ---
 
 <!--
-
-
-
 Writing Guidelines
 
 - Mechanical terms should always use Pascal Case (e.g., Check, Skill, Item, Position, Grit, Harm, Journey Die)

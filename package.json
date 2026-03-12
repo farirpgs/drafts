@@ -7,14 +7,15 @@
     "dev": "npm run build:css && npx md-to-pdf --watch --config-file md-to-pdf.config.js docs/*.md",
     "build": "npm run build:css && npm run clean:pdf && npx md-to-pdf --config-file md-to-pdf.config.js docs/*.md",
     "debug": "npm run build:css && npx md-to-pdf --as-html --config-file md-to-pdf.config.js docs/*.md",
-    "opencode": "bun install -g opencode-ai@latest && opencode"
+    "opencode": "npm install -g opencode-ai@latest && opencode"
   },
   "dependencies": {
-    "md-to-pdf": "^5.2.4"
+    "md-to-pdf": "^5.2.5"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.1.18",
+    "@tailwindcss/cli": "^4.2.1",
     "@tailwindcss/typography": "^0.5.19",
-    "tailwindcss": "^4.1.18"
+    "oxfmt": "^0.40.0",
+    "tailwindcss": "^4.2.1"
   }
 }

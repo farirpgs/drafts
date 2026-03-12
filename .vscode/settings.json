@@ -5,5 +5,14 @@
     "*.md": "${capture}.pdf, ${capture}.html, ${capture}.svg",
     "README.md": ".gitignore, AGENTS.md, md-to-pdf.config.js, package.json, package-lock.json",
     "input.css": "output.css"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
   }
 }
