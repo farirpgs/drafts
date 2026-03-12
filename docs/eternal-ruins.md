@@ -65,8 +65,6 @@ The Oracle works best with specific, binary questions. "Will the demon notice me
 
 Roll d66 on each table and combine the results. A Theme and an Action together make a prompt. Read them as a sentence, reverse them, treat one as a subject and the other as a verb. The combination is a starting point.
 
-_Example: Frizo stands in a collapsed library and wants to know what the ruins are offering. He rolls Theme and gets 34, Writing. He rolls Action and gets 52, Creates. Writing creates. He decides someone inscribed commands into the walls long ago and looks more carefully at the stone._
-
 ### THEME (d66)
 
 | Roll | Theme     | Roll | Theme    | Roll | Theme        |
