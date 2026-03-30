@@ -31,30 +31,34 @@ Solo play is a deeply personal style of play. Without a group to coordinate with
 
 One thing worth setting aside before going further: solo play does not require you to be impartial or to surprise yourself at every turn. You are allowed to make choices that feel right for your character or for the type of story you want to tell. You can steer toward situations or paths that interest you. What the tools in this chapter give you is something to reach for in the moments where a decision would feel hollow coming purely from your own preferences, or where you simply do not know what should come next. But again, those are tools. If you know how things should unfold, go with what feels right.
 
-**The Solo Mindset**  
+### The Solo Mindset
+
 Whether this is your first time playing solo or not, take the time to read the following principles of play, as they will inform what you can generally expect from the content of this chapter.
 
 - This is your game. Like we just described earlier, solo play does not require you to be a neutral arbiter of your own story. Even though it totally can if this is what you wish. But, when an answer feels right for your wanderer or the story you want to tell, take it.
 - Use the oracles to disclaim answers. The question and risk oracles are tools for the moments where your own judgment would feel hollow or too convenient.
-- The ruins will surprise you anyway. Even when you feel in control of the fiction, using the mechanics, tables and procedures of the game will carry you into places you would not have expected. And that’s why e play whether solo or in a group. We play to find outLet them.
-- Pace yourself. There is no pressure.No one waiting on you to take a decision.. Stop when you need to stop. Play if you feel like it. This isn’t made to be something you need to do, you are doing it to have fun so be sure to be in the right mood before you get started.
-- Record something before you wrap up. You may play this game for a single session, or maybe you’ll play it for longer. But memory is a flickering thing.. A few notes at the end of each session, at a minimum, will be a worthwhile investment. However brief the notes, they will keep the fiction alive between one bell and the next and will also make it much easier to get back into it when you have time to continue. That being said, we have some more guidelines on how to include journaling and note-taking as an actual gamified part of the game. More on this soon.
+- The ruins will surprise you anyway. Even when you feel in control of the fiction, using the mechanics, tables, and procedures of the game will carry you into places you would not have expected. And that is why we play, whether solo or in a group. We play to find out.
+- Pace yourself. There is no pressure. No one is waiting on you to make a decision. Stop when you need to stop. Play if you feel like it. This is not made to be something you need to do, you are doing it to have fun so be sure to be in the right mood before you get started.
+- Record something before you wrap up. You may play this game for a single session, or maybe you’ll play it for longer. But memory is a flickering thing. A few notes at the end of each session, at a minimum, will be a worthwhile investment. However brief the notes, they will keep the fiction alive between one bell and the next and will also make it much easier to get back into it when you have time to continue. That being said, we have some more guidelines on how to include journaling and note-taking as an actual gamified part of the game. More on this soon.
 
-**Guide-Less and Duet Play**  
+### Guide-Less and Duet Play
+
 Solo play is not the only way to use the tools in this chapter. Without any changes to the mechanics, you can also play The Eternal Ruins RPG in a guide-less fashion with a group of two or more players.
 
 In guide-less play, a group of wanderers plays without anyone taking the Guide's role. Each player controls a character in the fiction, and the world is handled collectively through the oracle, the spark tables, and the other structures described here. Wanderers describe what their characters do; the group uses the oracles and tables together to determine how the world responds, and the cycles continue.
 
 This way of playing is especially fun when playing in duet mode with just two players.
 
-**Before a Solo Session**  
-As you are getting yourself ready to play a solo session of The Eternal Ruins, a little preparation goes a long way. It is easy to settle into play and then realize something is missing, or to find yourself drifting before you have even begun. Before you sit down, make sure you have all the physical or online play material what you need.
+### Before a Solo Session
+
+As you are getting yourself ready to play a solo session of The Eternal Ruins, a little preparation goes a long way. It is easy to settle into play and then realize something is missing, or to find yourself drifting before you have even begun. Before you sit down, make sure you have all the physical or online play materials you need.
 
 Bring your character sheet, and a copy of this book, or access to one, so the tables and procedures are within reach. Have something to write on, whether a notebook or a note-taking application on a computer or tablet, for jotting down what happens as you go. Something to drink, and something to eat. It is a known fact that hunger has ended far more adventures than any hazard that can be found within the depths of the ruins.
 
 We also recommend putting on some music on a speaker or in your headphones. We’re sure you can find an infinite selection of fantasy music playlists on your favourite music or video streaming platform, but that said, this game also comes with its own originally composed soundtrack, which we highly recommend you check out. Ambient and instrumental music goes a long way in setting the mood for play. Furthermore, if you have the means to dim the lights or have access to candles or smart lights, add some different colours and vibes to the room. This is even more important if you’re playing in a space that is usually used for a different purpose, such as a work office. It will help make a clear-cut distinction between the different personalities of the room.
 
-**During a Solo Session**  
+### During a Solo Session
+
 The loop of play when you are alone is not so different from the one you share with a group. It begins in the same way, describing the world. When you play alone, the person doing this is you. First, decide where your wanderer is, and then describe it to yourself. You could think about it in your head, say it out loud, record yourself while doing it, or simply write it down in a notebook. All of these options are more than OK. Think about the five senses. What does the air smell like, what does your wanderer see, is it warm or hot? Can they hear anything there? Are they eating or drinking anything, if so, what does it taste like?
 
 From there, some questions will start arising naturally. You can answer many of them yourself, based on what you already know of the already established fiction. A corridor thick with hanging moss is probably damp; a room near an underground river is probably cold. When an answer like that comes readily, simply use it.
@@ -69,14 +73,15 @@ If there’s a moment where the answers from the oracles aren’t enough, turn t
 
 When an action does not go according to plan, a complication table, found alongside the oracles in the next section, gives you the same kind of foundation. It will not tell you exactly what goes wrong; it will give you a spark of a word or a phrase to use.
 
-**After a Solo Session**  
-The most useful thing you can do when a session ends is to write something down, if you have not been doing so already. Later in this chapter, we include some more details on how to use the camping procedures to encourage journaling during play. But even outside those moments, keeping a record as you play, even if it is in bullet list format, means that when you sit down for your next session, it will be much less likely that you won’t be able to clearly recall what happened during your last session
+### After a Solo Session
+
+The most useful thing you can do when a session ends is to write something down, if you have not been doing so already. Later in this chapter, we include some more details on how to use the camping procedures to encourage journaling during play. But even outside those moments, keeping a record as you play, even if it is in bullet list format, means that when you sit down for your next session, it will be much less likely that you won’t be able to clearly recall what happened during your last session.
 
 Notes can be as thorough or as brief as you like. There is truly no perfect way of doing this. You can write full prose if you want. A poem, a song, an audio or video recording that you then transcribe later. Anything can work, so go with what you prefer. One method we recommend at least starting with, especially if this is your first time playing solo, is using what we call the Waymark.
 
 ### The Waymark
 
-First, take blank a piece of paper. At the start of each new location, draw a bullet "•" and beside it write where your wanderer is; the name of the location. If the location has no name, give it one. You may be the first person to have crawled this stretch of ruins in a very long time, so naming it is well within your rights! If you would rather not commit to a name, write two or three tag-style words instead, something like "Vast, Pillars, Fish-Filled Teal Stream."
+First, take a blank piece of paper. At the start of each new location, draw a bullet "•" and beside it write where your wanderer is; the name of the location. If the location has no name, give it one. You may be the first person to have crawled this stretch of ruins in a very long time, so naming it is well within your rights! If you would rather not commit to a name, write two or three tag-style words instead, something like "Vast, Pillars, Fish-Filled Teal Stream."
 
 Then draw another bullet, indented a bit on the right. As your wanderer spends time in this location, add a new indented bullet each time you:
 
@@ -96,7 +101,7 @@ Then draw another bullet, indented a bit on the right. As your wanderer spends t
 **Make a Discovery,** whether it is a new location or some secret about the ruins. Write down the name of the discovery, then add an indented bullet beneath and note any of the following details that apply.
 
 - **Scene:** Two or three tag-style words that paint what your wanderer has seen or learned.
-- **Questions:** Every discovery will fill your head with new questions. Note them down as they come to you. As your Wanderer continues exploring the ruins, you will be able to come back to those threads and refer back to them to keep learning more about what happened to this place
+- **Questions:** Every discovery will fill your head with new questions. Note them down as they come to you. As your Wanderer continues exploring the ruins, you will be able to come back to those threads and refer back to them to keep learning more about what happened to this place.
 
 This should be enough to get you started. But do not consider this finished. It cannot be, and that is by design. That is mostly because each of us plays solo a little differently. But it should give you a solid enough foundation to start from and adapt over time. For now, use it as is, and adjust it as you get a better sense of your own play style.
 
@@ -188,7 +193,7 @@ Action (d66)
 
 There will be moments when things go wrong for your Wanderer. This may result from an Action Roll, an Oracle, or maybe come directly from the fiction. Sometimes, it will be clear how things should worsen or make your Wanderer’s life more complicated. When that is not the case, roll on this Complication table to get some inspiration.
 
-Once you’ve rolled and have a result, thread the tray in light of what is already happening in the scene. A result might describe something that has to come to pass, but it may also be tied to something that is already part of the story but is getting more and more awry. If the answer does not spark any ideas, roll again or pick something close to the result that connects better. Like for the other tables, the result doesn’t need to be the final answer. It is more like a tool to use as a reflex so that you don’t get stuck.
+Once you’ve rolled and have a result, treat the result in light of what is already happening in the scene. A result might describe something that has to come to pass, but it may also be tied to something that is already part of the story but is getting more and more awry. If the answer does not spark any ideas, roll again or pick something close to the result that connects better. Like for the other tables, the result doesn’t need to be the final answer. It is more like a tool to use as a reflex so that you don’t get stuck.
 
 Complications (d66)
 
@@ -215,18 +220,20 @@ By default, when wanderers arrive in a Region, the Guide decides the length of t
 - On a 4-5, the region is **unsettled**: The path is winding, uncertain, or difficult to read. The Region Track has **3 boxes**.
 - On a 6, the region is **settled**: The path is relatively stable or well-trodden. The Region Track has **4 boxes**.
 
-**Location Risk Rating**  
+#### Location Risk Rating
+
 Some locations within the ruins offer more respite than others, and a wanderer can usually sense this the moment they set their eyes upon it. Before establishing what a new location looks like, what its details are, or what themes it has, roll 2D to set the location's default Risk Rating. These ratings are the same ones defined when using the Risk Oracle.
 
 - On a 1-3, the location's default Risk Rating is **dangerous**.
 - On a 4-5, the location's default Risk Rating is **precarious**.
 - On a 6, the location's default Risk Rating is **under control**.
 
-As a reminder, a dangerous risk rating means you roll 2D and keep the lowest result when using the Risk Oracle. With a precarious Risk Rating, you roll 1D and roll 2D when the risk rating is under control
+As a reminder, a dangerous risk rating means you roll 2D and keep the lowest result when using the Risk Oracle. With a precarious Risk Rating, you roll 1D, and you roll 2D when the risk rating is under control.
 
 This Risk Rating is but the starting point. As your Wanderer acts within a location, their presence leaves its mark making the situation tilt in either direction. When that happens, adjust the Risk Rating to whatever term best reflects where things now stand.
 
-**Demon’s Bargain**  
+#### Demon’s Bargain
+
 A wanderer brought low by Despair is in a dire place, and Hope does not always come easily. That being said, there is one particular way a solo Wanderer can clear the stain of Despair from their soul. We call this the Demon’s Bargain.
 
 When playing with a Guide, the Guide may consume a Wanderer's Despair to fuel a Despair Move, using it to complicate the lives of the group. When playing solo, something similar applies, but it behaves a bit differently.
@@ -241,13 +248,21 @@ The important thing to remember is that this is always a choice. Use this when i
 
 In this section, we will cover a couple of small tweaks to some of the core rules that were initially developed for a group, which we recommend you use when playing solo.
 
-**Track Lengths: **Some of the tracks defined in this book may have up to 6 or even 8 boxes. These can take a long time to fill when playing alone. When creating custom tracks for a solo session, keep them to 2, 4, or 6 boxes at most as a general guideline. When using a pre-defined track from the game's location or bestiary chapter, the track's length should be halved, rounding up.
+#### Track Lengths
 
-**Cooking Alone:** Preparing a meal for one asks less than feeding an entire party of Wanderers. When cooking during a solo session, a sustaining meal requires only 2 edible oddments rather than the usual 3. A substandard meal can be made from a single oddment. In addition, every meal you cook gains 1 flavour point by default.
+Some of the tracks defined in this book may have up to 6 or even 8 boxes. These can take a long time to fill when playing alone. When creating custom tracks for a solo session, keep them to 2, 4, or 6 boxes at most as a general guideline. When using a pre-defined track from the game's location or bestiary chapter, the track's length should be halved, rounding up.
 
-**Exploration Positions:** A lone wanderer cannot split the labour of travel the way a group does, but they also need no one's permission to take the time to do things their own way. As such, when your Wanderer sets out to explore, they always assume the Leader position. You can then pick an additional position on top of Leader, gaining the benefits of both. If you wish, you may mark an additional box on your ticking clock tracking the time and pick a third position at the cost of more time being spent. Note that the Scout position's benefit (rolling an additional feature and choosing between the two) applies to the same location as the Leader's roll; both rolls are still made, and you still choose one.
+#### Cooking Alone
 
-**Camping Tasks:** As your Wanderer sets down their gear to rest for the night and sets up camp, their work is not done. They are left alone to tend the fire, patch their tent, and watch for dangers. Everything falls on their shoulders, but somehow they rise up to the challenge. When making camp during a solo session, take two tasks rather than one. You may decide to pick a third at the cost of marking an additional box on your ticking clock.
+Preparing a meal for one asks less than feeding an entire party of Wanderers. When cooking during a solo session, a sustaining meal requires only 2 edible oddments rather than the usual 3. A substandard meal can be made from a single oddment. In addition, every meal you cook gains 1 flavour point by default.
+
+#### Exploration Positions
+
+A lone wanderer cannot split the labour of travel the way a group does, but they also need no one's permission to take the time to do things their own way. As such, when your Wanderer sets out to explore, they always assume the Leader position. You can then pick an additional position on top of Leader, gaining the benefits of both. If you wish, you may mark an additional box on your ticking clock tracking the time and pick a third position at the cost of more time being spent. Note that the Scout position's benefit (rolling an additional feature and choosing between the two) applies to the same location as the Leader's roll; both rolls are still made, and you still choose one.
+
+#### Camping Tasks
+
+As your Wanderer sets down their gear to rest for the night and sets up camp, their work is not done. They are left alone to tend the fire, patch their tent, and watch for dangers. Everything falls on their shoulders, but somehow they rise up to the challenge. When making camp during a solo session, take two tasks rather than one. You may decide to pick a third at the cost of marking an additional box on your ticking clock.
 
 ## From here, you march on
 
