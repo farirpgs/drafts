@@ -18,7 +18,7 @@ css: |-
 
 The ruins have always known Wanderers who walk by themselves. Some broke from their stone shell alongside others, finding companionship early in their lives. But not all did. Some shed and kept moving, whether by choice or by circumstance.
 
-This chapter covers how to adapt the existing mechanics and procedures of The Eternal Ruins RPG for solo play. It introduces new tools to help you handle the moments when you genuinely do not know what the world should do next, Oracles to answer questions you may have about the world, Spark Tables to bring inspiration or unblock your mind, and complication prompts to give shape to misfortune when it stikes.
+This chapter covers how to adapt the existing mechanics and procedures of The Eternal Ruins RPG for solo play. It introduces new tools to help you handle the moments when you genuinely do not know what the world should do next, Oracles to answer questions you may have about the world, Spark Tables to bring inspiration or unblock your mind, and complication prompts to give shape to misfortune when it strikes.
 
 Some existing mechanics outlined earlier in the game were built with a full table in mind. In those cases, this chapter also includes some adjustments to make solo play run more smoothly.
 
@@ -26,7 +26,7 @@ Some existing mechanics outlined earlier in the game were built with a full tabl
 
 Playing alone means taking on two roles at once. You are the Wanderer picking your way through the ruins and interacting with the world. But you are also the world itself, deciding how it unfolds relying on its own internal logic or reacting to your Wanderer’s actions. You decide what your character does. You then interpret what happens in return, and the cycle continues.
 
-Solo play can feel like a great deal at first. The Eternal Ruins RPG is already built around procedures, tables, and structured moments that do much of the legwork a Guide would otherwise need handle. The tools listed in this chapter lean even more deeply into those structures, giving you enough to work with so the absence of a Guide will rarely need to be felt.
+Solo play can feel like a great deal at first. The Eternal Ruins RPG is already built around procedures, tables, and structured moments that do much of the legwork a Guide would otherwise need to handle. The tools listed in this chapter lean even more deeply into those structures, giving you enough to work with so the absence of a Guide will rarely need to be felt.
 
 Solo play is also a deeply personal thing and style of play. Without a group to coordinate with, you move at your own pace. You can stop mid-session, return a week later, sit with something that hit hard for a while, wait when inspiration runs thin, or push through a stretch of ruins when the mood takes you. The game becomes yours in a way that group play rarely allows, and that is something you should embrace.
 
@@ -68,7 +68,7 @@ From there, some questions will start arising naturally. You can answer many of 
 
 But sometimes the answer may not come. You may have an idea of how likely a question is to be true, but you are not certain. Perhaps you simply want the world to surprise you. That is when you use the Oracles.
 
-The Oracles answer questions about the world, but not about your Wanderer or their actions. They tell you whether a room is warm, empty, or watched, and whether a situation is perilous, risky, or under contorl.
+The Oracles answer questions about the world, but not about your Wanderer or their actions. They tell you whether a room is warm, empty, or watched, and whether a situation is perilous, risky, or under control.
 
 The Question Oracle or Risk Oracle will give you a yes or a no, or a path forward, sometimes with a complication attached. Sometimes that is enough to keep things moving, but not always. When it is not, ask a new question and use the Oracle again. Then another. Is the room cold? Yes. Bitterly cold? Yes. Do I have a feeling someone is here? Yes. Is someone really here? No.
 
@@ -80,7 +80,7 @@ As for when an action does not go according to plan, a Complication Table, found
 
 The most useful thing you can do when a session ends is to write something down, if you have not been doing so already. Later in this chapter, we include some more details on how to use the camping procedures to encourage journaling during play. But even outside those moments, keeping a record as you play, even if it is in bullet list format, means that when you sit down for your next session, it will be much less likely that you will be unable to clearly recall what happened during your last session.
 
-Notes can be as thorough or as brief as you like. There is no perfect way of doing this. You can write full prose if you want. A poem, a song, or an audio or video recording that you transcribe later can work just as well. One method we recommend, especially if this is your first time playing solo, is our veyr own Waymark method.
+Notes can be as thorough or as brief as you like. There is no perfect way of doing this. You can write full prose if you want. A poem, a song, or an audio or video recording that you transcribe later can work just as well. One method we recommend, especially if this is your first time playing solo, is the Waymark method.
 
 ### The Waymark
 
@@ -88,7 +88,7 @@ First, take a blank piece of paper. At the start of each new location, draw a bu
 
 If you would rather not commit to a name, write two or three tag-style words instead, something like "Vast, Pillars, Fish-Filled Teal Stream."
 
-As your Wanderer spends time in this location, add new indedendet bullets bullet each time you:
+As your Wanderer spends time in this location, add new indented bullets each time you:
 
 **Meet a Non-Player Character** such as another Wanderer, a Spirit, a Demon, or something else. Write down the type of character they are, followed by a colon and their name if you have learned it, then a few words describing their appearance. Add another indented bullet beneath and note any of the following details that apply.
 
@@ -106,9 +106,9 @@ As your Wanderer spends time in this location, add new indedendet bullets bullet
 **Make a Discovery,** whether it is a new location or some secret about the ruins. Write down the name of the discovery, then add an indented bullet beneath and note any of the following details that apply.
 
 - **Scene:** Two or three tag-style words that paint what your Wanderer has seen or learned.
-- **Questions:** Every discovery will fill your head with new questions. Note them down as they come to you. As your Wanderer continues exploring the ruins, you will be able to come refer back to those threads and keep learning more about what happened to this place.
+- **Questions:** Every discovery will fill your head with new questions. Note them down as they come to you. As your Wanderer continues exploring the ruins, you will be able to refer back to those threads and keep learning more about what happened to this place.
 
-This structured format should be enough to get you started. But do not consider this framework finished. It cannot be, and that is by design. This is mostly because each of us plays solo a little differently. But, it should give you a solid enough foundation to start from and adapt over time. For now, do not worry too much about it use it as is. As time passes an dyou get ab etter sense of your own play style, adapt it to your neeeds.
+This structured format should be enough to get you started. But do not consider this framework finished. It cannot be, and that is by design. This is mostly because each of us plays solo a little differently. But it should give you a solid enough foundation to start from and adapt over time. For now, do not worry too much about it. Use it as is. As time passes and you get a better sense of your own play style, adapt it to your needs.
 
 ## Oracles, Sparks, and other Rules
 
@@ -116,7 +116,7 @@ Now that you have a good understanding of how to get started with solo play, we 
 
 ### Question Oracle
 
-Very often, your Wanderer will do things within the fictional layer of play, and you will simply know what happens next because the established fiction makes it abundantly clear. After all, the world operates with its own internal rules. If a torch comes close to a tree, the tree catches fire. You do not need to roll anything to know what happens next. But there are moments when that will not be the case. The Question Oracle helps guide your game and give ideas when you are not sure what comes next.
+Very often, your Wanderer will do things within the fictional layer of play, and you will simply know what happens next because the established fiction makes it abundantly clear. After all, the world operates with its own internal rules. If a torch comes close to a tree, the tree catches fire. You do not need to roll anything to know what happens next. But there are moments when that will not be the case. The Question Oracle helps guide your game and gives ideas when you are not sure what comes next.
 
 The general idea is that it answers questions not about what your Wanderer does, but about the world and its inhabitants. To use it properly, frame your question so it can be answered with either "yes" or "no". For example, do not ask, "I wonder if the demon followed me all the way down here," but instead, "Does the demon follow me?" or "Was I followed?" When playing with a Guide, the Guide is the Question Oracle, but in solo play, you have to simulate it.
 
@@ -153,9 +153,9 @@ The answer to this question determines how many dice you will roll when using th
 
 Then interpret the result as follows:
 
-- On a **1-3**,your Wanderer is in danger and you must make an Action Roll and cut the highest result from your roll.
-- On a **4-5**,your Wanderer is in a though spot and you must make an Action Roll to see how things unfold.
-- On a **6**, your Wander has the upper hand and you do not need to make an Action ro.
+- On a **1-3**, your Wanderer is in danger and you must make an Action Roll and cut the highest result from your roll.
+- On a **4-5**, your Wanderer is in a tough spot and you must make an Action Roll to see how things unfold.
+- On a **6**, your Wanderer has the upper hand and you do not need to make an Action Roll.
 - When you roll doubles, it is a critical result. The situation is even more settled than it seemed, or far worse than expected, depending on the situation.
 
 After this roll, you may follow up with an Action Roll if the result calls for one. Otherwise, continue with the story, use the Question Oracle to better understand what is making the scene more or less certain than it first appeared, or roll on the Spark Table.
@@ -253,7 +253,7 @@ The important thing to remember is that this is always a choice. Use this when i
 
 ### Solo Adjustments
 
-In this section, we will cover a some small tweaks to some of the core rules which were initially developed for group play but we ajudsted to better fit the pacing of solo play.
+In this section, we will cover some small tweaks to some of the core rules which were initially developed for group play but which we adjusted to better fit the pacing of solo play.
 
 #### Track Lengths
 
