@@ -166,35 +166,35 @@ After this roll, you may follow up with an Action Roll if the result calls for o
 
 | Roll | Theme     | Roll | Theme    | Roll | Theme        |
 | ---- | --------- | ---- | -------- | ---- | ------------ |
-| 11   | Stone     | 31   | Descent  | 51   | Voices       |
-| 12   | Water     | 32   | Absence  | 52   | Heights      |
-| 13   | Names     | 33   | Time     | 53   | Faces        |
-| 14   | Collapse  | 34   | Writing  | 54   | Shadows      |
-| 15   | Eyes      | 35   | Glow     | 55   | Hollows      |
-| 16   | Doors     | 36   | Hunger   | 56   | Dusk         |
-| 21   | Roots     | 41   | Gifts    | 61   | Bargains     |
-| 22   | Bells     | 42   | Marks    | 62   | Wings        |
-| 23   | Smoke     | 43   | Cold     | 63   | Construction |
-| 24   | Smallness | 44   | Echoes   | 64   | Growth       |
-| 25   | Sleep     | 45   | Bones    | 65   | Tracks       |
-| 26   | Mirrors   | 46   | Remnants | 66   | Darkness     |
+| 11   | Stone     | 31   | Echoes   | 51   | Growth       |
+| 12   | Water     | 32   | Time     | 52   | Decay        |
+| 13   | Roots     | 33   | Memory   | 53   | Bargains     |
+| 14   | Bones     | 34   | Blood    | 54   | Oaths        |
+| 15   | Names     | 35   | Cold     | 55   | Hollows      |
+| 16   | Doors     | 36   | Glow     | 56   | Ruin         |
+| 21   | Bells     | 41   | Dreams   | 61   | Light        |
+| 22   | Smoke     | 42   | Voices   | 62   | Tracks       |
+| 23   | Shadows   | 43   | Marks    | 63   | Absence      |
+| 24   | Hunger    | 44   | Depths   | 64   | Wings        |
+| 25   | Sleep     | 45   | Heights  | 65   | Dust         |
+| 26   | Mirrors   | 46   | Silence  | 66   | Remnants     |
 
 #### Action (d66)
 
 | Roll | Action   | Roll | Action    | Roll | Action   |
 | ---- | -------- | ---- | --------- | ---- | -------- |
-| 11   | Guards   | 31   | Changes   | 51   | Unravels |
-| 12   | Reaches  | 32   | Warns     | 52   | Creates  |
-| 13   | Waits    | 33   | Decays    | 53   | Surfaces |
-| 14   | Forgets  | 34   | Hungers   | 54   | Sustains |
-| 15   | Calls    | 35   | Decides   | 55   | Watches  |
-| 16   | Abandons | 36   | Marks     | 56   | Returns  |
-| 21   | Protects | 41   | Points    | 61   | Finishes |
-| 22   | Follows  | 42   | Deceives  | 62   | Belongs  |
-| 23   | Seeks    | 43   | Conceals  | 63   | Knows    |
-| 24   | Persists | 44   | Holds     | 64   | Pursues  |
-| 25   | Trades   | 45   | Questions | 65   | Ends     |
-| 26   | Mourns   | 46   | Resists   | 66   | Lingers  |
+| 11   | Guards   | 31   | Binds     | 51   | Persists |
+| 12   | Beckons  | 32   | Opens     | 52   | Awakens  |
+| 13   | Waits    | 33   | Closes    | 53   | Decays   |
+| 14   | Reveals  | 34   | Takes     | 54   | Grows    |
+| 15   | Conceals | 35   | Gives     | 55   | Surfaces |
+| 16   | Warns    | 36   | Seeks     | 56   | Withdraws |
+| 21   | Hungers  | 41   | Follows   | 61   | Remembers |
+| 22   | Changes  | 42   | Calls     | 62   | Forgets  |
+| 23   | Divides  | 43   | Marks     | 63   | Mourns   |
+| 24   | Watches  | 44   | Questions | 64   | Demands  |
+| 25   | Returns  | 45   | Deceives  | 65   | Escapes  |
+| 26   | Breaks   | 46   | Resists   | 66   | Lingers  |
 
 ### Complication Table
 
@@ -206,18 +206,18 @@ Once you have rolled and have a result, treat it in light of what is already hap
 
 | Roll | Complication                    | Roll | Complication                | Roll | Complication                      |
 | ---- | ------------------------------- | ---- | --------------------------- | ---- | --------------------------------- |
-| 11   | Something is lost               | 31   | The path closes             | 51   | Something follows                 |
-| 12   | Something breaks                | 32   | The ground gives way        | 52   | Something awakens                 |
-| 13   | Time is wasted                  | 33   | The way splits              | 53   | Something is drawn near           |
-| 14   | You are delayed                 | 34   | The way back is cut off     | 54   | Something watches                 |
-| 15   | You leave a trace               | 35   | You are separated           | 55   | Something escapes                 |
-| 16   | Attention is drawn              | 36   | You are forced to retreat   | 56   | Something changes shape           |
-| 21   | A cost must be paid             | 41   | A danger worsens            | 61   | A truth is revealed               |
-| 22   | A choice turns bitter           | 42   | A condition spreads         | 62   | A promise is broken               |
-| 23   | Progress is undone              | 43   | A need becomes urgent       | 63   | An old grief returns              |
-| 24   | The situation escalates         | 44   | A new obstacle appears      | 64   | An unwanted bond is formed        |
-| 25   | You must leave something behind | 45   | A hostile presence arrives  | 65   | An omen comes to pass             |
-| 26   | You take the lesser option      | 46   | A safe place becomes unsafe | 66   | The worst possible moment arrives |
+| 11   | Something is lost               | 31   | A danger worsens            | 51   | A truth is revealed               |
+| 12   | Something is damaged            | 32   | A condition spreads         | 52   | A promise is broken               |
+| 13   | Time is wasted                  | 33   | A need becomes urgent       | 53   | A choice turns bitter             |
+| 14   | A cost must be paid             | 34   | Progress is undone          | 54   | An unwanted bond is formed        |
+| 15   | You leave a trace               | 35   | The situation escalates     | 55   | An old grief returns              |
+| 16   | Attention is drawn              | 36   | A new obstacle appears      | 56   | An omen comes to pass             |
+| 21   | The path is blocked             | 41   | Something follows           | 61   | You must leave something behind   |
+| 22   | The way splits                  | 42   | Something watches           | 62   | The lesser option remains         |
+| 23   | The ground gives way            | 43   | Something is drawn near     | 63   | What was hidden comes to light    |
+| 24   | The route changes               | 44   | Something escapes           | 64   | The way back is cut off           |
+| 25   | You are separated               | 45   | Something awakens           | 65   | Help comes at a price             |
+| 26   | You are forced to retreat       | 46   | Something is not what it seemed | 66 | The worst possible moment arrives |
 
 ### Region Tracks
 
