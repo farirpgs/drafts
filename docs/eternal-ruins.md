@@ -12,6 +12,11 @@ css: |-
   }
 ---
 
+<!-- Change 1D -> 1d6 -->
+<!-- tables as CSV -->
+<!-- Despair/Hope isn't a MARK it's a `point`! !!! -->
+<!-- shorten: during solo session // demons bargin //  -->
+
 # Solo Rules
 
 ## Solo Play
@@ -62,13 +67,15 @@ We also recommend putting on some music on a speaker or in your headphones. You 
 
 The loop of play when you are alone is not so different from the one you share with a group. It begins in the same way, with a description of the world. When you play alone, you are the one doing that.
 
+If you are beginning a new journey, choose the Region your Wanderer is entering. If you are continuing one, look at the Region you are already traveling through. Then roll on that Region's Feature and Detail tables to establish the next location, unless the fiction already makes the answer obvious.
+
 First, decide where your Wanderer is, and then describe it to yourself. You could think about it in your head, say it out loud, record yourself while doing it, or simply write it down in a notebook. All of these options work. Then, think about the five senses. What does the air smell like? What does your Wanderer see? Is it warm or cold? Can they hear anything there? Are they eating or drinking anything, and if so, what does it taste like?
 
-From there, some questions will start arising naturally. You can answer many of them yourself, based on what you know of the already established fiction. A corridor thick with hanging moss is probably damp; a room near an underground river is probably cold. When an answer like that comes readily, simply use it.
+From there, some questions will start arising naturally. You can answer many of them yourself, based on what you know of the already established fiction. A corridor thick with hanging moss is probably damp. A chamber beside a broad stream is probably cold. When an answer like that comes readily, simply use it.
 
 But sometimes the answer may not come. You may have an idea of how likely a question is to be true, but you are not certain. Perhaps you simply want the world to surprise you. That is when you use the Oracles.
 
-The Oracles answer questions about the world, but not about your Wanderer or their actions. They tell you whether a room is warm, empty, or watched, and whether a situation is perilous, risky, or under control.
+The Oracles answer questions about the world, but not about your Wanderer or their actions. They tell you whether a room is warm, empty, or watched, and whether a situation is threatening, precarious, or under control.
 
 The Question Oracle or Risk Oracle will give you a yes or a no, or a path forward, sometimes with a complication attached. Sometimes that is enough to keep things moving, but not always. When it is not, ask a new question and use the Oracle again. Then another. Is the room cold? Yes. Bitterly cold? Yes. Do I have a feeling someone is here? Yes. Is someone really here? No.
 
@@ -80,13 +87,15 @@ As for when an action does not go according to plan, a Complication Table, found
 
 The most useful thing you can do when a session ends is to write something down, if you have not been doing so already. Later in this chapter, we include some more details on how to use the camping procedures to encourage journaling during play. But even outside those moments, keeping a record as you play, even if it is in bullet list format, means that when you sit down for your next session, it will be much less likely that you will be unable to clearly recall what happened during your last session.
 
-Notes can be as thorough or as brief as you like. There is no perfect way of doing this. You can write full prose if you want. A poem, a song, or an audio or video recording that you transcribe later can work just as well. One method we recommend, especially if this is your first time playing solo, is the Waymark method.
+Notes can be as thorough or as brief as you like. There is no perfect way of doing this. You can write full prose if you want. A poem, a song, or an audio or video recording that you transcribe later can work just as well. One method we recommend, especially if this is your first time playing solo, is the following method.
 
 ### The Waymark
 
-First, take a blank piece of paper. At the start of each new location, draw a bullet "•" and beside it write where your Wanderer is, the name of the location. If the location has no name, give it one. You may be the first person to have crawled this stretch of ruins in a very long time, so naming it is well within your rights!
+First, take a blank piece of paper. At the start of each Region, write its name and draw its Region Track. Beneath it, at the start of each new location, draw a bullet "•" and beside it write where your Wanderer is. If the location has no name, give it one. You may be the first person to have crawled this stretch of ruins in a very long time, so naming it is well within your rights.
 
 If you would rather not commit to a name, write two or three tag-style words instead, something like "Vast, Pillars, Fish-Filled Teal Stream."
+
+When your Wanderer leaves a location behind and truly pushes deeper into the Region, mark 1 box on that Region Track. When the track fills, your Wanderer has reached the far edge, heart, or turning point of that Region.
 
 As your Wanderer spends time in this location, add new indented bullets each time you:
 
@@ -95,7 +104,7 @@ As your Wanderer spends time in this location, add new indented bullets each tim
 - **Wants:** What this NPC is fundamentally after. Their goal or something that drives them.
 - **Claims:** Things your Wanderer has learned through interacting with them; new locations, paths, secrets, and so on.
 - **Requests:** What this NPC is asking of your Wanderer, and what they are willing to offer in return, if anything.
-- **Secrets:** Things that Oracles and Spark tables have hinted at, which you as a player are aware of but your Wanderer may not yet be.
+- **Secrets:** Things that Oracles and Spark Tables have hinted at, which you as a player are aware of but your Wanderer may not yet be.
 
 **Face a Challenge** such as a difficult path, an escape from an imminent threat, or something else. Write down the type of obstacle your Wanderer is facing, then add an indented bullet beneath and note any of the following details that apply.
 
@@ -147,7 +156,7 @@ To use the Risk Oracle, think about your character’s level of control over the
 
 The answer to this question determines how many dice you will roll when using the Risk Oracle.
 
-- If the situation feels **dangerous**, roll two dice and keep the single lowest result.
+- If the situation feels **threatening**, roll two dice and keep the single lowest result.
 - If the situation feels **precarious**, roll 1D.
 - If the situation feels **under control**, roll 2D.
 
@@ -164,37 +173,37 @@ After this roll, you may follow up with an Action Roll if the result calls for o
 
 #### Theme (d66)
 
-| Roll | Theme     | Roll | Theme    | Roll | Theme        |
-| ---- | --------- | ---- | -------- | ---- | ------------ |
-| 11   | Stone     | 31   | Echoes   | 51   | Growth       |
-| 12   | Water     | 32   | Time     | 52   | Decay        |
-| 13   | Roots     | 33   | Memory   | 53   | Bargains     |
-| 14   | Bones     | 34   | Blood    | 54   | Oaths        |
-| 15   | Names     | 35   | Cold     | 55   | Hollows      |
-| 16   | Doors     | 36   | Glow     | 56   | Ruin         |
-| 21   | Bells     | 41   | Dreams   | 61   | Light        |
-| 22   | Smoke     | 42   | Voices   | 62   | Tracks       |
-| 23   | Shadows   | 43   | Marks    | 63   | Absence      |
-| 24   | Hunger    | 44   | Depths   | 64   | Wings        |
-| 25   | Sleep     | 45   | Heights  | 65   | Dust         |
-| 26   | Mirrors   | 46   | Silence  | 66   | Remnants     |
+| Roll | Theme   | Roll | Theme   | Roll | Theme    |
+| ---- | ------- | ---- | ------- | ---- | -------- |
+| 11   | Stone   | 31   | Echoes  | 51   | Growth   |
+| 12   | Water   | 32   | Time    | 52   | Decay    |
+| 13   | Roots   | 33   | Memory  | 53   | Bargains |
+| 14   | Bones   | 34   | Blood   | 54   | Oaths    |
+| 15   | Names   | 35   | Cold    | 55   | Hollows  |
+| 16   | Doors   | 36   | Glow    | 56   | Ruin     |
+| 21   | Bells   | 41   | Dreams  | 61   | Light    |
+| 22   | Smoke   | 42   | Voices  | 62   | Tracks   |
+| 23   | Shadows | 43   | Marks   | 63   | Absence  |
+| 24   | Hunger  | 44   | Depths  | 64   | Wings    |
+| 25   | Sleep   | 45   | Heights | 65   | Dust     |
+| 26   | Mirrors | 46   | Silence | 66   | Remnants |
 
 #### Action (d66)
 
-| Roll | Action   | Roll | Action    | Roll | Action   |
-| ---- | -------- | ---- | --------- | ---- | -------- |
-| 11   | Guards   | 31   | Binds     | 51   | Persists |
-| 12   | Beckons  | 32   | Opens     | 52   | Awakens  |
-| 13   | Waits    | 33   | Closes    | 53   | Decays   |
-| 14   | Reveals  | 34   | Takes     | 54   | Grows    |
-| 15   | Conceals | 35   | Gives     | 55   | Surfaces |
+| Roll | Action   | Roll | Action    | Roll | Action    |
+| ---- | -------- | ---- | --------- | ---- | --------- |
+| 11   | Guards   | 31   | Binds     | 51   | Persists  |
+| 12   | Beckons  | 32   | Opens     | 52   | Awakens   |
+| 13   | Waits    | 33   | Closes    | 53   | Decays    |
+| 14   | Reveals  | 34   | Takes     | 54   | Grows     |
+| 15   | Conceals | 35   | Gives     | 55   | Surfaces  |
 | 16   | Warns    | 36   | Seeks     | 56   | Withdraws |
 | 21   | Hungers  | 41   | Follows   | 61   | Remembers |
-| 22   | Changes  | 42   | Calls     | 62   | Forgets  |
-| 23   | Divides  | 43   | Marks     | 63   | Mourns   |
-| 24   | Watches  | 44   | Questions | 64   | Demands  |
-| 25   | Returns  | 45   | Deceives  | 65   | Escapes  |
-| 26   | Breaks   | 46   | Resists   | 66   | Lingers  |
+| 22   | Changes  | 42   | Calls     | 62   | Forgets   |
+| 23   | Divides  | 43   | Marks     | 63   | Mourns    |
+| 24   | Watches  | 44   | Questions | 64   | Demands   |
+| 25   | Returns  | 45   | Deceives  | 65   | Escapes   |
+| 26   | Breaks   | 46   | Resists   | 66   | Lingers   |
 
 ### Complication Table
 
@@ -204,48 +213,54 @@ Once you have rolled and have a result, treat it in light of what is already hap
 
 #### Complications (d66)
 
-| Roll | Complication                    | Roll | Complication                | Roll | Complication                      |
-| ---- | ------------------------------- | ---- | --------------------------- | ---- | --------------------------------- |
-| 11   | Something is lost               | 31   | A danger worsens            | 51   | A truth is revealed               |
-| 12   | Something is damaged            | 32   | A condition spreads         | 52   | A promise is broken               |
-| 13   | Time is wasted                  | 33   | A need becomes urgent       | 53   | A choice turns bitter             |
-| 14   | A cost must be paid             | 34   | Progress is undone          | 54   | An unwanted bond is formed        |
-| 15   | You leave a trace               | 35   | The situation escalates     | 55   | An old grief returns              |
-| 16   | Attention is drawn              | 36   | A new obstacle appears      | 56   | An omen comes to pass             |
-| 21   | The path is blocked             | 41   | Something follows           | 61   | You must leave something behind   |
-| 22   | The way splits                  | 42   | Something watches           | 62   | The lesser option remains         |
-| 23   | The ground gives way            | 43   | Something is drawn near     | 63   | What was hidden comes to light    |
-| 24   | The route changes               | 44   | Something escapes           | 64   | The way back is cut off           |
-| 25   | You are separated               | 45   | Something awakens           | 65   | Help comes at a price             |
-| 26   | You are forced to retreat       | 46   | Something is not what it seemed | 66 | The worst possible moment arrives |
+| Roll | Complication              | Roll | Complication                    | Roll | Complication                      |
+| ---- | ------------------------- | ---- | ------------------------------- | ---- | --------------------------------- |
+| 11   | Something is lost         | 31   | A danger worsens                | 51   | A truth is revealed               |
+| 12   | Something is damaged      | 32   | A condition spreads             | 52   | A promise is broken               |
+| 13   | Time is wasted            | 33   | A need becomes urgent           | 53   | A choice turns bitter             |
+| 14   | A cost must be paid       | 34   | Progress is undone              | 54   | An unwanted bond is formed        |
+| 15   | You leave a trace         | 35   | The situation escalates         | 55   | An old grief returns              |
+| 16   | Attention is drawn        | 36   | A new obstacle appears          | 56   | An omen comes to pass             |
+| 21   | The path is blocked       | 41   | Something follows               | 61   | You must leave something behind   |
+| 22   | The way splits            | 42   | Something watches               | 62   | The lesser option remains         |
+| 23   | The ground gives way      | 43   | Something is drawn near         | 63   | What was hidden comes to light    |
+| 24   | The route changes         | 44   | Something escapes               | 64   | The way back is cut off           |
+| 25   | You are separated         | 45   | Something awakens               | 65   | Help comes at a price             |
+| 26   | You are forced to retreat | 46   | Something is not what it seemed | 66   | The worst possible moment arrives |
 
 ### Region Tracks
 
-By default, when Wanderers arrive in a Region, the Guide decides the length of the Region Track, which represents how many locations must be explored before reaching the region’s end. When arriving in a new Region while playing solo, roll 1D to determine that length.
+By default, when Wanderers arrive in a Region, the Guide decides the length of the Region Track, which represents how many meaningful locations lie between the Wanderers and the next turning point in that journey. When arriving in a new Region while playing solo, roll 1D to determine that length.
 
-- On a 1-3, the region is **hazardous:** The path is harsh, exposed, or hostile. The Region Track is made of **2 boxes**.
-- On a 4-5, the region is **unsettled**: The path is winding, uncertain, or difficult to read. The Region Track is made of **3 boxes**.
-- On a 6, the region is **settled**: The path is relatively stable or well-trodden. The Region Track is made of **4 boxes**.
+<!-- routineregions hazardous regions ?  -->
 
-#### Location Risk Rating
+- On a 1-2, the route folds back on itself, hides its exits, or demands **hard detours**. The Region Track is made of **3 boxes**.
+- On a 3-4, the route can be followed, but it splinters often and **asks for caution**. The Region Track is made of **4 boxes**.
+- On a 5-6, the route **holds together** through signs, habits, or old works. The Region Track is made of **5 boxes**.
 
-Some locations within the ruins offer more respite than others, and a Wanderer can usually sense this the moment they set their eyes upon one. Before establishing what a new location looks like, what its details are, or what themes it has, roll 2D to set the location’s default Risk Rating. These ratings are the same ones defined when using the Risk Oracle.
+This rating describes how clear the route through the Region is. The Location Risk Rating below tells you how much pressure a location puts on your Wanderer once they arrive there.
 
-- On a 1-3, the location's default Risk Rating is **dangerous**.
-- On a 4-5, the location's default Risk Rating is **precarious**.
-- On a 6, the location's default Risk Rating is **under control**.
+#### Location Risk Rating (MERGE WITH ABOVE!!)
 
-> As a reminder, a dangerous Risk rating means you roll 2D and keep the lowest result when using the Risk Oracle. With a precarious Risk Rating, you roll 1D, and you roll 2D when the risk rating is under control.
+Some locations within the ruins offer more respite than others, and a Wanderer can usually sense this the moment they set their eyes upon one. Before establishing what a new location looks like, roll 2D and match the result to the outcomes listed below to set that location’s default Risk Rating. These ratings are the same ones defined when using the Risk Oracle.
 
-This Risk Rating is but a starting point. As your Wanderer acts within a location, their presence leaves its mark making the situation tilt in one direction or another. When that happens, adjust the Risk Rating to whatever term best reflects where things now stand.
+- On a 1-2, the location's default Risk Rating is **threatening**.
+- On a 3-4, the location's default Risk Rating is **precarious**.
+- On a 5-6, the location's default Risk Rating is **under control**.
+
+> As a reminder, a threatening Risk Rating means you roll 2D and keep the lowest result when using the Risk Oracle. With a precarious Risk Rating, you roll 1D, and with an under-control Risk Rating, you roll 2D.
+
+Use this as the default footing the first time you consult the Risk Oracle in that location. Return to it when your Wanderer searches, lingers, makes noise, or otherwise gives the ruins a chance to answer back, unless the fiction has already shifted the balance elsewhere.
+
+This Risk Rating is only a starting point. As your Wanderer acts within a location, their presence leaves its mark, making the situation tilt in one direction or another. When that happens, adjust the Risk Rating to whatever term best reflects where things now stand.
 
 #### Demon’s Bargain
 
-A Wanderer brought low by Despair is in a dire place, and Hope does not always come easily. That being said, there is one particular way a solo Wanderer can clear the stain of Despair from their soul. We call this the Demon’s Bargain.
+A Wanderer brought low by Despair is in a dire place, and Hope does not always come easily. That being said, there is one particular way a solo Wanderer can clear 1 mark of Despair. We call this the Demon’s Bargain.
 
 When playing with a Guide, the Guide may consume a Wanderer’s Despair to fuel a Despair Move, using it to complicate the lives of the group. When playing solo, something similar applies, but it behaves a bit differently.
 
-Over time, Despair accumulates, and there will be stretches when clearing it through ordinary means can be rather difficult. When your Wanderer has some marks of Despair and you roll a Conflict or a Disaster on an Action Roll, you may choose to worsen the effect of the consequences in a way that is fair and consistent with the fiction. In exchange for introducing this worsened consequence, you get to clear one mark of Despair from your character sheet.
+Despair can still be marked through failed rolls, Complications, demon influence, and any other consequence the fiction supports. When your Wanderer already carries one or more marks of Despair and you roll a Conflict or a Disaster on an Action Roll, you may choose to worsen the consequence in a way that is fair and consistent with the fiction. In exchange, clear 1 mark of Despair from your character sheet.
 
 This might mean taking more Damage than the roll would normally demand. It might also live entirely within the narrative layer, such as your Wanderer escaping a threat only to find themselves lost somewhere new and hostile.
 
@@ -254,6 +269,14 @@ The important thing to remember is that this is always a choice. Use this when i
 ### Solo Adjustments
 
 In this section, we will cover some small tweaks to some of the core rules which were initially developed for group play but which we adjusted to better fit the pacing of solo play.
+
+#### Wanderer Creation
+
+When creating a solo Wanderer, use the following number of starting stakes for their Camping Gear.
+
+- Newly-awakened: **2 stakes**
+- Capable explorer: **3 stakes**
+- Master traveller: **4 stakes**
 
 #### Track Lengths
 
@@ -267,11 +290,13 @@ Preparing a meal for one asks less than feeding an entire party of Wanderers. Wh
 
 A lone Wanderer cannot split the labour of travel the way a group does, but they also need no one’s permission to take the time to do things their own way. As such, when your Wanderer sets out to explore, they always assume the Leader position.
 
-You can then pick an additional position on top of Leader, gaining the benefits of both. If you wish, you may mark an additional box on your ticking clock tracking the time and pick a third position at the cost of more time being spent. Note that the Scout position’s benefit (rolling an additional Feature and choosing between the two) applies to the same location as the Leader’s roll. Both rolls are made, and you choose one.
+You can then pick an additional position on top of Leader, gaining the benefits of both. If you wish, you may mark an additional box on your ticking clock tracking the time and pick a third position at the cost of more time being spent. Note that the Scout position’s benefit, rolling an additional Feature and choosing between the two, applies to the same location as the Leader’s roll. Both rolls are made, and you choose one.
 
-#### Camping Tasks
+If an Aspect would benefit multiple Wanderers at once, for example [TODO: include a couple of aspects...] apply its benefit to your Wanderer alone, add an extra box to your Aspect.
 
-As your Wanderer sets down their gear to rest for the night and sets up camp, their work is not done. They are left alone to tend the fire, patch their tent, and watch for dangers. Everything falls on their shoulders, but somehow they rise up. They have to!
+#### Camping Tasks and Gear
+
+As your Wanderer sets down their gear to rest for the night and sets up camp, their work is not done. They are left alone to tend the fire, patch their tent, and watch for dangers.
 
 When making camp during a solo session, take two tasks rather than one. You may decide to pick a third at the cost of marking an additional box on your ticking clock.
 
@@ -292,7 +317,7 @@ When you accumulate 4 Milestone Marks, erase them and gain 1 Milestone. If you e
 
 This ties advancement to movement in the fiction and not the length of yours sessions. A short session can still earn several Milestone Marks if a great deal has changed.
 
-## From here, you march on
+## From Here, You March On
 
 You now have everything you need to enjoy a solo session of the Eternal Ruins RPG. This is only the beginning. Use the mechanics, tables, and tools we have given you as a foundation for your stories and, when the mood takes you, as a starting point for new procedures you want to create to better suit your own style of play. Make this your own!
 
