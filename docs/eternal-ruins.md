@@ -12,11 +12,6 @@ css: |-
   }
 ---
 
-<!-- Change 1D -> 1d6 -->
-<!-- tables as CSV -->
-<!-- Despair/Hope isn't a MARK it's a `point`! !!! -->
-<!-- shorten: during solo session // demons bargin //  -->
-
 # Solo Rules
 
 ## Solo Play
@@ -133,9 +128,9 @@ Once you have framed your question, think about how likely it is that the answer
 
 The answer to this question determines how many dice you will roll when using the Question Oracle.
 
-- If the odds are **unlikely**, roll two dice and keep the single lowest result.
-- If the odds are **even**, roll 1D.
-- If the odds are **likely**, roll 2D.
+- If the odds are **unlikely**, roll 2d6 and keep the single lowest result.
+- If the odds are **even**, roll 1d6.
+- If the odds are **likely**, roll 2d6.
 
 Then interpret the result as follows:
 
@@ -156,9 +151,9 @@ To use the Risk Oracle, think about your character’s level of control over the
 
 The answer to this question determines how many dice you will roll when using the Risk Oracle.
 
-- If the situation feels **threatening**, roll two dice and keep the single lowest result.
-- If the situation feels **precarious**, roll 1D.
-- If the situation feels **under control**, roll 2D.
+- If the situation feels **threatening**, roll 2d6 and keep the single lowest result.
+- If the situation feels **precarious**, roll 1d6.
+- If the situation feels **under control**, roll 2d6.
 
 Then interpret the result as follows:
 
@@ -230,7 +225,7 @@ Once you have rolled and have a result, treat it in light of what is already hap
 
 ### Region Tracks
 
-By default, when Wanderers arrive in a Region, the Guide decides the length of the Region Track, which represents how many meaningful locations lie between the Wanderers and the next turning point in that journey. When arriving in a new Region while playing solo, roll 1D to determine that length.
+By default, when Wanderers arrive in a Region, the Guide decides the length of the Region Track, which represents how many meaningful locations lie between the Wanderers and the next turning point in that journey. When arriving in a new Region while playing solo, roll 1d6 to determine that length.
 
 <!-- routineregions hazardous regions ?  -->
 
@@ -242,13 +237,13 @@ This rating describes how clear the route through the Region is. The Location Ri
 
 #### Location Risk Rating (MERGE WITH ABOVE!!)
 
-Some locations within the ruins offer more respite than others, and a Wanderer can usually sense this the moment they set their eyes upon one. Before establishing what a new location looks like, roll 2D and match the result to the outcomes listed below to set that location’s default Risk Rating. These ratings are the same ones defined when using the Risk Oracle.
+Some locations within the ruins offer more respite than others, and a Wanderer can usually sense this the moment they set their eyes upon one. Before establishing what a new location looks like, roll 2d6 and match the result to the outcomes listed below to set that location’s default Risk Rating. These ratings are the same ones defined when using the Risk Oracle.
 
 - On a 1-2, the location's default Risk Rating is **threatening**.
 - On a 3-4, the location's default Risk Rating is **precarious**.
 - On a 5-6, the location's default Risk Rating is **under control**.
 
-> As a reminder, a threatening Risk Rating means you roll 2D and keep the lowest result when using the Risk Oracle. With a precarious Risk Rating, you roll 1D, and with an under-control Risk Rating, you roll 2D.
+> As a reminder, a threatening Risk Rating means you roll 2d6 and keep the lowest result when using the Risk Oracle. With a precarious Risk Rating, you roll 1d6, and with an under-control Risk Rating, you roll 2d6.
 
 Use this as the default footing the first time you consult the Risk Oracle in that location. Return to it when your Wanderer searches, lingers, makes noise, or otherwise gives the ruins a chance to answer back, unless the fiction has already shifted the balance elsewhere.
 
@@ -256,11 +251,11 @@ This Risk Rating is only a starting point. As your Wanderer acts within a locati
 
 #### Demon’s Bargain
 
-A Wanderer brought low by Despair is in a dire place, and Hope does not always come easily. That being said, there is one particular way a solo Wanderer can clear 1 mark of Despair. We call this the Demon’s Bargain.
+A Wanderer brought low by Despair is in a dire place, and Hope does not always come easily. That being said, there is one particular way a solo Wanderer can clear 1 Despair point. We call this the Demon’s Bargain.
 
 When playing with a Guide, the Guide may consume a Wanderer’s Despair to fuel a Despair Move, using it to complicate the lives of the group. When playing solo, something similar applies, but it behaves a bit differently.
 
-Despair can still be marked through failed rolls, Complications, demon influence, and any other consequence the fiction supports. When your Wanderer already carries one or more marks of Despair and you roll a Conflict or a Disaster on an Action Roll, you may choose to worsen the consequence in a way that is fair and consistent with the fiction. In exchange, clear 1 mark of Despair from your character sheet.
+Despair points can still be gained through failed rolls, Complications, demon influence, and any other consequence the fiction supports. When your Wanderer already carries one or more Despair points and you roll a Conflict or a Disaster on an Action Roll, you may choose to worsen the consequence in a way that is fair and consistent with the fiction. In exchange, clear 1 Despair point from your character sheet.
 
 This might mean taking more Damage than the roll would normally demand. It might also live entirely within the narrative layer, such as your Wanderer escaping a threat only to find themselves lost somewhere new and hostile.
 
@@ -321,4 +316,4 @@ This ties advancement to movement in the fiction and not the length of yours ses
 
 You now have everything you need to enjoy a solo session of the Eternal Ruins RPG. This is only the beginning. Use the mechanics, tables, and tools we have given you as a foundation for your stories and, when the mood takes you, as a starting point for new procedures you want to create to better suit your own style of play. Make this your own!
 
-> One more thing worth pointing out before you set off to the next chapter: the regions, spirits, demons, hazards, and other entries in this book are written so that wherever multiple options are listed, they read as a small rolling table. When you want to introduce something with a degree of surprise or randomness, roll 1D against any of those lists to randomly determine which feature, detail, behavior, oddment, or tactic applies.
+> One more thing worth pointing out before you set off to the next chapter: the regions, spirits, demons, hazards, and other entries in this book are written so that wherever multiple options are listed, they read as a small rolling table. When you want to introduce something with a degree of surprise or randomness, roll 1d6 against any of those lists to randomly determine which feature, detail, behavior, oddment, or tactic applies.
