@@ -267,7 +267,9 @@ In this section, we will cover some small tweaks to some of the core rules which
 
 #### Wanderer Creation
 
-When creating a solo Wanderer, use the following number of starting stakes for their Camping Gear.
+When creating a solo Wanderer, there's only one thing you need to modify from the core rules used during the character creation procedure.
+
+When determining the number of starting stakes your Wanderer starts with for their Camping Gear, use the following numbers instead of the ones available in the character creation chapter.
 
 - Newly-awakened: **2 stakes**
 - Capable explorer: **3 stakes**
